@@ -1,0 +1,41 @@
+Your are here to help the user determine if the user has completed their goal on the web. Use the content of the elements parsed from the page, the user goal and user details to determine whether the user goal has been completed or not.
+
+Make sure to ONLY return the JSON object in this format with no additional text before or after it:
+```json
+{
+  "page_info": str, // Think step by step. Describe all the useful information in the page related to the user goal.
+  "thoughts": str, // Think step by step. What information makes you believe whether user goal has completed or not. Use information you see on the site to explain.
+  "user_goal_achieved": bool // True if the user goal has been completed, false otherwise.
+}
+```
+
+User Goal:
+```
+Play the daily Wordle game by inputting guesses until the game is either won or lost. COMPLETE when the daily Wordle game has concluded (either by winning or losing) and the final game result (e.g., 'You won!' or 'You lost!') is displayed on the screen.
+```
+
+User Details:
+```
+None
+```
+
+
+Action History:
+```
+{"action_type": "click", "reasoning": "To start playing Wordle, I need to click the 'Play' button on the landing page.", "result": true}
+```
+
+IDs for emerging HTML elements
+```
+{'AADn', 'AADM', 'AACs', 'AAAp', 'AACu', 'AADV', 'AAAW', 'AADG', 'AACq', 'AACL', 'AADY', 'AACF', 'AAAY', 'AACi', 'AADZ', 'AAC0', 'AACr', 'AAAq', 'AADm', 'AAAo', 'AACO', 'AACX', 'AADK', 'AACj', 'AAC6', 'AADe', 'AACY', 'AAAv', 'AADT', 'AAAO', 'AAAj', 'AADq', 'AADt', 'AAAe', 'AAC2', 'AAAd', 'AACz', 'AACV', 'AADr', 'AACA', 'AACN', 'AACS', 'AAAb', 'AACU', 'AACk', 'AADC', 'AADL', 'AAAn', 'AAAa', 'AADg', 'AADR', 'AAB9', 'AACP', 'AAAm', 'AADE', 'AACo', 'AACD', 'AADk', 'AACB', 'AAAV', 'AAC1', 'AACm', 'AAAl', 'AACn', 'AAAg', 'AACc', 'AACZ', 'AACb', 'AAAc', 'AAB5', 'AADP', 'AADl', 'AAB8', 'AACl', 'AACt', 'AAB4', 'AACJ', 'AACM', 'AAAr', 'AAAs', 'AAAU', 'AAAt', 'AAAf', 'AACI', 'AAB7', 'AADc', 'AAC7', 'AAAZ', 'AACC', 'AACH', 'AACh', 'AACp', 'AAAu', 'AADi', 'AAB6', 'AAAh', 'AADu', 'AACW', 'AACR', 'AACa', 'AAAT', 'AAC9', 'AADX', 'AACK', 'AAC3', 'AACE', 'AACT', 'AADI', 'AAAk', 'AACv'}
+```
+
+Elements on the page:
+```
+<div><div><div><h2>How To Play</h2><button type="button" aria-label="Close" id="AAC0"><svg id="AAC1"></svg></button><p>Guess the Wordle in 6 tries.</p><li>Each guess must be a valid;5;-letter word.</li><li>The color of the tiles will change to show how close your guess was to the word.</li><h3>Examples</h3><div aria-label="1st letter, W, correct">w</div><div aria-label="2nd letter, O">o</div><div aria-label="3rd letter, R">r</div><div aria-label="4th letter, D">d</div><div aria-label="5th letter, Y">y</div><p>is in the word and in the correct spot.<strong>W</strong></p><div aria-label="1st letter, L">l</div><div aria-label="2nd letter, I, present in another position">i</div><div aria-label="3rd letter, G">g</div><div aria-label="4th letter, H">h</div><div aria-label="5th letter, T">t</div><p>is in the word but in the wrong spot.<strong>I</strong></p><div aria-label="1st letter, R">r</div><div aria-label="2nd letter, O">o</div><div aria-label="3rd letter, G">g</div><div aria-label="4th letter, U, absent">u</div><div aria-label="5th letter, E">e</div><p>is not in the word in any spot.<strong>U</strong></p><div><div>to link your stats.<a href="{{_b38a9eff5788c2f2a817cce719b4f782107a7622b07ab5fbf5cd39efcdeaebc6}}" id="AADr">Log in or create a free NYT account</a></div></div><p>A new puzzle is released daily at midnight. If you haven’t already, you can;for our daily reminder email.<a href="https://www.nytimes.com/newsletters/signup/NTWO" id="AADu">sign up</a></p><select type="button" aria-label="Menu with more games" id="AAAT"><div id="AAAU"><svg id="AAAV"></svg></div></select><span id="AAAY"><a href="https://www.nytimes.com/2026/04/30/crosswords/wordle-review-1777.html" aria-label="Forum . Hints . Community" id="AAAZ"><div id="AAAa"><svg id="AAAb"></svg></div></a></span><span id="AAAd"><button type="button" aria-label="Statistics" id="AAAe"><div id="AAAf"><svg id="AAAg"></svg></div></button></span><select type="button" aria-label="Help" id="AAAj"><div id="AAAk"><svg id="AAAl"></svg></div></select><button type="button" aria-label="Settings" id="AAAn"><div id="AAAo"><svg id="AAAp"></svg></div></button><span id="AAAr"><div id="AAAs"><div id="AAAt"><a href="https://nytimes.com/subscription/games?campaignId=8YU98" id="AAAu"><span id="AAAv">75% off</span></a></div></div></span><div><button type="button" aria-label="add q" id="AAB5">q</button><button type="button" aria-label="add w" id="AAB6">w</button><button type="button" aria-label="add e" id="AAB7">e</button><button type="button" aria-label="add r" id="AAB8">r</button><button type="button" aria-label="add t" id="AAB9">t</button><button type="button" aria-label="add y" id="AACA">y</button><button type="button" aria-label="add u" id="AACB">u</button><button type="button" aria-label="add i" id="AACC">i</button><button type="button" aria-label="add o" id="AACD">o</button><button type="button" aria-label="add p" id="AACE">p</button></div><div><button type="button" aria-label="add a" id="AACH">a</button><button type="button" aria-label="add s" id="AACI">s</button><button type="button" aria-label="add d" id="AACJ">d</button><button type="button" aria-label="add f" id="AACK">f</button><button type="button" aria-label="add g" id="AACL">g</button><button type="button" aria-label="add h" id="AACM">h</button><button type="button" aria-label="add j" id="AACN">j</button><button type="button" aria-label="add k" id="AACO">k</button><button type="button" aria-label="add l" id="AACP">l</button></div><div><button type="button" aria-label="enter" id="AACS">enter</button><button type="button" aria-label="add z" id="AACT">z</button><button type="button" aria-label="add x" id="AACU">x</button><button type="button" aria-label="add c" id="AACV">c</button><button type="button" aria-label="add v" id="AACW">v</button><button type="button" aria-label="add b" id="AACX">b</button><button type="button" aria-label="add n" id="AACY">n</button><button type="button" aria-label="add m" id="AACZ">m</button><button type="button" aria-label="backspace" id="AACa"><svg id="AACb"></svg></button></div><a href="https://www.nytco.com/" id="AACh">©;2026;The New York Times Company</a><li>|<a href="https://www.nytimes.com" id="AACj">NYTimes.com</a></li><li>|<a href="https://www.nytimes.com/sitemap/" id="AACl">Sitemap</a></li><li>|<a href="https://www.nytimes.com/privacy/privacy-policy" id="AACn">Privacy Policy</a></li><li>|<a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service" id="AACp">Terms of Service</a></li><li>|<a href="https://www.nytimes.com/privacy/cookie-policy" id="AACr">Cookie Policy</a></li><li>|<a href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale" id="AACt">Terms of Sale</a></li><li>|<a href="https://www.nytimes.com/privacy/your-privacy-choices" id="AACv">Your Privacy Choices</a></li></div></div></div>
+```
+
+Current datetime, ISO format:
+```
+2026-05-02T03:41:10.492820
+```

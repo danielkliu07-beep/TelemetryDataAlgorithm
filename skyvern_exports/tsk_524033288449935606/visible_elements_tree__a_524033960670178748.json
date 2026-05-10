@@ -1,0 +1,1857 @@
+[
+  {
+    "id": "AAAB",
+    "frame": "main.frame",
+    "frame_index": 0,
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "attributes": {
+      "class": "top_panel",
+      "unique_id": "AAAB"
+    },
+    "beforePseudoText": null,
+    "text": "",
+    "afterPseudoText": null,
+    "children": [
+      {
+        "id": "AAAC",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/",
+          "unique_id": "AAAC",
+          "style": "display: flex;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAD",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "img",
+            "attributes": {
+              "src": "/banner.png",
+              "alt": "Urban Stats Logo",
+              "unique_id": "AAAD",
+              "style": "height: 60px;"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]/*[name()=\"img\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAE",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAAE",
+          "style": "display: flex; flex-direction: row; height: 100%;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAF",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "input",
+            "attributes": {
+              "id": "searchbox",
+              "type": "text",
+              "class": "serif",
+              "placeholder": "Search Urban Stats",
+              "spellcheck": "false",
+              "value": "",
+              "unique_id": "AAAF",
+              "style": "font-size: 30px; padding-left: 1em; width: 100%; vertical-align: middle; height: 48px;"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"form\"][1]/*[name()=\"input\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "keepAllAttr": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+  },
+  {
+    "id": "AAAG",
+    "frame": "main.frame",
+    "frame_index": 0,
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "attributes": {
+      "unique_id": "AAAG",
+      "style": "position: relative; width: 100%; display: flex;"
+    },
+    "beforePseudoText": null,
+    "text": "",
+    "afterPseudoText": null,
+    "children": [
+      {
+        "id": "AAAH",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAAH",
+          "style": "margin-bottom: 0.5rem; border-bottom: 1px solid rgb(204, 204, 204); color: rgb(68, 68, 68);"
+        },
+        "beforePseudoText": null,
+        "text": "Main Menu",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAI",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/",
+          "unique_id": "AAAI",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Home",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAJ",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/about.html",
+          "unique_id": "AAAJ",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "About Urban Stats",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAK",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/data-credit.html",
+          "unique_id": "AAAK",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Data Credit",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAL",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/uss-documentation.html",
+          "unique_id": "AAAL",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "USS Documentation",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAM",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAAM",
+          "style": "margin-bottom: 0.5rem; border-bottom: 1px solid rgb(204, 204, 204); color: rgb(68, 68, 68);"
+        },
+        "beforePseudoText": null,
+        "text": "Tools",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAN",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/mapper.html",
+          "unique_id": "AAAN",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Mapper",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAO",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/statistic.html",
+          "unique_id": "AAAO",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Custom Table",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAP",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAAP",
+          "style": "margin-bottom: 0.5rem; border-bottom: 1px solid rgb(204, 204, 204); color: rgb(68, 68, 68);"
+        },
+        "beforePseudoText": null,
+        "text": "Random",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAQ",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/random.html?sampleby=uniform",
+          "unique_id": "AAAQ",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Unweighted",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAR",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/random.html?sampleby=population",
+          "unique_id": "AAAR",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Weighted by Population",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAS",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/random.html?sampleby=population&us_only=true",
+          "unique_id": "AAAS",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Weighted by Population (US only)",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAT",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAAT",
+          "style": "margin-bottom: 0.5rem; border-bottom: 1px solid rgb(204, 204, 204); color: rgb(68, 68, 68);"
+        },
+        "beforePseudoText": null,
+        "text": "Games",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAU",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/quiz.html",
+          "unique_id": "AAAU",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Juxtastat",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAV",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/quiz.html#mode=retro",
+          "unique_id": "AAAV",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Retrostat",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAW",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/quiz.html#mode=infinite",
+          "unique_id": "AAAW",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "Juxtastat Infinite",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAX",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "href": "/syau.html",
+          "unique_id": "AAAX",
+          "style": "color: rgb(34, 34, 255);"
+        },
+        "beforePseudoText": null,
+        "text": "So you're an urbanist?",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAY",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAAY",
+          "style": "margin-bottom: 0.5rem; border-bottom: 1px solid rgb(204, 204, 204); color: rgb(68, 68, 68);"
+        },
+        "beforePseudoText": null,
+        "text": "Settings",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAZ",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "checkbox-setting",
+          "unique_id": "AAAZ",
+          "style": "border-radius: 5px; display: flex;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAa",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "input",
+            "attributes": {
+              "id": ":rc:",
+              "type": "checkbox",
+              "data-test-id": "use_imperial",
+              "data-test-highlight": "false",
+              "unique_id": "AAAa",
+              "style": "accent-color: rgb(90, 125, 195); background-color: rgb(255, 248, 240); height: 16px;",
+              "checked": false,
+              "value": "on"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"div\"][1]/*[name()=\"input\"][1]"
+          },
+          {
+            "id": "AAAb",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "label",
+            "attributes": {
+              "for": ":rc:",
+              "unique_id": "AAAb",
+              "style": "font-size: 16px;"
+            },
+            "beforePseudoText": null,
+            "text": "Use Imperial Units",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"div\"][1]/*[name()=\"label\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAc",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "checkbox-setting",
+          "unique_id": "AAAc",
+          "style": "border-radius: 5px; display: flex;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAd",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "input",
+            "attributes": {
+              "id": ":re:",
+              "type": "checkbox",
+              "data-test-highlight": "false",
+              "unique_id": "AAAd",
+              "style": "accent-color: rgb(90, 125, 195); background-color: rgb(255, 248, 240); height: 16px;",
+              "checked": false,
+              "value": "on"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]/*[name()=\"input\"][1]"
+          },
+          {
+            "id": "AAAe",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "label",
+            "attributes": {
+              "for": ":re:",
+              "unique_id": "AAAe",
+              "style": "font-size: 16px;"
+            },
+            "beforePseudoText": null,
+            "text": "Include Historical Districts",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]/*[name()=\"label\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAf",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "checkbox-setting",
+          "unique_id": "AAAf",
+          "style": "border-radius: 5px; display: flex;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAg",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "input",
+            "attributes": {
+              "id": ":rg:",
+              "type": "checkbox",
+              "data-test-highlight": "false",
+              "unique_id": "AAAg",
+              "style": "accent-color: rgb(90, 125, 195); background-color: rgb(255, 248, 240); height: 16px;",
+              "checked": true,
+              "value": "on"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"div\"][1]/*[name()=\"input\"][1]"
+          },
+          {
+            "id": "AAAh",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "label",
+            "attributes": {
+              "for": ":rg:",
+              "unique_id": "AAAh",
+              "style": "font-size: 16px;"
+            },
+            "beforePseudoText": null,
+            "text": "Include Person Circles",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"div\"][1]/*[name()=\"label\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAi",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "checkbox-setting",
+          "unique_id": "AAAi",
+          "style": "border-radius: 5px; display: flex;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAj",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "input",
+            "attributes": {
+              "id": ":ri:",
+              "type": "checkbox",
+              "data-test-highlight": "false",
+              "unique_id": "AAAj",
+              "style": "accent-color: rgb(90, 125, 195); background-color: rgb(255, 248, 240); height: 16px;",
+              "checked": false,
+              "value": "on"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"div\"][1]/*[name()=\"input\"][1]"
+          },
+          {
+            "id": "AAAk",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "label",
+            "attributes": {
+              "for": ":ri:",
+              "unique_id": "AAAk",
+              "style": "font-size: 16px;"
+            },
+            "beforePseudoText": null,
+            "text": "Simple Ordinals",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"div\"][1]/*[name()=\"label\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAl",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "label",
+        "attributes": {
+          "unique_id": "AAAl",
+          "style": "vertical-align: middle; font-size: 16px;"
+        },
+        "beforePseudoText": null,
+        "text": "Temperatures",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]/*[name()=\"div\"][1]/*[name()=\"label\"][1]"
+      },
+      {
+        "id": "AAAm",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "select",
+        "attributes": {
+          "class": "serif",
+          "data-test-id": "temperature_select",
+          "unique_id": "AAAm",
+          "style": "background-color: rgb(255, 248, 240); color: rgb(0, 0, 0); vertical-align: middle; min-width: 50px;",
+          "selected": "\u00b0F"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": true,
+        "options": [
+          {
+            "optionIndex": 0,
+            "text": "\u00b0F",
+            "value": "fahrenheit"
+          },
+          {
+            "optionIndex": 1,
+            "text": "\u00b0C",
+            "value": "celsius"
+          }
+        ],
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]/*[name()=\"div\"][1]/*[name()=\"select\"][1]"
+      },
+      {
+        "id": "AAAn",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAAn",
+          "style": "margin-bottom: 0.5rem; border-bottom: 1px solid rgb(204, 204, 204); color: rgb(68, 68, 68);"
+        },
+        "beforePseudoText": null,
+        "text": "Appearance",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAo",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "label",
+        "attributes": {
+          "unique_id": "AAAo",
+          "style": "vertical-align: middle;"
+        },
+        "beforePseudoText": null,
+        "text": "Theme",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"div\"][1]/*[name()=\"label\"][1]"
+      },
+      {
+        "id": "AAAp",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "select",
+        "attributes": {
+          "class": "serif",
+          "unique_id": "AAAp",
+          "style": "background-color: rgb(255, 248, 240); color: rgb(0, 0, 0); vertical-align: middle;",
+          "selected": "System Theme"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": true,
+        "options": [
+          {
+            "optionIndex": 0,
+            "text": "System Theme",
+            "value": "System Theme"
+          },
+          {
+            "optionIndex": 1,
+            "text": "Light Mode",
+            "value": "Light Mode"
+          },
+          {
+            "optionIndex": 2,
+            "text": "Dark Mode",
+            "value": "Dark Mode"
+          }
+        ],
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"div\"][1]/*[name()=\"select\"][1]"
+      },
+      {
+        "id": "AAAq",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "checkbox-setting",
+          "unique_id": "AAAq",
+          "style": "border-radius: 5px; display: flex;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAr",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "input",
+            "attributes": {
+              "id": ":rk:",
+              "type": "checkbox",
+              "data-test-highlight": "false",
+              "unique_id": "AAAr",
+              "style": "accent-color: rgb(90, 125, 195); background-color: rgb(255, 248, 240); height: 16px;",
+              "checked": false,
+              "value": "on"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]/*[name()=\"input\"][1]"
+          },
+          {
+            "id": "AAAs",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "label",
+            "attributes": {
+              "for": ":rk:",
+              "unique_id": "AAAs",
+              "style": "font-size: 16px;"
+            },
+            "beforePseudoText": null,
+            "text": "Colorblind Mode",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]/*[name()=\"label\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAt",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "checkbox-setting",
+          "unique_id": "AAAt",
+          "style": "border-radius: 5px; display: flex;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAu",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "input",
+            "attributes": {
+              "id": ":rm:",
+              "type": "checkbox",
+              "data-test-highlight": "false",
+              "unique_id": "AAAu",
+              "style": "accent-color: rgb(90, 125, 195); background-color: rgb(255, 248, 240); height: 16px;",
+              "checked": false,
+              "value": "on"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"div\"][1]/*[name()=\"input\"][1]"
+          },
+          {
+            "id": "AAAv",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "label",
+            "attributes": {
+              "for": ":rm:",
+              "unique_id": "AAAv",
+              "style": "font-size: 16px;"
+            },
+            "beforePseudoText": null,
+            "text": "White Background",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"div\"][1]/*[name()=\"label\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAw",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "centered_text headertext",
+          "unique_id": "AAAw"
+        },
+        "beforePseudoText": null,
+        "text": "Juxtastat",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAAx",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "centered_text quiztext",
+          "unique_id": "AAAx"
+        },
+        "beforePseudoText": null,
+        "text": "Which has a higher % of people who are Muslim?",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]"
+      },
+      {
+        "id": "AAAy",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAAy",
+          "style": "display: flex; justify-content: center; width: 90%; margin: auto;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAz",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "role": "button",
+              "id": "quiz-answer-button-a",
+              "class": "quiz_clickable",
+              "unique_id": "AAAz",
+              "style": "display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 0.5em;"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAA0",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "span",
+                "attributes": {
+                  "unique_id": "AAA0",
+                  "style": "margin: auto;"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAA1",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "attributes": {
+                      "class": "centered_text quiztext",
+                      "unique_id": "AAA1"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Fraser Valley Regional district, British Columbia, Canada",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"span\"][1]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          },
+          {
+            "id": "AAA2",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "role": "button",
+              "id": "quiz-answer-button-b",
+              "class": "quiz_clickable",
+              "unique_id": "AAA2",
+              "style": "display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 0.5em;"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAA3",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "span",
+                "attributes": {
+                  "unique_id": "AAA3",
+                  "style": "margin: auto;"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAA4",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "attributes": {
+                      "class": "centered_text quiztext",
+                      "unique_id": "AAA4"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Niagara Regional municipality, Ontario, Canada",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"span\"][1]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]"
+      },
+      {
+        "id": "AAA5",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "unique_id": "AAA5",
+          "style": "display: flex; justify-content: center; width: 90%; margin: auto;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAA6",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "button",
+            "attributes": {
+              "class": "maplibregl-ctrl-fullscreen",
+              "type": "button",
+              "aria-label": "Enter fullscreen",
+              "title": "Enter fullscreen",
+              "unique_id": "AAA6"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAA7",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "span",
+                "attributes": {
+                  "class": "maplibregl-ctrl-icon",
+                  "aria-hidden": "true",
+                  "unique_id": "AAA7"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+          },
+          {
+            "id": "AAA8",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "button",
+            "attributes": {
+              "class": "maplibregl-ctrl-fullscreen",
+              "type": "button",
+              "aria-label": "Enter fullscreen",
+              "title": "Enter fullscreen",
+              "unique_id": "AAA8"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAA9",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "span",
+                "attributes": {
+                  "class": "maplibregl-ctrl-icon",
+                  "aria-hidden": "true",
+                  "unique_id": "AAA9"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][5]"
+      },
+      {
+        "id": "AABA",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "table",
+        "attributes": {
+          "class": "quiz_footer",
+          "unique_id": "AABA"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AABB",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "tbody",
+            "attributes": {
+              "unique_id": "AABB"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AABC",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "tr",
+                "attributes": {
+                  "unique_id": "AABC"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AABD",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "td",
+                    "attributes": {
+                      "unique_id": "AABD",
+                      "style": "background-color: rgb(230, 233, 239);"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"table\"][1]/*[name()=\"tbody\"][1]/*[name()=\"tr\"][1]/*[name()=\"td\"][1]"
+                  },
+                  {
+                    "id": "AABE",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "td",
+                    "attributes": {
+                      "unique_id": "AABE",
+                      "style": "background-color: rgb(230, 233, 239);"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"table\"][1]/*[name()=\"tbody\"][1]/*[name()=\"tr\"][1]/*[name()=\"td\"][2]"
+                  },
+                  {
+                    "id": "AABF",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "td",
+                    "attributes": {
+                      "unique_id": "AABF",
+                      "style": "background-color: rgb(230, 233, 239);"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"table\"][1]/*[name()=\"tbody\"][1]/*[name()=\"tr\"][1]/*[name()=\"td\"][3]"
+                  },
+                  {
+                    "id": "AABG",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "td",
+                    "attributes": {
+                      "unique_id": "AABG",
+                      "style": "background-color: rgb(230, 233, 239);"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"table\"][1]/*[name()=\"tbody\"][1]/*[name()=\"tr\"][1]/*[name()=\"td\"][4]"
+                  },
+                  {
+                    "id": "AABH",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "td",
+                    "attributes": {
+                      "unique_id": "AABH",
+                      "style": "background-color: rgb(230, 233, 239);"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"table\"][1]/*[name()=\"tbody\"][1]/*[name()=\"tr\"][1]/*[name()=\"td\"][5]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"table\"][1]/*[name()=\"tbody\"][1]/*[name()=\"tr\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"table\"][1]/*[name()=\"tbody\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"table\"][1]"
+      },
+      {
+        "id": "AABI",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "centered_text serif",
+          "unique_id": "AABI"
+        },
+        "beforePseudoText": null,
+        "text": "Select the geographical region answering the question. The questions get harder as you go on.",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AABJ",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "unique_id": "AABJ"
+            },
+            "beforePseudoText": null,
+            "text": "Your user id is;.;to sync your quiz history across devices.",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AABK",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "span",
+                "attributes": {
+                  "class": "juxtastat-user-id",
+                  "unique_id": "AABK"
+                },
+                "beforePseudoText": null,
+                "text": "334dbfcee6fdcdc",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+              },
+              {
+                "id": "AABL",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "",
+                  "data-test": "googleSignIn",
+                  "unique_id": "AABL"
+                },
+                "beforePseudoText": null,
+                "text": "Sign In with Google",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"div\"][1]"
+          },
+          {
+            "id": "AABM",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "button",
+            "attributes": {
+              "unique_id": "AABM"
+            },
+            "beforePseudoText": null,
+            "text": "Export Quiz History",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"div\"][2]/*[name()=\"button\"][1]"
+          },
+          {
+            "id": "AABN",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "button",
+            "attributes": {
+              "unique_id": "AABN"
+            },
+            "beforePseudoText": null,
+            "text": "Import Quiz History",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"div\"][2]/*[name()=\"button\"][2]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][6]"
+      },
+      {
+        "id": "AABO",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "centered_text",
+          "unique_id": "AABO"
+        },
+        "beforePseudoText": null,
+        "text": "Urban Stats Version;by;. Last updated;.;Not for commercial use.",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AABP",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "span",
+            "attributes": {
+              "id": "current-version",
+              "unique_id": "AABP"
+            },
+            "beforePseudoText": null,
+            "text": "31.7.0",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][1]"
+          },
+          {
+            "id": "AABQ",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "span",
+            "attributes": {
+              "id": "main-credits",
+              "unique_id": "AABQ"
+            },
+            "beforePseudoText": null,
+            "text": "Kavi Gupta and Luke Brody",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][2]"
+          },
+          {
+            "id": "AABR",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "span",
+            "attributes": {
+              "id": "last-updated",
+              "unique_id": "AABR"
+            },
+            "beforePseudoText": null,
+            "text": "2026-04-12",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][3]"
+          },
+          {
+            "id": "AABS",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "span",
+            "attributes": {
+              "unique_id": "AABS"
+            },
+            "beforePseudoText": null,
+            "text": "Significant help with weather data from;.;Thanks to;for the Metropolitan Clusters.",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AABT",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "https://twitter.com/OklahomaPerson",
+                  "unique_id": "AABT"
+                },
+                "beforePseudoText": null,
+                "text": "OklahomaPerson",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][4]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AABU",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "https://bsky.app/profile/elpis.bsky.social",
+                  "unique_id": "AABU"
+                },
+                "beforePseudoText": null,
+                "text": "Taylor",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][4]/*[name()=\"a\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][4]"
+          },
+          {
+            "id": "AABV",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "span",
+            "attributes": {
+              "unique_id": "AABV"
+            },
+            "beforePseudoText": null,
+            "text": "If you find Urban Stats useful, please donate on;!",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AABW",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "https://ko-fi.com/notkavi",
+                  "unique_id": "AABW"
+                },
+                "beforePseudoText": null,
+                "text": "kofi",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][5]/*[name()=\"a\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][5]"
+          },
+          {
+            "id": "AABX",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "span",
+            "attributes": {
+              "unique_id": "AABX"
+            },
+            "beforePseudoText": null,
+            "text": "Check out the;!",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AABY",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "https://urban-stats.printify.me",
+                  "target": "_blank",
+                  "rel": "noreferrer",
+                  "unique_id": "AABY"
+                },
+                "beforePseudoText": null,
+                "text": "Urban Stats Store",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][6]/*[name()=\"a\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"span\"][6]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][3]"
+      }
+    ],
+    "purgeable": false,
+    "keepAllAttr": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]"
+  }
+]

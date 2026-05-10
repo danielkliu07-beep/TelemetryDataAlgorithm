@@ -1,0 +1,52 @@
+{
+  "id": "cir9adaADZCgmPUPy9KiqQ4",
+  "created": 1778199154,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page is a news site homepage featuring sections for 'Latest News', 'Your Personalized News', and 'News Alerts'. There is a search bar at the top and various news article cards. One of the news cards is titled 'Healthcare Advances in 2024'. There is a button labeled 'Go To Personalized News' under the 'Your Personalized News' section.\",\n  \"thoughts\": \"The user goal is to locate an input field for adding personalized news topics, type 'Healthcare Advances in 2024' into it, and save it. On the current page, there is no input field specifically for adding personalized news topics. There is an article with that name in the 'Latest News' section, but the task requires adding it as a topic. The user likely needs to click 'Go To Personalized News' to find the relevant input field. Since the input field hasn't been used and the topic hasn't been added to a personalized list, the goal is not yet achieved.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+duj1Zpb2qfkGtnaKLt8uNpCZMZK+1iZdTKIm1EHtYFdgDwi7mrc4mk0ZXKbqaycvfP8b5dxyPNE2lq2UaHXiZsNBGvw/R75Si6vdua8skTKV68tYRgRymB0751MWlcH0no62d6KL5lH1DLFQveZEMbFy2QBYdlNV5PHEza5rygYPcZl5FM44v9orGjyI5iHLEpDsIFFwyo5kUAG7Gf+iNNUnQ7shrDM0b3Lb6b+qKmac7cXnDOaIELEgQUrp94IaS44qceEs84wujWkNWeTa/5Zsqfh/CZcH8m9Ikf7CwutkZ4TPHnQos8dxkBVfBixZYa0dy2121y8kQPIjJrcyR/G8Eja9vF9NeQXt0i+WFwP9msmUfeBZWXbFZKxlvSTjTBtZsTl6lMF1a2x7gbutINciMTzRPR19XA98GxHDmEzWUcM7AOCAgWW1AVd7RDUiLLwhu84QEIFMgHYnAds6n3DYhdID110UZnEiVCt8QypmfpYS4mVTyTtAcH4kYfeW1iFMMva6/H7tLJSloyGoj127tH2EhzEubjDg8pMYQCCJAyPVLHZwDyINwwHomJUViAiuiJ+89LhjVtkskPSALoSqPkygxj5kmcZ3UTyGuTnUL7iWsB5Z+RgG9FoO5iEvoRj8rlmLPuO9potJui8PwAr9SxW+WcjLe9A7RbQy9P7TvTvYI2HKO70fZN2OPBCIq8Y4hpG1D0jSRTqe4iBTXqBB6nE2+NP0XQG6KJt8X4nPchj7g7BK+VQHdQxv8oK38FRhYhSatdYOM9Yff3fD4U1PupFq37vno/uruAij7VYa+ecoHnYnWgXPg/BB9/Zms/XDzwdBoPRawHElwDpNQTNPo7TUXt2EbyOeUE2T0NmBCfCD0qsLdhVt4J/wF+6wXgmZFAlo0yQh4UFK1ZXoYe1gVVTkNeqJfMuDMXXNSQZMcHNoyYR5Wu8B+4A8sw9eU5QmkhSERCzBJRJOq6IblBHB6o1U9vVstuj4snGFApyXvVOYsaZQ5ug6TBuWG0Wl3gXrRvjwsn2ORpUvn4o9HdqDh8zwtWZXsNOyMFeqNUvPsoVpqP0SQhtsfhNqlozjqfcD6CDNECETJmQEoOqzBU+2ej0gvTAXl260IkKz6hQ4yN583t5oNXTTSUSml9J9KpVKEnCG+LwuggSHdJYDNXk1NIO6ENq/ZkwIj83vX95IBH/MqCvDBn2CVOD12cGQLdHY3XRhvGEJ78V9xAu3FYZdztMEWYQsHXW8st3iyBHS1b3a8VZ3zpi8Vt23TgpJSFWJlaza1H+h5k3V4aIgYk1tXyF0y2+zIMyYOhETTlEXTyShYzba2Jd9Z5SpyEN7IqjoBDBmj23CWPXv3nnhP2FkQn6N1iLuYyuMCjW5aEWfnB0AMQiGaCnfZq6orS+8eMtZezJesQweA2g19ccCZ/Kdmh0uSYD+/vghG1UucR0TbX+XLtc3U3w+U8XgcEtVnsnhWVuCqhcN+U7uy/IYxFVmw7+0XA1i4Ih4xd0uxdjn2QcoId9hkm0J6fTuq615lqKTVmmHU+70g9cLSvHOsBotTfpfS9JKU2PY3+xWzjHty4zw5lfe7K63Qk1wH4KAfPEQAlvSZyPldMZhUf+vAyXAbXdsHxPz1Z58rL5NPm7EqCofcM+jRVK0w221LIbg7Y05yMIHDwyuWyz4lTZUG7rANYWBxSkROZ0CvMVMr7hnLAYW3XgqnwhH8tX7L/Bu4oc3riXyrpi7rA4xWdnCQTt5n5/Qtbu/1V+YK2a5l9ObLGwYtuxBCprkpY7SbOZsBr4s1V2O/9DyHMRj/71HaqXgMJ7wUOSuLqihvj8oVkTDACy4vLjWG9FcLjwlSszCqni4awri9MotTTOXU38gggHSIz4fA8NML6CVORkYiS52TQBiBDhsbTBlooX5BwyR850v+q4VBj5lKfZAcHmx/OThp2l/lLGARpbnarz9TAbTCoINI5SIwyRORss3VXf13xJty/QQDrKpp/L7ycjbzrCHtNKmPKMqCwj1kmog497BEiBADVN0jQEnI9Oe70d2y4juFYHVnojHRlR4OCtvKA9Y/CPkjRi8ClvdakwqSKGXDh3Z9ZqLNtSr5JUV462HMzdk/1NkRCZEdM9hMzOYItCn7691qkhbtWoX47hYZOoPvH3A0XEIU6HcNi97VyN+cTRvVmZJ5uP3Sc7Es18fs1U3vYwzjmuqvVeLiHJRIlvJm7oy3N1Oib8T6iGZUjiuvCiNYNCVBh5hd8DApTTH6e3X7Bpu3PVmDFWIQSbtsI53YOv09rdsOG+erN6uWMuACxfPNFYUTO4hqapYX1ruMKejsKsD1BtMKB1VdO2jf8pj2Adp/T+erjQAkym5okQ/RlUvYwdwSAEKraNhRyjKeVmAyrsNgEzHhCeXUBxr5+kMgRIDmBCRKKd/Ux+ukvmSxppM9z0VfraZ2vm/WKwGJpfrd2BfUIedRid2RkrTd2a5p9zaoxFbl5X0SZjKNcwTa1o4os2GKbXFl6bs0JPFZ57i1gSTc83wAyO1u3MHTL+38YoUvHHYVdlMrDhWDBtJcK2p3O8CTSg1tAu8MaiSYIez2qdlohsrHcu7MZ2X1g5T1z275zSoOHpncA1hFGEIi2nNm5t5Zp8TpcsfP4qUiZtseDEK4+eUkZsS2JOft69m2PQcE3bQhjHMzADdYUr8DqR+dQNm13WQRRwbWaYKF9vA/RyG0j8QbQhdA7bE37J7jz5LRJsEzMCDc1Zj7BfqXspmH7NlC3XdcWpYwK/Z7+69EaABdvPYUlcuw93pbLx1fSqLQmD2qfSRdQSkWuA+Lsw=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 769,
+    "prompt_tokens": 11538,
+    "total_tokens": 12307,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 537,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 232,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 6038,
+      "image_tokens": 5500,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

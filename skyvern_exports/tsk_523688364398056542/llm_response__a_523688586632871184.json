@@ -1,0 +1,52 @@
+{
+  "id": "eDz0adW6LJLcvNkPkdblyQE",
+  "created": 1777613944,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is already on the pricing page of laminar.sh (lmnr.ai), and all the pricing details are visible in the provided screenshot and DOM elements. Therefore, the goal of navigating to the pricing page has been achieved.\",\n    \"user_goal_achieved\": true,\n    \"action_plan\": \"The user goal is to navigate to the pricing page and summarize pricing details. I have successfully navigated to the pricing page. I can now extract the information required: \\n- Free: $0/mo, 1GB data, 1000 Signals steps, 15-day retention, 1 project/seat, Community support.\\n- Hobby: $30/mo, 3GB data ($2/GB overage), 5000 Signals steps ($0.0075/step overage), 30-day retention, Unlimited projects/seats, Email support.\\n- Pro: $150/mo, 10GB data ($1.50/GB overage), 50,000 Signals steps ($0.005/step overage), 90-day retention, Unlimited projects/seats, Slack support.\\n- Enterprise: Custom pricing, Custom limits, On-premise option, Unlimited projects/seats, Dedicated support.\\nSince the goal was to navigate and I am on the correct page with all data visible, I will issue a COMPLETE action.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"The user is already on the pricing page, and all the required pricing information is visible on the screen. The navigation goal is met.\",\n            \"user_detail_query\": null,\n            \"user_detail_answer\": null,\n            \"confidence_float\": 1.0,\n            \"action_type\": \"COMPLETE\",\n            \"id\": null,\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": null,\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19Xx1LIyew1gMkdKwsY7v4DfnIYrpdxfnwjVsMS0GApmgJEz1zWrTOXuEoRw38IFW81On//aXMEyXnC88AmPjI/9GPw5mR6hxKxL9WispRFrKerEpU7s5UnTi2mcgqu9dCtCiVodQlaFalREWAnii87K28YurIW5UkxGy/kRvoaPEDRiy1iUXSzmkbTz3lPPCxjhrJgsSlrYK+RKAVtpOLifiCI67hHoqRehD+akQ7mTVa/qI0X+AAaPzyQdNTMGdmFseCzZtxbdMur8teHrDS/FESIx1uw9saEeL8jSIvWzFf3lUNaLxr8uyK5Mpwpos7rsRewv7zwAOD+16jlhAm8hr3cd9q6K5yJModU9lBZI58kkVI8ssJNWkZ1qEa/zzxZgjF0bnJN1xo7LAdxTjs6FXyW2KwH26AH1rVYu4fxWpPNy/wNrvJVV7NNKErMPoQh06uuVAgwoBTWl4U5YR41e0eLFrp9eQtSj9y8DWz5pxwMV+mOTYU4AjWZ0lfb37GyOAERs1QmMXmCQbSLeN+hhcUmaX1N3s6OKQjSJ+s+vTEhErAjUpC8K853Lx3zD4adqFRfo8ZPH6JmRKhuM8ZbsY0naDmEOxy6g41B423uaFo5yk1lASuPQJLQtA5LVQqhos4kmYUEcJ9PN/nlKoTblsntHu9U+U3OR0g0oq+PyAdXGUEXLZTK9uh3oFd8FfMYRvAdSuAHnp9ZGYfZgZ95v1xughLd8jgGGlVGawnblyMaMbQpq7xuFVZRwR0PIbDnXitMg6Hfh9zkmgL+PcWwqs7NvuJEM1n1uzkUmkUBGLP5RGyBjXFY63z92UAA5XCXlq/YJtMehPfOkRhLJfeQc+iPgfPWIRP+3HKHTWA94in2aOvngGy4kdpaM0ipL6a3M7VPYLI8UYTWhEyUtqxbwLfBYPGok5ZidCpBXeTFf4DB5mmsJRvedSiHv6hXbjo1n0j4qiLkopdBN1n98e0P/r54j+MIMJKt1CoHmwM8iDobf2SXFTr5XBqni0l9I5yKEOk4jrVYuubOebaqFt0TDhfqqNNKUGjKW3FeiZTWffw/K/epk8WXO6aPqnemKPJNH9pR8/Qzns/I+BU5t6jWG2X4RQvvGm+bzXx0dZ8E/Uglw/Ia51pQZrWRqXv9g0eRBSqQzfpBCfqWGUwArgQ5tbB1iacXKGfK/Vd+OQl0K/jVbyYSkl7RxQCPYHCOcf/Iu3x0epS24PIesmvc0FyuqNqAIrqX9G6XIF67WlUej9V2xBqlR2H0XDJwXK9ydG8c6d7iQv+d0+mSk/qqS3dSMiRSsRt0qz0WM4+n09USyBRfSYwcB7Z3AO9XF9sIormDJpKinEIor6QFOPzuGhZt3FdszsChA9hACvD+duUGVW9l6jj0KmRyGLU4MWXaTCIz1g3hYLMEyyrx1D8arRILdHWnm6XChWnEdRtA4l1ZPrdq5TC974qNfk9FzJylUXrLyv6JBEeHYyecUUmCspLYcilj74Q1NwnpcmixajuRueQgb5jGiHCX4wGWQ7+qT1c5/Qwq/0youelEqPvykg=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 791,
+    "prompt_tokens": 8751,
+    "total_tokens": 9542,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 305,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 486,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1830,
+      "image_tokens": 4400,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

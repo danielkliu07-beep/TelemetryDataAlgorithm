@@ -1,0 +1,52 @@
+{
+  "id": "KYT1adr-L9DivNkPxLimiQw",
+  "created": 1777697833,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page is a shopping website showing 'Today's Top Picks'. The product 'Oral-B Precision Clean Toothbrush' is clearly visible as the first item in the product list. Each product, including the Oral-B toothbrush, has an 'Add to Cart' button associated with it. There is also a shopping cart icon in the top right corner of the navigation bar.\",\n  \"thoughts\": \"The user's goal is to find the 'Oral-B Precision Clean Toothbrush' and add it to the cart. While the product is found on the page, the 'Add to Cart' button for this specific product is still visible and has not been clicked yet, as there is no confirmation message or indication in the shopping cart icon that an item has been added. Therefore, the goal of adding it to the cart is not yet complete.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 699,
+    "prompt_tokens": 3371,
+    "total_tokens": 4070,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 500,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 199,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 2271,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

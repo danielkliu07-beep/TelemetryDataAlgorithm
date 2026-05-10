@@ -1,0 +1,116 @@
+You are given a screenshot, user data extraction goal, the JSON schema for the output data format, and the current URL.
+
+Your task is to extract the requested information from the screenshot and output in strictly JSON format 
+
+Add as much details as possible to the output JSON object while conforming to the output JSON schema.
+
+Do not ever include anything other than the JSON object in your output, and do not ever include any additional fields in the JSON object.
+
+If you are unable to extract the requested information for a specific field in the json schema, please output a null value for that field.
+
+If you are trying to extract the href links which are using the jinja style like "{{}}", please keep the original string.
+
+User Data Extraction Goal: Extract and summarize the key pricing details and plans from the lmnr.ai pricing page.
+
+
+
+
+
+Clickable elements from `https://laminar.sh/pricing`:
+```
+<div><div><span>Laminar raises $3M seed to build observability for long-running agents</span><a href="/blog/2026-03-16-laminar-launch">Read more<svg></svg></a></div><a href="/"><img alt="Laminar logo" src="/_next/static/media/logo.08c0e7dv9uewm.svg"></a><div><a href="https://laminar.sh/docs">Docs</a><a href="/blog">Blog</a><a href="/pricing">Pricing</a><a href="https://discord.gg/nNFUUDAKub">Discord</a><a href="https://github.com/lmnr-ai/lmnr"><div><svg></svg></div><div><svg></svg><span>2,819</span></div></a><div><a href="/sign-in"><button type="button">Sign in</button></a><a href="/sign-up"><button type="button">Sign up</button></a></div></div><div><div><div><h1>Free</h1><h1>$0 / month</h1><div><div>1 GB data</div></div><div>no overage</div><div><div>1,000 Signals steps processing</div></div><div>no overage</div><div><div>15 day retention</div></div><div><div>1 project</div></div><div><div>1 seat</div></div><div><div>Community support</div></div></div><a href="/projects"><button type="button">GET STARTED</button></a></div><div><div><h1>Hobby</h1><h1>$30 / month</h1><div><div>3 GB data included</div></div><div>then $2 / GB</div><div><div>5,000 Signals steps processing included</div></div><div>then $0.0075 / Signals step</div><div><div>30 day retention</div></div><div><div>Unlimited projects</div></div><div><div>Unlimited seats</div></div><div><div>Email support</div></div></div><a href="/projects"><button type="button">GET STARTED</button></a></div><div><div><h1>Pro</h1><h1>$150 / month</h1><div><div>10 GB data included</div></div><div>then $1.50 / GB</div><div><div>50,000 Signals steps processing included</div></div><div>then $0.005 / Signals step</div><div><div>90 day retention</div></div><div><div>Unlimited projects</div></div><div><div>Unlimited seats</div></div><div><div>Slack support</div></div></div><a href="/projects"><button type="button">GET STARTED</button></a></div><div><div><h1>Enterprise</h1><h1>Custom</h1><div><div>Custom limits</div></div><div><div>On-premise</div></div><div><div>Unlimited projects</div></div><div><div>Unlimited seats</div></div><div><div>Dedicated support</div></div></div><a href="mailto:founders@lmnr.ai?subject=Enterprise%20Inquiry"><button type="button">CONTACT US</button></a></div><h3>Pricing calculator</h3><div><span>Tokens per month</span><div><span>100M</span><span>≈;0.3 GB</span></div></div><span shape-description="Spade playing card suit"></span><div><span>Signals steps per month</span><span>1,000</span></div><span shape-description="Spade playing card suit"></span><div><span>Free</span><div>Recommended</div></div><div><span>Base</span><span>$;0.00</span></div><div>1 GB;+;1,000;Signals steps included</div><div><span>Data (;0.3 GB;)</span><span>Included</span></div><div><span>Signals steps processed (;1,000;)</span><span>Included</span></div><div><span>Total</span><span>$;0.00;/mo</span></div><div><span>15-day;retention</span><span>Community;support</span></div><h2>Frequently Asked Questions</h2><select type="button">How is data usage calculated?<svg></svg></select><select type="button">What is a Signals step?<svg></svg></select><select type="button">When are Signals steps consumed?<svg></svg></select><select type="button">What happens if I exceed my plan's included usage?<svg></svg></select><div><div><div><div>Understand;why your agent failed.;Iterate fast to fix it.</div><div><a href="https://laminar.sh/docs"><button type="button">Read the Docs</button></a><a href="/sign-up"><button type="button">Get Started</button></a></div></div><div><div><a href="/contact"><button type="button">Contact Us</button></a><a href="https://github.com/lmnr-ai/lmnr"><button type="button">GitHub</button></a><a href="https://discord.gg/nNFUUDAKub"><button type="button">Join Discord</button></a></div><div><a href="/policies/privacy"><button type="button">Privacy Policy</button></a><a href="/policies/terms"><button type="button">Terms of Service</button></a><a href="https://status.laminar.sh"><button type="button">Status</button></a></div></div></div></div></div></div>
+```
+
+Current URL: https://laminar.sh/pricing
+
+Text extracted from the webpage: Laminar raises $3M seed to build observability for long-running agents
+Read more
+Docs
+Blog
+Pricing
+Discord
+2,819
+Sign in
+Sign up
+Free
+$0 / month
+1 GB data
+no overage
+1,000 Signals steps processing
+no overage
+15 day retention
+1 project
+1 seat
+Community support
+GET STARTED
+Hobby
+$30 / month
+3 GB data included
+then $2 / GB
+5,000 Signals steps processing included
+then $0.0075 / Signals step
+30 day retention
+Unlimited projects
+Unlimited seats
+Email support
+GET STARTED
+Pro
+$150 / month
+10 GB data included
+then $1.50 / GB
+50,000 Signals steps processing included
+then $0.005 / Signals step
+90 day retention
+Unlimited projects
+Unlimited seats
+Slack support
+GET STARTED
+Enterprise
+Custom
+Custom limits
+On-premise
+Unlimited projects
+Unlimited seats
+Dedicated support
+CONTACT US
+Pricing calculator
+Tokens per month
+100M
+≈ 0.3 GB
+Signals steps per month
+1,000
+Free
+Recommended
+Base
+$0.00
+1 GB + 1,000 Signals steps included
+Data (0.3 GB)
+Included
+Signals steps processed (1,000)
+Included
+Total
+$0.00/mo
+15-day retention
+Community support
+Frequently Asked Questions
+How is data usage calculated?
+What is a Signals step?
+When are Signals steps consumed?
+What happens if I exceed my plan's included usage?
+Understand why your agent failed.
+Iterate fast to fix it.
+Read the Docs
+Get Started
+Contact Us
+GitHub
+Join Discord
+Privacy Policy
+Terms of Service
+Status
+
+User Navigation Payload: None
+
+Current datetime, ISO format:
+```
+2026-05-01T05:39:32.951818
+```

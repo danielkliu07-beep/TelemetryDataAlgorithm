@@ -1,0 +1,137 @@
+[
+  {
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "children": [
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "children": [
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "children": [
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "h1",
+                "text": "Wordle",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"h1\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "span",
+                "text": "Get 6 chances to guess a;word.",
+                "children": [
+                  {
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "text": "5-letter",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"h2\"][1]/*[name()=\"span\"][2]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"h2\"][1]/*[name()=\"span\"][2]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "id": "AAAI",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button"
+                    },
+                    "text": "75% off",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+                  },
+                  {
+                    "id": "AAAJ",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://myaccount.nytimes.com/auth/enter-email?response_type=cookie&client_id=games&application=nyt-lires&asset=&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fgames-offer%3FcampaignId%3D8YUQL%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fgames%252Fwordle%252Findex.html"
+                    },
+                    "text": "Log in",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+                  },
+                  {
+                    "id": "AAAK",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button"
+                    },
+                    "text": "Play",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][2]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "h3",
+                "text": "May 1, 2026",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"h3\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "p",
+                "text": "No.;1777",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"p\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "p",
+                "text": "Edited by;Tracy Bennett",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"p\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]"
+  }
+]

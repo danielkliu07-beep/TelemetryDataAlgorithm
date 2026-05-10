@@ -1,0 +1,239 @@
+You are given a screenshot, user data extraction goal, the JSON schema for the output data format, and the current URL.
+
+Your task is to extract the requested information from the screenshot and output in strictly JSON format 
+
+Add as much details as possible to the output JSON object while conforming to the output JSON schema.
+
+Do not ever include anything other than the JSON object in your output, and do not ever include any additional fields in the JSON object.
+
+If you are unable to extract the requested information for a specific field in the json schema, please output a null value for that field.
+
+If you are trying to extract the href links which are using the jinja style like "{{}}", please keep the original string.
+
+User Data Extraction Goal: Extract the name of the team that won the NBA playoffs 2026 series between the Hawks and the Knicks.
+
+
+
+
+
+Clickable elements from `https://www.google.com/search?q=NBA+playoffs+2026+Hawks+vs+Knicks+winner&sca_esv=e11ce942ef99a1b2&source=hp&ei=3rz0ae-pO9-1ptQPh8ONgQc&iflsig=AFdpzrgAAAAAafTK7xvSlqPvmuAy46aDXN3BXZZR0myB&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQ4dUDCBY&uact=5&oq=NBA+playoffs+2026+Hawks+vs+Knicks+winner&gs_lp=Egdnd3Mtd2l6IihOQkEgcGxheW9mZnMgMjAyNiBIYXdrcyB2cyBLbmlja3Mgd2lubmVyMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAFIuTFQAFj9BnAAeACQAQCYAZUDoAHnFqoBBzItNC40LjG4AQPIAQD4AQGYAgmgAvQXwgIFECEYqwKYAwCSBwcyLTMuNC4yoAfeJ7IHBzItMy40LjK4B_QXwgcHMC44LjAuMcgHGIAIAQ&sclient=gws-wiz&sei=9bz0abL9Ae68ruEPxtnw2Qc`:
+```
+<body><span><div><div><a aria-label="Go to Google Home" href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQPAgJ" title="Go to Google Home"><svg></svg></a><div><div><div><textarea value="NBA playoffs 2026 Hawks vs Knicks winner" aria-label="Search" placeholder maxlength="2048" name="q">NBA playoffs 2026 Hawks vs Knicks winner</textarea></div><div><div><div aria-label=" Clear"><span><svg></svg></span></div><span></span></div><div><div aria-label="Search by voice"><svg></svg></div><div aria-label="Search by image"><svg></svg></div></div></div></div><button aria-label="Search" type="submit"><div><span><svg></svg></span></div></button></div></div><div><div aria-label="Settings"><div><span><svg></svg></span></div></div><div><a aria-label="Google apps" href="https://www.google.com/intl/en/about/products?tab=wh"><svg></svg></a><a aria-label="Sign in" href="{{_72c4f51dacefa3f43356d5b8c709c7e832e9403dccbf6e14b3117a762bcf87e3}}"><span>Sign in</span></a></div></div></div></span><span></span><div><div><div><div><a href="{{_cc368d74f02f15eff3371c48366ff7fbf25fe6d515c2f0c595d062a9ce632603}}"><div><div><span>AI Mode</span></div></div></a><a aria-disabled="true"><span>All</span></a><a href="{{_528bdd29e4c77f780bf1b8c58062e5ba18ccd1a722f87173d75b282f0cbc38e8}}"><div><span>News</span></div></a><a href="{{_6354420f9f145acb0384cafa56045966f05b3c241e61a8cad1b3e696f309c924}}"><div><span>Videos</span></div></a><a href="{{_ce291ce81e761eea68272c4a1ae10035418a73756ffe9db495c759f6264f096e}}"><div><span>Short videos</span></div></a><a href="{{_bc9dd0a6eeb2de27e6e0e364de143fbe808254cd80e055037fd9ff51bbd88015}}"><div><span>Images</span></div></a><a href="{{_e1a23bdfaa274c738a4cf98610e62923db6cb6bf3c57d3571e76c581816e68fe}}"><div><span>Forums</span></div></a><div><div><div aria-label="More filters"><div><span>More</span><span><svg></svg></span></div></div></div></div></div><div><div><div><span>Tools</span><span><svg></svg></span></div></div></div></div></div></div><div><div><div>Knicks vs Hawks</div><div><table aria-label="Matches"><tbody><tr><td><div><div><div><div><table><tbody><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><div>NYK wins 4 - 2</div></td></tr><tr><td></td><td></td><td><div><div><div><span aria-label="Final">Final</span></div><div><span aria-label="Yesterday">Yesterday</span></div></div></div><div><div><a aria-label="Game recap, duration 18 minutes and 12 seconds" href="https://www.youtube.com/watch?v=pkpKEx-ZSV8&feature=onebox"><div><img src="//ssl.gstatic.com/onebox/media/sports/videos/vita/ldSuL0we2cVT2_5O_96x54.jpg" alt></div><span>► 18:12</span></a></div></div></td></tr><tr><td></td></tr><tr><td><div><div><img alt src="//ssl.gstatic.com/onebox/media/sports/logos/optimized/-rf7eY39l_0V7J4ekakuKA_48x48.png"></div></div></td><td><div><div><div><span>Knicks</span></div></div><div><div>140</div></div></div></td><td><svg></svg></td></tr><tr><td><div><div><img alt src="//ssl.gstatic.com/onebox/media/sports/logos/optimized/pm5l5mtY1elOQAl9ZEcm2A_48x48.png"></div></div></td><td><div><div><div><span>Hawks</span></div></div><div><div>89</div></div></div></td><td></td></tr><tr><td></td></tr><tr></tr></tbody></table></div></div></div></div></td><td><div><div><div><div><table><tbody><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><div>Game 5 (NYK leads 3 - 2)</div></td></tr><tr><td></td><td></td><td><div><div><div><span aria-label="Final">Final</span></div><div><span aria-label="Tuesday, April 28">Tue, Apr 28</span></div></div></div><div><div><a aria-label="Game recap, duration 15 minutes and 59 seconds" href="https://www.youtube.com/watch?v=_gOcjhr7cuE&feature=onebox"><div><img src="//ssl.gstatic.com/onebox/media/sports/videos/vita/ZpLOXLC5c8iLCJQr_96x54.jpg" alt></div><span>► 15:59</span></a></div></div></td></tr><tr><td></td></tr><tr><td><div><div><img alt src="//ssl.gstatic.com/onebox/media/sports/logos/optimized/pm5l5mtY1elOQAl9ZEcm2A_48x48.png"></div></div></td><td><div><div><div><span>Hawks</span></div></div><div><div>97</div></div></div></td><td></td></tr><tr><td><div><div><img alt src="//ssl.gstatic.com/onebox/media/sports/logos/optimized/-rf7eY39l_0V7J4ekakuKA_48x48.png"></div></div></td><td><div><div><div><span>Knicks</span></div></div><div><div>126</div></div></div></td><td><svg></svg></td></tr><tr><td></td></tr><tr></tr></tbody></table></div></div></div></div></td></tr><tr><td><div><div><div><div><table><tbody><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td><div>Game 4 (Series tied 2 - 2)</div></td></tr><tr><td></td><td></td><td><div><div><div><span aria-label="Final">Final</span></div><div><span aria-label="Saturday, April 25">Sat, Apr 25</span></div></div></div><div><div><a aria-label="Game recap, duration 16 minutes and 9 seconds" href="https://www.youtube.com/watch?v=-Hz2uEZ7oow&feature=onebox"><div><img src="//ssl.gstatic.com/onebox/media/sports/videos/vita/9_VapertcYM_W9ew_96x54.jpg" alt></div><span>► 16:09</span></a></div></div></td></tr><tr><td></td></tr><tr><td><div><div><img alt src="//ssl.gstatic.com/onebox/media/sports/logos/optimized/-rf7eY39l_0V7J4ekakuKA_48x48.png"></div></div></td><td><div><div><div><span>Knicks</span></div></div><div><div>114</div></div></div></td><td><svg></svg></td></tr><tr><td><div><div><img alt src="//ssl.gstatic.com/onebox/media/sports/logos/optimized/pm5l5mtY1elOQAl9ZEcm2A_48x48.png"></div></div></td><td><div><div><div><span>Hawks</span></div></div><div><div>98</div></div></div></td><td></td></tr><tr><td></td></tr><tr></tr></tbody></table></div></div></div></div></td><td></td></tr></tbody></table></div><div><div><span>Feedback</span></div></div></div></div><div><div><span>Videos</span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><div><div><div><a href="https://www.youtube.com/watch?v=pkpKEx-ZSV8"><div><div><div><span>#3 KNICKS at #6 HAWKS | FULL GAME 6 HIGHLIGHTS | April ...</span></div></div><div><div><span><span>YouTube</span><span>NBA<span>·</span></span></span><div><span>13 hours ago</span></div></div></div></div></a><div><span>YouTube</span><span>NBA<span>·</span></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div></div><div aria-label="#3 KNICKS at #6 HAWKS | FULL GAME 6 HIGHLIGHTS | April ... by NBA on YouTube. Play on Google. 18:12"><div><div><img alt></div><div><svg></svg></div><div><div><span>18:12</span></div><div><span><svg></svg></span></div></div></div></div></div></div><div><div><div><a href="https://www.youtube.com/watch?v=fU4kUsD3Wvk"><div><div><div><span>New York Knicks vs Atlanta Hawks Full Game 6 Highlights ...</span></div></div><div><div><span><span>YouTube</span><span>GAMETIME HIGHLIGHTS<span>·</span></span></span><div><span>13 hours ago</span></div></div></div></div></a><div><span>YouTube</span><span>GAMETIME HIGHLIGHTS<span>·</span></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div></div><div aria-label="New York Knicks vs Atlanta Hawks Full Game 6 Highlights ... by GAMETIME HIGHLIGHTS on YouTube. Play on Google. 9:52"><div><div><img alt></div><div><svg></svg></div><div><div><span>9:52</span></div><div><span><svg></svg></span></div></div></div></div></div></div><div><div><a href="https://www.reddit.com/r/nba/comments/1t0g3ls/highlights_the_final_moments_of_game_6_atlanta/"><div><div><div><span>[Highlights] The final moments of game 6 - Atlanta Hawks vs ...</span></div></div><div><div><span><span>Reddit</span><span>MrBuckBuck<span>·</span></span></span><div><span>13 hours ago</span></div></div></div></div></a><div><span>Reddit</span><span>MrBuckBuck<span>·</span></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div></div><a href="https://www.reddit.com/r/nba/comments/1t0g3ls/highlights_the_final_moments_of_game_6_atlanta/" aria-label="[Highlights] The final moments of game 6 - Atlanta Hawks vs ... by MrBuckBuck on Reddit. Play on Reddit. "><div><div><img alt></div><div><svg></svg></div></div></a></div><div><div><div><a href="https://www.youtube.com/watch?v=GtWKYjEibWs"><div><div><div><span>EXTENDED: #3 KNICKS at #6 HAWKS | FULL GAME 6 ...</span></div></div><div><div><span><span>YouTube</span><span>NBA<span>·</span></span></span><div><span>12 hours ago</span></div></div></div></div></a><div><span>YouTube</span><span>NBA<span>·</span></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div></div><div aria-label="EXTENDED: #3 KNICKS at #6 HAWKS | FULL GAME 6 ... by NBA on YouTube. Play on Google. 51:34"><div><div><img alt></div><div><svg></svg></div><div><div><span>51:34</span></div><div><span><svg></svg></span></div></div></div></div></div></div><div><a href="/search?sca_esv=e11ce942ef99a1b2&udm=7&q=NBA+playoffs+2026+Hawks+vs+Knicks+winner&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ8ccDKAJ6BAgZEAQ" aria-label="View all videos"><div><span>View all</span><span><svg></svg></span></div></a></div></div><div><div><div><span><a href="https://www.nba.com/news/knicks-hawks-2026-playoffs-first-round-game-6-takeaways"><h3>Knicks close out Hawks in historic fashion during Game 6</h3><div><div><span><div><img alt></div></span><div><div><span>NBA</span></div><div><cite>https://www.nba.com<span>› NBA News</span></cite></div></div></div></div></a></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><span>—<span>10 hours ago</span></span><span>, to close out the series, 4-2, and advance to the Eastern Conference semifinals. • Download the NBA App. The ...<em>The Knicks defeat the Hawks, 140-89</em></span><a href="{{_0e0e8b9ad5e3b2e9d8336e5e31980cd1a81dfa5cd693f4a3408dbff7946bcb03}}"><span>Read more</span></a></div></div><div><span>Top stories</span><a href="{{_dfaf210049a01a40ef7c67a7cbbe92d0a66abfedfe69f0499bd7937db0927d18}}"><div><div>Sign in to customize<span><svg></svg></span></div></div></a></div><div><div><a href="https://www.nba.com/news/knicks-hawks-2026-playoffs-first-round-game-6-takeaways"><div><div><div><div><img alt></div></div></div><div><div><div><div><div><img alt></div><span>NBA</span></div><div><div><span aria-label="About this result"><svg></svg></span></div></div></div></div><div>4 takeaways: Knicks close out Hawks in historic fashion during Game 6</div><div><span>10 hours ago</span></div></div></div></a></div><div><a href="https://www.espn.com/nba/story/_/id/48642498/knicks-set-record-47-point-half-lead-hawks"><div><div><div><div><img alt></div></div></div><div><div><div><div><div><img alt></div><span>ESPN</span></div><div><div><span aria-label="About this result"><svg></svg></span></div></div></div></div><div>Knicks finish off Hawks with record performance in Game 6</div><div><span>14 hours ago</span></div></div></div></a></div></div><div><a href="https://www.espn.com/nba/recap/_/gameId/401869393"><div><div><div><div><img alt></div></div></div><div><div><div><div><div><img alt></div><span>ESPN</span></div><div><div><span aria-label="About this result"><svg></svg></span></div></div></div></div><div>Knicks 140-89 Hawks (Apr 30, 2026) Game Recap</div><div><span>8 hours ago</span></div></div></div></a><a href="https://www.espn.com/nba/game/_/gameId/401869389/knicks-hawks"><div><div><div><div><img alt></div></div></div><div><div><div><div><div><img alt></div><span>ESPN</span></div><div><div><span aria-label="About this result"><svg></svg></span></div></div></div></div><div>Hawks 109-108 Knicks (Apr 23, 2026) Final Score</div><div><span>10 hours ago</span></div></div></div></a></div><div><a href="{{_0669e14ad67de2b61e36f7eb811f5f0bd0642ffb3fe2292002ded5a9250b689e}}"><div><span><span>More news</span></span><span><svg></svg></span></div></a></div><div><div><div><span><a href="https://www.espn.com/nba/game/_/gameId/401869389/knicks-hawks"><h3>Hawks 109-108 Knicks (Apr 23, 2026) Final Score</h3><div><div><span><div><img alt></div></span><div><div><span>ESPN</span></div><div><cite>https://www.espn.com<span>› nba › game › gameId › knicks...</span></cite></div></div></div></div></a></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><span>—<span>10 hours ago</span></span><span>McCollum ruins Knicks' night again, leading the;and a 2-1 lead. — CJ McCollum hit a fadeaway jumper with 12.5 seconds ...<em>Hawks to a 109-108 victory</em></span><a href="{{_7e3614e431630e6318ddf84155812edff7dbdcf5abcaf0f69b609e8029cadaf9}}"><span>Read more</span></a></div></div><div><div><div><span><a href="https://www.nba.com/game/atl-vs-nyk-0042500125"><h3>Atlanta Hawks vs New York Knicks Apr 28, 2026 Game ...</h3><div><div><span><div><img alt></div></span><div><div><span>NBA</span></div><div><cite>https://www.nba.com<span>› NBA Games</span></cite></div></div></div></div></a></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><span>—<em>8 hours ago</em></span><span>With their second straight lopsided victory, the;Thursday night in Atlanta. They would have another chance at ...<em>Knicks positioned themselves to win the series</em></span><a href="https://www.nba.com/game/atl-vs-nyk-0042500125#:~:text=With%20their%20second%20straight%20lopsided,to%20picture%20why%20they%20should."><span>Read more</span></a></div></div><div><div><div><span><a href="https://www.instagram.com/p/DXxzrbQlLtU/"><h3>KNICKS DOMINATE HAWKS BY 51 POINTS IN GAME 6 ...</h3><div><div><span><div><img alt></div></span><div><div><span>Instagram · bleacherreport</span></div><div><cite>120.2K+ likes  ·  12 hours ago</cite></div></div></div></div></a></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><span>So the;will advance to the second round for the fourth straight year, courtesy of one of the most dominant performances in;...<em>Knicks</em><em>NBA playoff</em></span><a href="https://www.instagram.com/p/DXxzrbQlLtU/#:~:text=So%20the%20Knicks%20will%20advance,performances%20in%20NBA%20playoff%20history."><span>Read more</span></a></div></div><div><span><a href="https://www.nba.com/watch/video/game-recap-knicks-140-hawks-89"><h3>Game Recap: Knicks 140, Hawks 89</h3><div><div><span><div><img alt></div></span><div><div><span>NBA</span></div><div><cite>https://www.nba.com · 11 hours ago</cite></div></div></div></div></a></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><div><a href="https://www.nba.com/watch/video/game-recap-knicks-140-hawks-89" aria-label="Game Recap: Knicks 140, Hawks 89 on NBA. Play on NBA. "><div><div><div><img alt src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTsvBXB0fT5X2uhAQ_GKVkRbxeck147uZLeCylUv2WkbD7aQkF_K-GkbkdLMeX1Q&s&ec=121657068"></div><div><svg></svg></div></div></div></a><div>Game Recap: Knicks 140, Hawks 89. Apr 30, 2026.;, to win the series, 4-2, and advance to the Eastern Conference ...<b>The Knicks defeated the Hawks, 140-89</b></div></div><div><div><div><span><a href="https://www.nytimes.com/athletic/7244942/2026/04/30/knicks-score-nba-playoffs-hawks-record-first-half-ejections/"><h3>Knicks' 47-point halftime lead vs. Hawks sets record for ...</h3><div><div><span><div><img alt></div></span><div><div><span>The New York Times</span></div><div><cite>https://www.nytimes.com<span>› athletic › 2026/04/30 › knic...</span></cite></div></div></div></div></a></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><span>—<span>11 hours ago</span></span><span>The;, racing to an 83-36 halftime lead. The 47-point halftime margin is the largest in NBA playoff ...<em>Knicks blitzed the Hawks off the opening tip</em></span><a href="{{_af933683f8ccfe106852f1a616599bd065463da35227fcdbbea9c44b2471aa51}}"><span>Read more</span></a></div></div><div><div><div><span><a href="https://www.nba.com/playoffs/2026/east-first-round-3"><h3>2026 NBA Playoffs | First Round: Knicks vs. Hawks</h3><div><div><span><div><img alt></div></span><div><div><span>NBA</span></div><div><cite>https://www.nba.com<span>› playoffs › east-first-round-3</span></cite></div></div></div></div></a></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><span>—<em>2 hours ago</em></span><span>· Game Recap: Knicks 140, Hawks 89 · Knicks' 47-point halftime lead a playoff record · Knicks nab 3-2 lead behind ...<em>Knicks close out Hawks in historic fashion</em></span><a href="{{_36699b366a0c4416910d2851830746331515f7318eab9366c85aaef5de17f487}}"><span>Read more</span></a></div></div><div><span><a href="https://www.instagram.com/reel/DXzA6kpK6kN/"><h3>Knicks destroyed the Hawks by 51 points! #knicks #hawks ...</h3><div><div><span><div><img alt></div></span><div><div><span>Instagram · iamconnorprintz</span></div><div><cite>10+ likes  ·  1 hour ago</cite></div></div></div></div></a></span><div aria-label="About this result"><span><span><svg></svg></span></span></div></div><div><a href="https://www.instagram.com/reel/DXzA6kpK6kN/" aria-label="Knicks destroyed the Hawks by 51 points! #knicks #hawks ... by Connor Printz on Instagram. Play on Instagram. 2:23"><div><div><div><img alt src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIgn2chdOlIAVqClUmB1VlgXThyr3rJlDLOlUA10kI_ro_bJpQaWHeLr5zLsB8Jg&s&ec=121657068"></div><div><svg></svg></div><div><div><span>2:23</span></div></div></div></div></a><div>making this their largest win in playoff history and now they advance to the 2nd round in the eastern conference ...<b>Knicks blowout the Hawks 140-89</b></div></div><div><span>People also search for</span></div><div><div><a href="/search?sca_esv=e11ce942ef99a1b2&q=Nba+games+playoffs&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ1QJ6BAg2EAE"><div><div><div><div><div><span>Nba;playoffs<b>games</b></span></div><div><span><svg></svg></span></div></div></div></div><div><div><span><svg></svg></span></div></div></div></a><a href="/search?sca_esv=e11ce942ef99a1b2&q=Nba+playoffs+2026+hawks+vs+knicks+winner+today&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ1QJ6BAg8EAE"><div><div><div><div><div><span>Nba playoffs 2026 hawks vs knicks winner<b>today</b></span></div></div></div></div><div><div><span><svg></svg></span></div></div></div></a><a href="/search?sca_esv=e11ce942ef99a1b2&q=Nba+playoffs+2026+hawks+vs+knicks+winner+stats&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ1QJ6BAg9EAE"><div><div><div><div><div><span>Nba playoffs 2026 hawks vs knicks winner<b>stats</b></span></div></div></div></div><div><div><span><svg></svg></span></div></div></div></a><a href="/search?sca_esv=e11ce942ef99a1b2&q=Nba+playoffs+2026+hawks+vs+knicks+winner+results&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ1QJ6BAg-EAE"><div><div><div><div><div><span>Nba playoffs 2026 hawks vs knicks winner<b>results</b></span></div></div></div></div><div><div><span><svg></svg></span></div></div></div></a></div><div><a href="/search?sca_esv=e11ce942ef99a1b2&q=Knicks+vs+Hawks+playoffs+2026&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ1QJ6BAg7EAE"><div><div><div><div><div><span>Knicks vs Hawks playoffs 2026</span></div></div></div></div><div><div><span><svg></svg></span></div></div></div></a><a href="/search?sca_esv=e11ce942ef99a1b2&q=Knicks+vs+Atlanta+Hawks+match+player+Stats&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ1QJ6BAg1EAE"><div><div><div><div><div><span>Knicks vs;Hawks<b>Atlanta</b><b>match player Stats</b></span></div></div></div></div><div><div><span><svg></svg></span></div></div></div></a><a href="/search?sca_esv=e11ce942ef99a1b2&q=Knicks+Hawks+playoffs+schedule&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ1QJ6BAg4EAE"><div><div><div><div><div><span>Knicks Hawks playoffs<b>schedule</b></span></div></div></div></div><div><div><span><svg></svg></span></div></div></div></a><a href="/search?sca_esv=e11ce942ef99a1b2&q=Knicks+vs+Hawks+game+2&sa=X&ved=2ahUKEwiF2r3CqpiUAxXQNoYAHaxQL4sQ1QJ6BAg6EAE"><div><div><div><div><div><span>Knicks vs Hawks<b>game 2</b></span></div></div></div></div><div><div><span><svg></svg></span></div></div></div></a></div></div><table><tbody><tr><td></td><td>1</td><td><a aria-label="Page 2" href="{{_526a51b43e107f5652ceac9cf846746748af468d418012f1c0f7447fab69e586}}">2<span></span></a></td><td><a aria-label="Page 3" href="{{_7ebc1493556eb30482672b888cf546dc358eeaa54d50923585af4ad609f7b5b8}}">3<span></span></a></td><td><a aria-label="Page 4" href="{{_d83609c2c1864aba09e964d3ba435b33d9a97931328dcb0c8c2e013e58909e44}}">4<span></span></a></td><td><a aria-label="Page 5" href="{{_582bb50b5a9203eca3d170e49b4cdbbe4ad09c94a46d7b4341d568e508864035}}">5<span></span></a></td><td><a aria-label="Page 6" href="{{_a98b02fe56c62cc1256846553fdda8cff1f4c23e70bc793204254e39e45027ca}}">6<span></span></a></td><td><a aria-label="Page 7" href="{{_bd2e78876fe70637415424e3be51620e5c6b2640fdc8b579d6eb371912d77d03}}">7<span></span></a></td><td><a aria-label="Page 8" href="{{_77a81fa8c8f52e4d38f30e04a49dd5943f459529595dac5f8efd835f1553dff1}}">8<span></span></a></td><td><a aria-label="Page 9" href="{{_46da8b2580a5ff5533a54d616d71125dbc87f07c55a2d634a57cdbaccff2bd97}}">9<span></span></a></td><td><a aria-label="Page 10" href="{{_c707ff070ffd31ff5b66747f67f31211e65f92af8e990649b3342a9f422261b7}}">10<span></span></a></td><td><a href="{{_e47be4386f28f923265707aa689dab3b3281f1eb6cbfde1e7d7d218568cf3fd8}}"><span></span><span>Next</span></a></td></tr></tbody></table><div><a href="#"><div><span></span><span>Gunnison County, Colorado</span></div><div><span>-</span><span><span>From your IP address</span></span></div></a><span>-</span><div>Update location</div></div><a href="https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1">Help</a><a href="#">Send feedback</a><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></body>
+```
+
+Current URL: https://www.google.com/search?q=NBA+playoffs+2026+Hawks+vs+Knicks+winner&sca_esv=e11ce942ef99a1b2&source=hp&ei=3rz0ae-pO9-1ptQPh8ONgQc&iflsig=AFdpzrgAAAAAafTK7xvSlqPvmuAy46aDXN3BXZZR0myB&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQ4dUDCBY&uact=5&oq=NBA+playoffs+2026+Hawks+vs+Knicks+winner&gs_lp=Egdnd3Mtd2l6IihOQkEgcGxheW9mZnMgMjAyNiBIYXdrcyB2cyBLbmlja3Mgd2lubmVyMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAFIuTFQAFj9BnAAeACQAQCYAZUDoAHnFqoBBzItNC40LjG4AQPIAQD4AQGYAgmgAvQXwgIFECEYqwKYAwCSBwcyLTMuNC4yoAfeJ7IHBzItMy40LjK4B_QXwgcHMC44LjAuMcgHGIAIAQ&sclient=gws-wiz&sei=9bz0abL9Ae68ruEPxtnw2Qc
+
+Text extracted from the webpage: Skip to main content
+Accessibility help
+Accessibility feedback
+Sign in
+AI Mode
+All
+News
+Videos
+Short videos
+Images
+Forums
+More
+Tools
+Search Results
+Sports Results
+Knicks vs Hawks
+					
+
+NYK wins 4 - 2
+
+		
+Final
+Yesterday
+► 18:12
+	
+
+
+	
+Knicks
+Knicks
+140
+	
+
+	
+Hawks
+Hawks
+89
+	
+
+
+	
+					
+
+Game 5 (NYK leads 3 - 2)
+
+		
+Final
+Tue, Apr 28
+► 15:59
+	
+
+
+	
+Hawks
+Hawks
+97
+	
+
+	
+Knicks
+Knicks
+126
+	
+
+
+
+
+					
+
+Game 4 (Series tied 2 - 2)
+
+		
+Final
+Sat, Apr 25
+► 16:09
+	
+
+
+	
+Knicks
+Knicks
+114
+	
+
+	
+Hawks
+Hawks
+98
+	
+
+
+	
+Feedback
+Videos
+#3 KNICKS at #6 HAWKS | FULL GAME 6 HIGHLIGHTS | April ...
+YouTube · NBA
+13 hours ago
+YouTube · NBA
+18:12
+New York Knicks vs Atlanta Hawks Full Game 6 Highlights ...
+YouTube · GAMETIME HIGHLIGHTS
+13 hours ago
+YouTube · GAMETIME HIGHLIGHTS
+9:52
+[Highlights] The final moments of game 6 - Atlanta Hawks vs ...
+Reddit · MrBuckBuck
+13 hours ago
+Reddit · MrBuckBuck
+EXTENDED: #3 KNICKS at #6 HAWKS | FULL GAME 6 ...
+YouTube · NBA
+12 hours ago
+YouTube · NBA
+51:34
+View all
+Web results
+Knicks close out Hawks in historic fashion during Game 6
+
+NBA
+https://www.nba.com › NBA News
+10 hours ago — The Knicks defeat the Hawks, 140-89, to close out the series, 4-2, and advance to the Eastern Conference semifinals. • Download the NBA App. The ...Read more
+Top stories
+Sign in to customize
+NBA
+4 takeaways: Knicks close out Hawks in historic fashion during Game 6
+10 hours ago
+ESPN
+Knicks finish off Hawks with record performance in Game 6
+14 hours ago
+ESPN
+Knicks 140-89 Hawks (Apr 30, 2026) Game Recap
+8 hours ago
+ESPN
+Hawks 109-108 Knicks (Apr 23, 2026) Final Score
+10 hours ago
+More news
+Web results
+Hawks 109-108 Knicks (Apr 23, 2026) Final Score
+
+ESPN
+https://www.espn.com › nba › game › gameId › knicks...
+10 hours ago — McCollum ruins Knicks' night again, leading the Hawks to a 109-108 victory and a 2-1 lead. — CJ McCollum hit a fadeaway jumper with 12.5 seconds ...Read more
+Atlanta Hawks vs New York Knicks Apr 28, 2026 Game ...
+
+NBA
+https://www.nba.com › NBA Games
+8 hours ago — With their second straight lopsided victory, the Knicks positioned themselves to win the series Thursday night in Atlanta. They would have another chance at ...Read more
+KNICKS DOMINATE HAWKS BY 51 POINTS IN GAME 6 ...
+
+Instagram · bleacherreport
+120.2K+ likes · 12 hours ago
+So the Knicks will advance to the second round for the fourth straight year, courtesy of one of the most dominant performances in NBA playoff ...Read more
+Game Recap: Knicks 140, Hawks 89
+
+NBA
+https://www.nba.com · 11 hours ago
+Game Recap: Knicks 140, Hawks 89. Apr 30, 2026. The Knicks defeated the Hawks, 140-89, to win the series, 4-2, and advance to the Eastern Conference ...
+Knicks' 47-point halftime lead vs. Hawks sets record for ...
+
+The New York Times
+https://www.nytimes.com › athletic › 2026/04/30 › knic...
+11 hours ago — The Knicks blitzed the Hawks off the opening tip, racing to an 83-36 halftime lead. The 47-point halftime margin is the largest in NBA playoff ...Read more
+2026 NBA Playoffs | First Round: Knicks vs. Hawks
+
+NBA
+https://www.nba.com › playoffs › east-first-round-3
+2 hours ago — Knicks close out Hawks in historic fashion · Game Recap: Knicks 140, Hawks 89 · Knicks' 47-point halftime lead a playoff record · Knicks nab 3-2 lead behind ...Read more
+Knicks destroyed the Hawks by 51 points! #knicks #hawks ...
+
+Instagram · iamconnorprintz
+10+ likes · 1 hour ago
+2:23
+Knicks blowout the Hawks 140-89 making this their largest win in playoff history and now they advance to the 2nd round in the eastern conference ...
+People also search for
+Nba games playoffs
+Nba playoffs 2026 hawks vs knicks winner today
+Nba playoffs 2026 hawks vs knicks winner stats
+Nba playoffs 2026 hawks vs knicks winner results
+Knicks vs Hawks playoffs 2026
+Knicks vs Atlanta Hawks match player Stats
+Knicks Hawks playoffs schedule
+Knicks vs Hawks game 2
+Page Navigation
+	
+1	
+2
+	
+3
+	
+4
+	
+5
+	
+6
+	
+7
+	
+8
+	
+9
+	
+10
+	
+Next
+Footer Links
+Gunnison County, Colorado - From your IP address
+ - Update location
+HelpSend feedbackPrivacyTerms
+
+User Navigation Payload: None
+
+Current datetime, ISO format:
+```
+2026-05-01T14:48:16.824305
+```

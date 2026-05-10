@@ -1,0 +1,240 @@
+[
+  {
+    "artifact_id": "a_526207684885899406",
+    "artifact_type": "recording",
+    "step_id": "stp_526207564626815114",
+    "saved_path": null,
+    "signed_url": "https://skyvern-artifacts.s3.amazonaws.com/v1/production/o_495455045078639012/tsk_526207535185450422/00_0_stp_526207564626815114/2026-05-08T00%3A34%3A33.272313_a_526207684885899406_recording.webm?AWSAccessKeyId=ASIAWZTLR3KLEA6ZTXQV&Signature=70mPWY%2F4f8lddeHPohS%2BG8mvbfY%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIDlYnDmDABAy%2Bza1WP9PNH4KgjqKpAuoCwMe%2FW%2FVD%2BuKAiEAj4vHKTV3xyXoUongh%2B6rcPJA1mhcTBtv5kCj7wLCsXYqnAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgw0NjczMDMyNTg3NzQiDOt1Hysx%2FI3ocDmxgSrwA65%2FQao0sbksjLZuG71XHW4EyYGc2rMC%2BlIO8fPlOlHsxBVrBeGZmll%2FXwjZgeZR2pkw1%2BhhYe8UYj2%2BCahQHWAN7Wz4F2nx7Bi5rvGfdzDbgVu857VJqjcerEscUsAzNmWoQTWniJ5uxtE6bHQfn%2B603KeV8vZ7yMknW8I860M%2F7r3vw%2BJ4GU1aPFwqrn5TkytX6oeQ4df1qLnXPIXhb1Zgdfu39vrd4o1%2BZaWetwigWAzY%2BGoT22sdzSg7asH2s8YMV%2F1lUQ7aBFAdMVsqVQW2O4OHNkOxFFux%2FZl2e8%2FlFkqjO5LDFjMAb4kv5XKWpw8GnSKJzQJ2jq6TUYohkevH3aRET%2B8qSCIYxFybVg0YM1n8AucoxIWI2MCqjP%2FtIXHMx5i%2FFAKo%2FWp2OHGOBn2dZZAMATrGFRlirMD4p1oPK1%2B30H2LiUz2nlP1fl8zhNecMxECI6e95Eb8NOQItz6f86s37%2BQXID9PerLkIBLT7YJXRkYh1gdMDGsc5uG3LKH%2BFWqDim792kCCHtmKPm0LulWuDz5Zw2PxTZNwAPM2WBE10e6xO%2FMto50FOAjw%2B1P5Jr952BHv5%2BmCNwrEivjrtsvvH4hRKD6ihN4R1r4aiAxy4fWnEtS8XYGq905%2FFzznQmbQWJl1r4YG6%2FlZs6YwptH0zwY6pgHQ4cWBYm2%2Fdk2136LeCDxgr3%2FjYPUHDCPMvgbo%2BoP33PemnPbu0hh9LBnP3Fosb6XpGnsnUcJYD5zoauVoChNXkquG2ptvqpvmZpnCsJMqhaPgrRAmnEgghs5aTjD6siqRHCOpziHtmbufgWA1skkKHKqzBomCpFyQ%2FfkLzDZO2h5aEQ9UlaTSGasIRZTcKhmxt3aVt%2BH15%2B6F2kbjW%2BVCCDOKD1IO&Expires=1778286948"
+  },
+  {
+    "artifact_id": "a_526207989828577496",
+    "artifact_type": "step_archive",
+    "step_id": "stp_526207564626815114",
+    "saved_path": null,
+    "signed_url": "https://skyvern-artifacts.s3.amazonaws.com/v1/production/o_495455045078639012/tsk_526207535185450422/00_0_stp_526207564626815114/2026-05-08T00%3A35%3A44.352574_a_526207989828577496_step_archive.zip?AWSAccessKeyId=ASIAWZTLR3KLEA6ZTXQV&Signature=vswUFPpE3KTEAQvTbCaSjYEHiyg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIDlYnDmDABAy%2Bza1WP9PNH4KgjqKpAuoCwMe%2FW%2FVD%2BuKAiEAj4vHKTV3xyXoUongh%2B6rcPJA1mhcTBtv5kCj7wLCsXYqnAQIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgw0NjczMDMyNTg3NzQiDOt1Hysx%2FI3ocDmxgSrwA65%2FQao0sbksjLZuG71XHW4EyYGc2rMC%2BlIO8fPlOlHsxBVrBeGZmll%2FXwjZgeZR2pkw1%2BhhYe8UYj2%2BCahQHWAN7Wz4F2nx7Bi5rvGfdzDbgVu857VJqjcerEscUsAzNmWoQTWniJ5uxtE6bHQfn%2B603KeV8vZ7yMknW8I860M%2F7r3vw%2BJ4GU1aPFwqrn5TkytX6oeQ4df1qLnXPIXhb1Zgdfu39vrd4o1%2BZaWetwigWAzY%2BGoT22sdzSg7asH2s8YMV%2F1lUQ7aBFAdMVsqVQW2O4OHNkOxFFux%2FZl2e8%2FlFkqjO5LDFjMAb4kv5XKWpw8GnSKJzQJ2jq6TUYohkevH3aRET%2B8qSCIYxFybVg0YM1n8AucoxIWI2MCqjP%2FtIXHMx5i%2FFAKo%2FWp2OHGOBn2dZZAMATrGFRlirMD4p1oPK1%2B30H2LiUz2nlP1fl8zhNecMxECI6e95Eb8NOQItz6f86s37%2BQXID9PerLkIBLT7YJXRkYh1gdMDGsc5uG3LKH%2BFWqDim792kCCHtmKPm0LulWuDz5Zw2PxTZNwAPM2WBE10e6xO%2FMto50FOAjw%2B1P5Jr952BHv5%2BmCNwrEivjrtsvvH4hRKD6ihN4R1r4aiAxy4fWnEtS8XYGq905%2FFzznQmbQWJl1r4YG6%2FlZs6YwptH0zwY6pgHQ4cWBYm2%2Fdk2136LeCDxgr3%2FjYPUHDCPMvgbo%2BoP33PemnPbu0hh9LBnP3Fosb6XpGnsnUcJYD5zoauVoChNXkquG2ptvqpvmZpnCsJMqhaPgrRAmnEgghs5aTjD6siqRHCOpziHtmbufgWA1skkKHKqzBomCpFyQ%2FfkLzDZO2h5aEQ9UlaTSGasIRZTcKhmxt3aVt%2BH15%2B6F2kbjW%2BVCCDOKD1IO&Expires=1778286948"
+  },
+  {
+    "artifact_id": "a_526207702065768592",
+    "artifact_type": "html_scrape",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/html_scrape__a_526207702065768592.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207702065768592/content?expiry=1778243748&kid=2026-03-12-v1&sig=8951V3iLuBDzZGY3tEH1khQmnro9BKIc3BTs0bSAPbU&artifact_name=scrape.html&artifact_type=html_scrape"
+  },
+  {
+    "artifact_id": "a_526207702065768594",
+    "artifact_type": "visible_elements_id_css_map",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/visible_elements_id_css_map__a_526207702065768594.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207702065768594/content?expiry=1778243748&kid=2026-03-12-v1&sig=XRRGG2Xvh1yvEj6yh2es2NEj6ExLNX1cNLRUzYz5GmQ&artifact_name=id_css_map.json&artifact_type=visible_elements_id_css_map"
+  },
+  {
+    "artifact_id": "a_526207702065768596",
+    "artifact_type": "visible_elements_id_frame_map",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/visible_elements_id_frame_map__a_526207702065768596.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207702065768596/content?expiry=1778243748&kid=2026-03-12-v1&sig=KXPkGv6KMwqDHYgBJibCwl_hA47bhVj9NUnJAlkaBp0&artifact_name=id_frame_map.json&artifact_type=visible_elements_id_frame_map"
+  },
+  {
+    "artifact_id": "a_526207702065768598",
+    "artifact_type": "visible_elements_tree",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/visible_elements_tree__a_526207702065768598.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207702065768598/content?expiry=1778243748&kid=2026-03-12-v1&sig=xmQFE_RGJtNqdd85GL9avuxcgJatzYIxuOCzZ7e6DwE&artifact_name=element_tree.json&artifact_type=visible_elements_tree"
+  },
+  {
+    "artifact_id": "a_526207702065768600",
+    "artifact_type": "visible_elements_tree_trimmed",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/visible_elements_tree_trimmed__a_526207702065768600.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207702065768600/content?expiry=1778243748&kid=2026-03-12-v1&sig=LW26M699fsgO48phaFsoFqCgUnnw69GjLMNp8NCIYmU&artifact_name=element_tree_trimmed.json&artifact_type=visible_elements_tree_trimmed"
+  },
+  {
+    "artifact_id": "a_526207702065768602",
+    "artifact_type": "visible_elements_tree_in_prompt",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/visible_elements_tree_in_prompt__a_526207702065768602.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207702065768602/content?expiry=1778243748&kid=2026-03-12-v1&sig=6A04TEc_gFlBFP43mQtrmECn85K5J4f-auzXQ5_LVj0&artifact_name=element_tree_in_prompt.txt&artifact_type=visible_elements_tree_in_prompt"
+  },
+  {
+    "artifact_id": "a_526207710655703196",
+    "artifact_type": "screenshot_llm",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/screenshot_llm__a_526207710655703196.png",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207710655703196/content?expiry=1778243748&kid=2026-03-12-v1&sig=bEZgT6uCq4cbQ-Qa-GOpOM7ywl7w7IRsT5BhSbdPLrg&artifact_name=screenshot_llm_0.png&artifact_type=screenshot_llm"
+  },
+  {
+    "artifact_id": "a_526207710655703198",
+    "artifact_type": "screenshot_llm",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/screenshot_llm__a_526207710655703198.png",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207710655703198/content?expiry=1778243748&kid=2026-03-12-v1&sig=EQElmLGFZVFoHLeJJZwAttxqNSL8zTbOwNRmoCL6ekU&artifact_name=screenshot_llm_1.png&artifact_type=screenshot_llm"
+  },
+  {
+    "artifact_id": "a_526207775080212640",
+    "artifact_type": "llm_prompt",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_prompt__a_526207775080212640.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207775080212640/content?expiry=1778243748&kid=2026-03-12-v1&sig=CDfGtWcBaTqeXDuQgWwSxfCRxRpeOF9eiUqEltkMoIk&artifact_name=llm_prompt_0.txt&artifact_type=llm_prompt"
+  },
+  {
+    "artifact_id": "a_526207775080212642",
+    "artifact_type": "llm_request",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_request__a_526207775080212642.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207775080212642/content?expiry=1778243748&kid=2026-03-12-v1&sig=tmpzk5Ngt5VIxUZYX9Alro0UYL3n4SAl3gh-wqlBUa4&artifact_name=llm_request_0.json&artifact_type=llm_request"
+  },
+  {
+    "artifact_id": "a_526207775080212644",
+    "artifact_type": "llm_response",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_response__a_526207775080212644.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207775080212644/content?expiry=1778243748&kid=2026-03-12-v1&sig=jnlIw0B0TFyPoC76FS8f5LkWtIKA3NgNt_NkoF1whuk&artifact_name=llm_response_0.json&artifact_type=llm_response"
+  },
+  {
+    "artifact_id": "a_526207775080212646",
+    "artifact_type": "llm_response_parsed",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_response_parsed__a_526207775080212646.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207775080212646/content?expiry=1778243748&kid=2026-03-12-v1&sig=YJn2kvjtR8Qc9vjN3tB9WJd53viYjQJImZ8N_AaIMr0&artifact_name=llm_response_parsed_0.json&artifact_type=llm_response_parsed"
+  },
+  {
+    "artifact_id": "a_526207800850016426",
+    "artifact_type": "screenshot_action",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/screenshot_action__a_526207800850016426.png",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207800850016426/content?expiry=1778243748&kid=2026-03-12-v1&sig=lg6GjuVMe6b89j8KNtooTUBpQTA2RVUKYPBAhxqbMak&artifact_name=screenshot_action_0.png&artifact_type=screenshot_action"
+  },
+  {
+    "artifact_id": "a_526207800850016428",
+    "artifact_type": "html_action",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/html_action__a_526207800850016428.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207800850016428/content?expiry=1778243748&kid=2026-03-12-v1&sig=iUBjk8jLIb2vjtm9lZ6KcGvkXDqpRkDKeRJA0EAkMM0&artifact_name=html_action_0.html&artifact_type=html_action"
+  },
+  {
+    "artifact_id": "a_526207835209754800",
+    "artifact_type": "screenshot_llm",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/screenshot_llm__a_526207835209754800.png",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207835209754800/content?expiry=1778243748&kid=2026-03-12-v1&sig=4heR9tBeaDshrIL1GgUiiFyYrUWBakLoljRylET31Tw&artifact_name=screenshot_llm_2.png&artifact_type=screenshot_llm"
+  },
+  {
+    "artifact_id": "a_526207835209754802",
+    "artifact_type": "screenshot_llm",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/screenshot_llm__a_526207835209754802.png",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207835209754802/content?expiry=1778243748&kid=2026-03-12-v1&sig=8QSOAJ8oM4AWvJbOdN6rW6G5DdSKuxkMD_NJIegoPJY&artifact_name=screenshot_llm_3.png&artifact_type=screenshot_llm"
+  },
+  {
+    "artifact_id": "a_526207916814133428",
+    "artifact_type": "llm_prompt",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_prompt__a_526207916814133428.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207916814133428/content?expiry=1778243748&kid=2026-03-12-v1&sig=FlVTOlYdcJSM2c8TWeA1mKlnNi0s7don9zXC6f_5FI0&artifact_name=llm_prompt_1.txt&artifact_type=llm_prompt"
+  },
+  {
+    "artifact_id": "a_526207916814133430",
+    "artifact_type": "llm_request",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_request__a_526207916814133430.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207916814133430/content?expiry=1778243748&kid=2026-03-12-v1&sig=w2ej9JCxaKVMKEdhYXJC7AKUNRmn_N6uNhjMGLqzjlc&artifact_name=llm_request_1.json&artifact_type=llm_request"
+  },
+  {
+    "artifact_id": "a_526207916814133432",
+    "artifact_type": "llm_response",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_response__a_526207916814133432.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207916814133432/content?expiry=1778243748&kid=2026-03-12-v1&sig=PSOAlHt-IjzZAQfw-2mvYY7SN59nZxj3hPZQbcqvCWo&artifact_name=llm_response_1.json&artifact_type=llm_response"
+  },
+  {
+    "artifact_id": "a_526207916814133434",
+    "artifact_type": "llm_response_parsed",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_response_parsed__a_526207916814133434.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207916814133434/content?expiry=1778243748&kid=2026-03-12-v1&sig=MMo_VFt-vMf2TeX0MbLgDCv8dDwCnwkXxHJRCbPky1Q&artifact_name=llm_response_parsed_1.json&artifact_type=llm_response_parsed"
+  },
+  {
+    "artifact_id": "a_526207929699035326",
+    "artifact_type": "screenshot_action",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/screenshot_action__a_526207929699035326.png",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207929699035326/content?expiry=1778243748&kid=2026-03-12-v1&sig=_3ons8Y02WI4n20YVNacPm4YB-9K7t_vF93zR9gUu7k&artifact_name=screenshot_action_1.png&artifact_type=screenshot_action"
+  },
+  {
+    "artifact_id": "a_526207929699035328",
+    "artifact_type": "html_action",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/html_action__a_526207929699035328.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207929699035328/content?expiry=1778243748&kid=2026-03-12-v1&sig=W0ri2_ryhFM4KeTCJLvZkhDiOsj8yFinFIMCsni_YME&artifact_name=html_action_1.html&artifact_type=html_action"
+  },
+  {
+    "artifact_id": "a_526207938288969922",
+    "artifact_type": "llm_prompt",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_prompt__a_526207938288969922.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207938288969922/content?expiry=1778243748&kid=2026-03-12-v1&sig=NJlbJFyL3za0McC4sCdGQFTFTLMqOwOkJFgqa4AO248&artifact_name=llm_prompt_2.txt&artifact_type=llm_prompt"
+  },
+  {
+    "artifact_id": "a_526207938288969924",
+    "artifact_type": "llm_request",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_request__a_526207938288969924.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207938288969924/content?expiry=1778243748&kid=2026-03-12-v1&sig=IjInjRWndcxulq6AUGhJG3vd6cmJR_lfics3mPZr4oI&artifact_name=llm_request_2.json&artifact_type=llm_request"
+  },
+  {
+    "artifact_id": "a_526207938288969926",
+    "artifact_type": "llm_response",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_response__a_526207938288969926.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207938288969926/content?expiry=1778243748&kid=2026-03-12-v1&sig=6dDboyqWDmbUJjvo3FNs6NEAYJx7-XU4FWhJKM8a6LA&artifact_name=llm_response_2.json&artifact_type=llm_response"
+  },
+  {
+    "artifact_id": "a_526207938288969928",
+    "artifact_type": "llm_response_parsed",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_response_parsed__a_526207938288969928.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207938288969928/content?expiry=1778243748&kid=2026-03-12-v1&sig=TJDVc32Zzg2KqvZRYaZzJ9iSFSUYaoIZam94y7ImuBE&artifact_name=llm_response_parsed_2.json&artifact_type=llm_response_parsed"
+  },
+  {
+    "artifact_id": "a_526207951173871818",
+    "artifact_type": "screenshot_llm",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/screenshot_llm__a_526207951173871818.png",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207951173871818/content?expiry=1778243748&kid=2026-03-12-v1&sig=Pi00sxA7tCNR-4egHKbaOPobuHs_VQuuHIzI1A37AL4&artifact_name=screenshot_llm_4.png&artifact_type=screenshot_llm"
+  },
+  {
+    "artifact_id": "a_526207951173871820",
+    "artifact_type": "screenshot_llm",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/screenshot_llm__a_526207951173871820.png",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207951173871820/content?expiry=1778243748&kid=2026-03-12-v1&sig=aKr35iPJD-Bnw7rK1p-X4QWS4oSU__WMo1W2JLltJuU&artifact_name=screenshot_llm_5.png&artifact_type=screenshot_llm"
+  },
+  {
+    "artifact_id": "a_526207972648708302",
+    "artifact_type": "llm_prompt",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_prompt__a_526207972648708302.txt",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207972648708302/content?expiry=1778243748&kid=2026-03-12-v1&sig=5a_Td9WhPTdPJaa9jQ1h8fJpFZDK81jy38eiceDj8JE&artifact_name=llm_prompt_3.txt&artifact_type=llm_prompt"
+  },
+  {
+    "artifact_id": "a_526207972648708304",
+    "artifact_type": "llm_request",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_request__a_526207972648708304.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207972648708304/content?expiry=1778243748&kid=2026-03-12-v1&sig=dIx02TIL-7HbhtvxQe4G1OmJzjDWhbVt5DMPqoQZmlA&artifact_name=llm_request_3.json&artifact_type=llm_request"
+  },
+  {
+    "artifact_id": "a_526207972648708306",
+    "artifact_type": "llm_response",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_response__a_526207972648708306.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207972648708306/content?expiry=1778243748&kid=2026-03-12-v1&sig=P_I-hO6iOZC9CtNJV5m9jzKO_Tdhz6ngh1o4cmQUvvM&artifact_name=llm_response_3.json&artifact_type=llm_response"
+  },
+  {
+    "artifact_id": "a_526207972648708308",
+    "artifact_type": "llm_response_parsed",
+    "step_id": "stp_526207564626815114",
+    "saved_path": "skyvern_exports/tsk_526207535185450422/llm_response_parsed__a_526207972648708308.json",
+    "signed_url": "https://api.skyvern.com/v1/artifacts/a_526207972648708308/content?expiry=1778243748&kid=2026-03-12-v1&sig=RCijtDURaK7L0nQoxl2why0190bmmVP34zbxm40GQaw&artifact_name=llm_response_parsed_3.json&artifact_type=llm_response_parsed"
+  }
+]

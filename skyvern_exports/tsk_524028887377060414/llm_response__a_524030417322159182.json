@@ -1,0 +1,52 @@
+{
+  "id": "U3P1abaqL-L02fMP8J_jyAs",
+  "created": 1777693523,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is in the middle of playing the daily Wordle game. Two guesses have been submitted, and a third guess 'BULGE' is currently being entered.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"Complete the current guess 'BULGE' by clicking the letter 'E' and then clicking 'ENTER' to submit the guess. I will then evaluate the feedback and proceed with the next guess based on the results.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I am inputting the fifth letter 'E' to complete the word 'BULGE' in the Wordle grid.\",\n            \"user_detail_query\": \"What is the next letter to be entered in the word guess?\",\n            \"user_detail_answer\": \"E\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAB7\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"The word 'BULGE' is being typed, and only the letter 'E' remains to be entered before submitting.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"After completing the word 'BULGE', I need to submit the guess to get feedback from the game.\",\n            \"user_detail_query\": \"How do I submit the word guess in Wordle?\",\n            \"user_detail_answer\": \"Click the Enter button\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACS\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"Clicking 'ENTER' is the standard way to submit a guess in Wordle once 5 letters are entered.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 1087,
+    "prompt_tokens": 5258,
+    "total_tokens": 6345,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 559,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 528,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1637,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

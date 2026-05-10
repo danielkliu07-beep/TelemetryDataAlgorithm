@@ -1,0 +1,52 @@
+{
+  "id": "AXr1aeOCL9DivNkPxLimiQw",
+  "created": 1777695233,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is on the medical records page. I have analyzed the dates of all records: Flu Shot (2023-10-22), General Checkup (2023-09-15), Blood Test (2023-08-10), and Dental Cleaning (2023-07-05). The 2nd latest record is 'General Checkup' with the date '2023-09-15'.\",\n    \"user_goal_achieved\": true,\n    \"action_plan\": \"I have identified 'General Checkup' as the 2nd latest medical record and extracted its date (2023-09-15). The user goal is satisfied.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"The 2nd latest medical record is 'General Checkup' dated 2023-09-15. Since the goal was to identify it and extract the date, I am completing the task.\",\n            \"user_detail_query\": \"What is the date of the 2nd latest medical record?\",\n            \"user_detail_answer\": \"2023-09-15\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"COMPLETE\",\n            \"id\": null,\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": null,\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a18XOB0tfyxiAMCTafiGExYO1/xxTCMmg0J6wM9INmiLVSQ4sAoi8XU928hTIvqTTK0D2UDb67QR0zWVIHP68H0C8tY3XDHErrmucqRP0e58ykzLo/hjNG12L4YCWd5j1lzCPUU7bP6ZXOZzfervrrTLj25Up8Uu1i+fFhdxeYidid90/og0Rjw2JTcMdJnVzajFrQw2eG7JZ/Bd3tJd0IRuQoeKd0aqeTmVNYxKSdcRsujJ5uQ13Ofdi9PBkNpeBm/tMxWcYgpQcAJzYM6tcMgmybuXfsNionlyimPAKzEbZXBVvaJsN6MOrNBrUAFu0tH40SHekmvox/ZteI2aqaMsAEBaUmBK9ZbCTq5/yLDl3o/KvKUMWg8I7A42VijF5q/5qkh6EnGnPx0428JDwvLt4B7g9HPzp1sNJSXUM0ZTU/TxaUFMJqqQcHZ/iINNCsReENJoW2rBTHc0SfNAKo2SI31V9lnrTf9z4OzWniH2T/sEapTtHluJ1W2W7UaK80CY7zPu6Z1wQaIUtKagEo7gJD/iX7JdNmsivoYxckhSQyuI/CvcmBkPXkBkfOnaL7gFtB6fwmY9IcAQm5cMAx8p/S/91IePHYmE25E5V30kSWQeE2+P8NM21z7vCFcrGvawHIXeLznUlzOEtKuu2tQl+e5PH74pnMs3diFXWs6+scS8k9ZWrzEwZBPYuS/kyneX6QRCgnIuB0thNp/BHKMwdnH7g5Wp/o8elIo0lC0tjOG/ioppkrJWIQ1o9gZ3fEycU3NGfqMnQGG85pUxMF9kQU3lodHH4tjpzZN51dkZpjjsHhbPu1YcROI4Gq4CRpRI0U/7Ulsvp8u6GdPUvbKMOxdszOUx+Swki9kx/THuXiXbXLFMK1tVRlSwvDbRyXA7YyY6PCskqb3tM10f63ye+FKrISF1VJb4ftDFX7FHYvgKSKjiRWEFK4hxoST6BUsGRrgi7WwAptijM5TDuVyNjqtW9sYrlZWiUf25djUCx8hYj5aKkwdgcSIrRp7P9EXx0JJ4+cjPnVOTLF5z4wRjOiauOOFzizJ78JNEfhlyywT2mQHctK76wn9na6GqJXknPV2eIg7jN3siMBOv4eWdk0K4gKBfiRe40kaJZ8xpZ+Euy1hMPbNrNHKIoKRopxN0Xb1sXnLi5lDBJDlAqqMhr/31sGC5l47mvjIImz9qxZTjfbdbECtIDCV+kY88W6OIV2Cr2cDBoWEss/l41eHGhvuXd4vXSA6aruY6/19T+pSBncYVOLzNbO58qqDWlB+scVJnWzMyJqeqARXmjbJMfESBi24cLoaPU7WqaPqB2itHe9/yYdwJLSmUE3zEYOe4t0vsVAmsmTDojL3Vxo066PsC5BoGcy6FrawL/LR/FXuiSFw3JSpujZZz87uUMhcDfDa17ddEfkftWF6+qhNYFly7sbXaWng4+gZbr6oGHhEDpOytBNQtuXfobzWpbemYJvGJvzJE7JqVAsaYCy34rNf1Plp4e3HCl+sRayPJ9u8AXuGRQOZ5wU/29rNr2wQJopLKXuZ2Gsn1vF5mC1SWZ14gZcwGapudMElfvKZDmOtttrhc5eVV+HiozIncDJER87K0IFCcJ+M0WWwENRmyxCsTTHDPorQXYI0NCDWDycgoucNVMFy2YPviPbh+0umxy5J+mNk/SZ+ig6arVS3MZw1dV00="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 801,
+    "prompt_tokens": 5855,
+    "total_tokens": 6656,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 419,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 382,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1134,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

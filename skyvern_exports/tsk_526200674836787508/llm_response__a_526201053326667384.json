@@ -1,0 +1,52 @@
+{
+  "id": "gCn9ae-8GYDjtfAPhO3loQY",
+  "created": 1778198912,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently on the main news page. To add a personalized news topic, the user needs to navigate to the personalized news section as indicated by the 'Go To Personalized News' button.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will click on the 'Go To Personalized News' button to navigate to the page where personalized news topics can be managed. Once there, I will look for the input field to add 'Healthcare Advances in 2024'.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"The user goal is to add a personalized news topic. The button 'Go To Personalized News' (id: AAEN) likely leads to the page where this action can be performed.\",\n            \"user_detail_query\": \"What is the intention behind clicking 'Go To Personalized News'?\",\n            \"user_detail_answer\": \"To navigate to the personalized news management page to add a new topic.\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAEN\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"I decided to click this button because it is the most direct path to the personalized news management section, which is required by the user goal.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/VXCoCXWDD6xxu7n4KLuvp6XeHdM2duUhiSSLYkScT2HilXewzKIWykfN9fEoW7L1Q69YZvMcgBZ2ubo2E5Jgegsm3rhLGi5qamckWQjntldFZ0GopTK+D+MUW6akiQmM03RwWwj9PCitVA3FDON8vpGFnv3SUJMrYLmqbwi/156eGLk9kVHNpreHh/yqz5FaEz4zT2rJJ/MFugAlUbeo9nQXZ+E6p01pZsON7uwAOfj8MG7HwOAK8EIKiLEzk1gXEZbN8PF0PXtZCBOAWwjDMMbAHGQHqggq5DRPd3UxzjUiGGDJ/mdPd+hoTt3nhxGb9sLn2Bgiw6qfwtCsA/CFDW4x6dnuSQ8wi/4y7YPoH8aOMuT45uUNcRyJW+PFHnscN6OwJriF21f09Bvdv7OpoMR0i0iz1uc0DXS/1gAR5blZK0wspyzndHSiYhoBafSwyzk9DzoqMPxsq+zks3oNDDtrXQlT1k8fTqZ1SFTUhrnlt/GOlQGQMZXcNDlz0NXJLBOcdbxPSIyE6FqUGW/yQk/uREFqfJRXBn+ISWKYuBec0pQj6a6f24SCjnxX5kdH0A6eVBTODpbCINMIyCj16ihUNXd+qlwZp36uiB4F2maPMQrJdB5hV+2Fu16hL/EGT7o2UW0mlzBZsyBZCov98EKDt8nHGdpaUA/yXGpRk7K3o+vcmnqMm+g2bnaWIZ3MHL9a+OyWlmzXUNkN2vTACT/A7NZbku3n44v+bijTw5xSjCN6ZwEqF92anCg6dhZpioSDdM9VQR/xjh9S1r4kTAhLa1StXUPpr6qndX8ojU7h03NeGM243xrTHIV0k9F5VVD9n9V4ndLeWjQbh6N2Y3JilTMHdqtYRsxBALbL1JqwNWAMIu0F0OkA+uOzYISWg3M6wqS9haVp8CA=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 533,
+    "prompt_tokens": 10722,
+    "total_tokens": 11255,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 162,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 371,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 6001,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

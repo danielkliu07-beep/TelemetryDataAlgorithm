@@ -1,0 +1,52 @@
+{
+  "id": "B3P1aYiTKrjBtfAP5ua9oAw",
+  "created": 1777693447,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is in the middle of a Wordle game. Two guesses have been made, and the third guess is being entered. The first letter 'B' of the third guess has been entered.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"The goal is to complete the Wordle game. Based on previous guesses (CRANE, STYLE), I've determined that 'E' is the last letter and 'L' is in the word but not in the 4th position. My next guess is 'BULGE'. I have already entered 'B'. I will now enter the remaining letters 'U', 'L', 'G', 'E' and then press enter to submit the guess.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I am inputting the second letter 'u' for the word 'BULGE' as part of the strategy to solve the Wordle puzzle.\",\n            \"user_detail_query\": \"What is the next letter to input for the current Wordle guess?\",\n            \"user_detail_answer\": \"u\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACB\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"This is a letter on the virtual keyboard used to build a word for the game. Selecting this letter is a choice among many available letters to form a word based on the user's strategy.\",\n                \"single_option_click\": false\n            },\n            \"option\": null,\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a18HXxqnjrx71tFViNd42zE0xBxjP0eMAyASXl/CMknuy8LuxLqKO6WSV/dTK3YVwAb0RnTDA650JWB1urxXfJtjXHvph8sNd6OoxXVXrajQQnQJgKGCm2XROIMFJZnyFUBIkQYt5lFAIl87/m94gQQ8OcMwSsu5zsnV0qcfUE5HNnSYT9i4B/OqTu1UWUeaWu2FD7Jeqk3uW52G3VZ+Kl4ZIdPOkGt5pbPrKRNqVWqXvXviQBMiEulRWGWiRzWzxGGgxrtpHn+Km44T6nujoNCz9SwlZewgwCIUPv0XNcWEKxEX/h8Cvh7qK3sqIrCsovwgHfyWbQrv3lPGH03rG6XeCSMwhiQoKz0bbSRYvD7qryu9ihg0ugsDU0onngSVLHqcgvCXpBEkOcA7NrpIAF7mcV5pWtMRi6QNySHV8W2yl/XuuXyFSbIWW+iY6IQwH1kElRTmo3+7nk/2yUgJhDZnSSth3H8qoqThulIVZzWl/npjAUEqU/pMZUIkrGttIhCCvvW3xSUe1ZuNpeMZu0AngN0DKjljgVZStUrjvW0o0+9OhVmVWRMRW1z6oGsyEHpJqk2Ujin3oMew3chyR7/4oXPNuUr4ajHIFyXBBh/7hCURCIfcNvHQUva8QCd1rlPgxsbrVm2RW37d61Nho1ZMokXMSPtrQ9lEtjrcKLp4edMpO7zNB4hvjYLcI5mvghEuM8EKrTDsDRlcPR7n31KlpyXgVUDwohyrovYXCYM7xStNUK4ik5f0eCcaeZ99MUf9WTjB6SASVE5UrF6xq64LNZMsaDGnTwhToc1lz6mGs+JWUGcuHvJKWGW6dtZQoUF7dQX3Jc2D6ha4Y5+9QKDgxUZknPzRbNRRxmaKvnTxyNFwAtjVPllVaL/w4ELOvsvuIMvhXZAS8nTqKiNFGgvjpV5vFH+czRHEcsf+DjPqPnvtuUMSCeG+pDRgRbkB7b9V155Bgi1lMrptW5GAT/3CTRkfzVXTgP7WzrBs8hbeQl/KJzfZcgZjDmDw5wo7T6lE/FGOknPP6J7rDdLZ5OTPxazZQJmdebS9tWtvTNeZHtG9Rn3dIJXjS4xd6C8Iw7ljR5JiXvfevfSzO+BFmk6zWGXeL8g+sGvnQI+5+CbbgIdCZe/ytDVTxYyC41qlurjlLiJJ/43a8ljLCStlPZb1E8/R5Qt4TVYtGSb6NcsVgrbXKj9QIcOzLyKbg62GpbO9f01bJx06RcA8I7bd40xJWFdf25hGInfyP8mPx/oMKuejO8kuBfEmv8iq7FbCG77hpOSyY4OrcjlRJEHGATnmeltM9ZeSLLQqAib77OCDuA2UHDyt3ffOHO6lc9eJ/cWL4ZBY7y03ICxHBs3qFhTzVpzjtYYsn389qtmCjV2jXll3csVUxapFz5IxqiMZ+BcskeitAnU5ee6+4PTOnN1Dl5eV5i/CwpqlagxaEMUAdunySlnmFY4OU/IElK2L8ZNp0oPS"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 793,
+    "prompt_tokens": 5212,
+    "total_tokens": 6005,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 385,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 408,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1591,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

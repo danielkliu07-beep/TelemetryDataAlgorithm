@@ -1,0 +1,52 @@
+{
+  "id": "vS_9aZPTA7mtz_IP3c-IiA4",
+  "created": 1778200508,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page is the 'Lab Results' section of a health portal. It displays a list of medical records including a 'Pregnancy Test' dated October 1, 2023, a 'Blood Test' dated September 15, 2023, and an 'X-Ray' dated August 20, 2023. Each entry has an associated 'Download' button.\",\n  \"thoughts\": \"The user's goal is to locate the most recent medical record for a blood test. On the page, I can clearly see a 'Blood Test' record dated September 15, 2023, 15:30. This is the only blood test shown, making it the 'last' or most recent one available on this page. Since the goal is defined as complete once the record has been located, and it is currently visible on the screen, the goal is achieved.\",\n  \"user_goal_achieved\": true\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+ly9XNHVAJ6R2J4oVgewZ8TIZofWwtbvZyPS5yedu2Zybjm4c4EdJ5Bbigdc1HjZugjIt3OPIwa1Q2ZoOF9Lq3d1JimsvdHh5aXUImyJyt+iKWHHP7y82jrAZqZxtqDK4B8miix8nVg+ih8K3YrDFyP8IKYolCweNhnjQT+fULlfLM7v8pJzHIdF55Ann4ARnV8t4ijyLQFUO52O+qJuJ1LJOShNp/wgrYB1eE7w63DFySjmq1eFOM5maYTcsUrPG2hSNx79/uiwGPBdCLmDs71P3QfB0DLXcw4484hDnNXp/eZDX1vuqCTVSUdOKrGUxhu1g2jCU2F8CQbaVKxgERdCTKWUzSOapbs8MJ6BA9+TJ/zP8fEscy4JVjnfMLXA+zTEKJjP5jViR3lz//S0+Qdv6CZGTOAPxfrh3QEWpN2WEA7hg+cx303t+RQ++IoidsppQA/tkUDUP8TYbVU2o6lv2iARtNIhSOpjxnnZ8lTSJ9R3X7SQww1CQ0hxk1gUSZwPyvFGH91akGCqbFy/ZnE/xP1Kcveg5f8McjiwCmEIaVVVRwh/nOpSBttj8dQ87ekYczvpL8J+tJi/WqNAtUG9R8+Nuz754HsGe8p56tjZZ2t1vExmqxCehwEzPBvzJ0r6c7nj/Bj4MTvvlBtDXLnBFglg6gsl893vX++HlpC5TargVMd0BablTzNidJrhLJFZTX8uZ8qhMVskrtuT0DkcFM19IH7iiVC5kUxyzWfTlyRLoindtcuhbH4+IvQyS5KKHzais5z8spbMJlapyKkTUgkkE7bG0os7T3CIRbt/Tp4NdrigokVG4o5i3JZs8JO7WAIP3834IjmbjXWTO1WmOfsYwIK7cQuIENIOHD1wZ3BE5708x4QYShaP664YVVX8/hpaCpkcqQGOPfRXWf259ddShrFL0Af9i3j5BZa+EKgq0PlPDg1jAXeXyv7OTZEhb8u36vjAYS865tB12uakED3I0MbSuhi9Fh/AU8aENDaxhOETF2XhzIbFVw0w050EBmCxFc7ScKVZEZtudaNoGbpxqnUArr8XgHrL3lt0hE1dfbuiE78vxt9SfAVlygBS8Sojvp0RAg/EsxA2sojaHIZuR9gpa2YLCB7JzJ1OgCiD07CJu3otZDWgmKqM2aKFiqWUH5ZEGdHCuokdevRqxZ9HiBbs/XhVxwfvVOr5Eyznk4t49zMbzqb6e3tMkBqwvdA56peeW/Oy4cb3On2Uq9y+YflCLQwuEzbceOH7373o6NuKfVQFJychfRbm1kvKNOeHxQRx4Tm2QRAYkNH6CBLueq/JqeuqMA9LjphbgldHyQx2AgeIV67E5Y91f5s+kw68BjVgFdT9gfEPK91gaFE5eQqi+EbjPBsBKpThf6hOTF6UHuzTkn8NddiK9UUbaKYVWJvh8UC6I0IatVoy+7TcvNGWxqJ7iVs9MJCKLihZ5jQujebdF0KY/JqhPS8wsy2wMR3WTyigSOkcXu7yWYlfGWYXTyUAHCgoiIYAVGW6MD27U6ZJrk9VBbV/ujKRzTZdZ7uuwTCZCo347glF/CCXLvovUL2jJ0SdLI9KOP13P4350hwt1I0q9qHQhMB5Igd9Ww3RHYcxjaWmYjldIFoYl/8h2ZgA=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 581,
+    "prompt_tokens": 3195,
+    "total_tokens": 3776,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 360,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 221,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 995,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

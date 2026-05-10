@@ -1,0 +1,52 @@
+{
+  "id": "-nb1aY6zH63ltfAPrOXC-As",
+  "created": 1777694458,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently playing the daily Juxtastat game. Two questions have been answered, as indicated by the progress bar. To complete the daily game, the user needs to answer the remaining questions.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"The goal is to complete the Juxtastat game. I will continue answering the questions by selecting one of the two options provided until the game is finished. In this step, I will select 'CA-45 (2023), USA' as the answer to the current question.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I need to choose one of the two geographical regions to answer the current Juxtastat question and progress through the game.\",\n            \"user_detail_query\": \"Which geographical region do you think has a higher % of people who are renters?\",\n            \"user_detail_answer\": \"CA-45 (2023), USA\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAAz\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"The user needs to select one of the two available options to proceed with the game. This is a choice between two elements.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a18r18A9HXK0vEUmi1t+YNpt77hQDMI3DZJW8reo+HDWRjKIuscvFYkgP3vDaLDlp5n/aNK2oKgUlYQOLFuV/9L3e2AwZM1W0xz+RGwn3Tv5iEA0dcVchZ3vlX14i6YHZDSfGk4myRdwnjO3IQuXs/yL9wLa41Z8C1rZk3Eoi5Fx21W3Ba4dnZFDKKlop/D2BCeytedJrt2H3egw/2N/AsFEJD6SplecHXE7sIb4oXJanLjWpGwCK+I2dm/hKwzhSJn/VRxyKi/TVOQlfQgBa1NpxARXrjKp6mp31pNJMck6lvxJSPVB1wfz1c8xaetN+FrZyBTARws9Gia69JlH85g4tPvMLsMMcT9CLWZFycuo0/NwnDCLYRLKRdJLoQHVTbXKGRSLi8HPsV2j3P0DofiLnlTewBXlYWNC0YXcEDKQdT/QXEl1tMWrTXzNgZyFH3naa9JqJ2/mJlaBw7ryRpvHGI3FMUrLMY4ZeQK4CzN4uitse6Mrf/B0yeX+eOGRVB0/FKr1j5ciC7gcQJM6msnenFq09qyB+Tu3uVK53nEOfMGSehMMXEC+wbagFQTOq7hj6q8vERwz4+lfPYEk0WYjusIqLaZaP1BMI8DhW6N1nH8SReZQmsmspk46KNPp0RjAO9i0+Rsuc2/DWqJugxAEFhW6QT81fbZxbQJtrqyhp5PcfCeHcnTpo1bAJ7oRMz0FcU3xX1MIZFamPgduFU8QpZyMhGvvDySn6PXTeBiN8CXpkcAKOXEwdlSSYEUM0I8BUgnQxKz4SowdMYbm2JskfmJwF7QQqFhVs8KL9YTS0Qhb9DLLY2JVf/MBbDVrABc3Dg879E1PViT+uwbqLNKJHXssIorMZYsDJB+a3PKgOYkioHQQPG0jownoUGK7hHQzHuMWSpoF/jxAuM0aZMKeJ0e4RkmMZZwBCsfPOrnvlH15rBUg9m4DfU/UlkgiANaj1cvV/wNU+VaEa7e329DnULqub5HzGDL0ROsuXJzEfObJw8K9LXJq8SPZDAjmN+AzvP0xqqxaGKA5Ba/6WZmS7NXd4AGpmZH2vFjfD7GiJX7THP1PzeQKVOg3m88JJtKg+zkI/M1lYXINtJhqM8N0El7CS/f2Y0J7AR7hkItIGaKkyCZ9o+MToxBrd2LX/8OcloPH94RS2Lr8kzR+VBxEhCFmGB+Bd5FzbxLSc/59R7Cb0YrX2s0awumG4aR3gNBFoqI5rBjR5MGQTohgEVDdqUfezy8a"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 626,
+    "prompt_tokens": 4901,
+    "total_tokens": 5527,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 255,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 371,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1280,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

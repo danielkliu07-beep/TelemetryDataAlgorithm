@@ -1,0 +1,52 @@
+{
+  "id": "BnP1aZ-cAdDivNkPxLimiQw",
+  "created": 1777693445,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays the NYT Wordle game. Two guesses have been entered: 'CRANE' and 'STYLE'. On the third row, the letter 'B' has been typed but the word is incomplete. The keyboard shows the status of several letters (E is correct, L is present, several others are absent).\",\n  \"thoughts\": \"The user goal is to complete the game until it is won or lost. Currently, only two guesses have been made, and the third guess is in progress (only the letter 'B' is entered). There is no end-of-game message such as 'You won!' or 'You lost!', and there are several rows remaining for more guesses. Therefore, the goal is not yet achieved.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/4gFkO1jkkWDTmh7Z2Iv+VYG8/xpBOYRRXMo0s+dlaLtU3IxswMhw9FsDGhb7M+w5XhrL4rvlV3Kdg6qo5q+7gmCByuTL+Bq1+1OeWM4A2A2mY90XkBmKN9z2pf20vMHH7KlcvukefgQcVNH5YPcH3dLad55JuuHci9D376bc+698SN4tc45goPaVV4WhkizeuueGOMFfe4V2T6uM1dln0j6u5HBQu9cOanP1ukmfyenm68PT6Y33YjGSe54u7bJynC/iz6Z8YqJ1Q+gRPORxZZt+SsTe72Toe2rDndr//+mIWgFDX2JdbPu3qOM1LKIDF33PK8eSw8XnXjIeLKHXnvgKwu//R2HceJPii4Lj2vZ7R+1ZWc9WfiZkvaMy7VGMq0e6ddUtwQJ/Ekd9TpmjZBVQj5auuGzGcU/RncXLLAWKzJ1gLZh+qDTEXQFf/xFlL1y2MzdjLaEGsaiZtQgKnthRFQNclioPTd/EOuVoHUEHmOD6yMMUjNh7q+OkCgKpihGJT/ZplMem5xBwn295bddsnwPArsaUtKe8KzBH3mwcxKC1xclNgTNoLA5YKXcPHUZV4Zh/egcsL274DlA4M1K+Br7uXstwiS58rDNmQtfWdFeIX9GtI1DF+2Qptry380BpLMN/zS+Abprb8TXeKkfKuIImD4KlDFcC+Uy79zCiR2X6sg6/ZWVOCMNoz3U78S/QW6txyAfvwUbyx0Cldt3rdq/rx+GsA8ZUJjygwJ7qnPmJAuL14rUAISdrT/0HNZz0cbgd2jFIlIcgenm1t5qlxjxb9jPQdk98oXGB1COZuCE/kYFtqAqpFlNRrvRKejSVZMbwtk0e8CNbWWIW5Jjizw8RlSHdc8mfG+2qb746uCTQeCXv1QZ98RAnbnP5LbRNFGEyDF9VtHZzlAhpqMzF32PS4f+Qj83loSjZ4ycQmolckB7mBVYZAmAY="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 374,
+    "prompt_tokens": 2741,
+    "total_tokens": 3115,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 195,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 179,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1641,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

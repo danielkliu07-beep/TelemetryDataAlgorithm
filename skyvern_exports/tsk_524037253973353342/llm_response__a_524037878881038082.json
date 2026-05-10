@@ -1,0 +1,52 @@
+{
+  "id": "JHr1acLdFYzCtfAPhbmA4Ao",
+  "created": 1777695268,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays 'My Medical Records' with a list of four entries: General Checkup (2023-09-15), Blood Test (2023-08-10), Dental Cleaning (2023-07-05), and Flu Shot (2023-10-22). The navigation menu indicates the user is in the Medical Records section.\",\n  \"thoughts\": \"I have navigated to the medical records section as required. Based on the dates provided for each record: 1. Flu Shot (2023-10-22) is the latest. 2. General Checkup (2023-09-15) is the 2nd latest. 3. Blood Test (2023-08-10) is the 3rd latest. 4. Dental Cleaning (2023-07-05) is the 4th latest. The 2nd latest medical record is the General Checkup. Since I have successfully navigated to the section and identified the record, the goal is complete.\",\n  \"user_goal_achieved\": true\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 982,
+    "prompt_tokens": 3345,
+    "total_tokens": 4327,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 718,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 264,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1145,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

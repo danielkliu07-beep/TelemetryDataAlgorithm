@@ -1,0 +1,27 @@
+{
+  "user_goal_stage": "The user is in the middle of a Wordle game. Two guesses have been made, and the third guess is being entered. The first letter 'B' of the third guess has been entered.",
+  "user_goal_achieved": false,
+  "action_plan": "The goal is to complete the Wordle game. Based on previous guesses (CRANE, STYLE), I've determined that 'E' is the last letter and 'L' is in the word but not in the 4th position. My next guess is 'BULGE'. I have already entered 'B'. I will now enter the remaining letters 'U', 'L', 'G', 'E' and then press enter to submit the guess.",
+  "actions": [
+    {
+      "reasoning": "I am inputting the second letter 'u' for the word 'BULGE' as part of the strategy to solve the Wordle puzzle.",
+      "user_detail_query": "What is the next letter to input for the current Wordle guess?",
+      "user_detail_answer": "u",
+      "confidence_float": 1.0,
+      "action_type": "CLICK",
+      "id": "AACB",
+      "captcha_type": null,
+      "text": null,
+      "key": null,
+      "direction": null,
+      "file_url": null,
+      "download": false,
+      "click_context": {
+        "thought": "This is a letter on the virtual keyboard used to build a word for the game. Selecting this letter is a choice among many available letters to form a word based on the user's strategy.",
+        "single_option_click": false
+      },
+      "option": null,
+      "context": null
+    }
+  ]
+}

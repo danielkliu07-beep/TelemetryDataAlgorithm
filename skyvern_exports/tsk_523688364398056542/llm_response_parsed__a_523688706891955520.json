@@ -1,0 +1,96 @@
+{
+  "pricing_plans": [
+    {
+      "name": "Free",
+      "price": "0",
+      "price_unit": "/ month",
+      "features": [
+        "1 GB data",
+        "no overage",
+        "1,000 Signals steps processing",
+        "no overage",
+        "15 day retention",
+        "1 project",
+        "1 seat",
+        "Community support"
+      ],
+      "call_to_action_link": "/projects"
+    },
+    {
+      "name": "Hobby",
+      "price": "30",
+      "price_unit": "/ month",
+      "features": [
+        "3 GB data included",
+        "then $2 / GB",
+        "5,000 Signals steps processing included",
+        "then $0.0075 / Signals step",
+        "30 day retention",
+        "Unlimited projects",
+        "Unlimited seats",
+        "Email support"
+      ],
+      "call_to_action_link": "/projects"
+    },
+    {
+      "name": "Pro",
+      "price": "150",
+      "price_unit": "/ month",
+      "features": [
+        "10 GB data included",
+        "then $1.50 / GB",
+        "50,000 Signals steps processing included",
+        "then $0.005 / Signals step",
+        "90 day retention",
+        "Unlimited projects",
+        "Unlimited seats",
+        "Slack support"
+      ],
+      "call_to_action_link": "/projects"
+    },
+    {
+      "name": "Enterprise",
+      "price": "Custom",
+      "price_unit": null,
+      "features": [
+        "Custom limits",
+        "On-premise",
+        "Unlimited projects",
+        "Unlimited seats",
+        "Dedicated support"
+      ],
+      "call_to_action_link": "mailto:founders@lmnr.ai?subject=Enterprise%20Inquiry"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How is data usage calculated?",
+      "answer": null
+    },
+    {
+      "question": "What is a Signals step?",
+      "answer": null
+    },
+    {
+      "question": "When are Signals steps consumed?",
+      "answer": null
+    },
+    {
+      "question": "What happens if I exceed my plan's included usage?",
+      "answer": null
+    }
+  ],
+  "calculator": {
+    "tokens_per_month": "100M",
+    "tokens_gb_equivalent": "0.3 GB",
+    "signals_steps_per_month": "1,000",
+    "plan_summary": {
+      "name": "Free",
+      "base_cost": "$0.00",
+      "included_usage": "1 GB + 1,000 Signals steps included",
+      "data_usage": "Included",
+      "signals_steps_processed": "Included",
+      "total_cost": "$0.00/mo"
+    }
+  }
+}

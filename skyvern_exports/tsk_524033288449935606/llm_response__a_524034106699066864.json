@@ -1,0 +1,48 @@
+{
+  "id": "unb1aeW1FLjBtfAP5ua9oAw",
+  "created": 1777694394,
+  "model": "gemini-2.5-flash-lite",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n    \"reasoning\": \"The screenshot displays a map interface with geographical labels and a full-screen icon. There are no visible options, calendar views, input fields for quantities, or placeholder text that would indicate an open dropdown menu or a date picker. Therefore, it does not meet the criteria for an open dropdown menu.\",\n    \"is_opened_dropdown_menu\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": null
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 562,
+    "prompt_tokens": 1568,
+    "total_tokens": 2130,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 476,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 86,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 278,
+      "image_tokens": 1290,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

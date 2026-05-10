@@ -1,0 +1,48 @@
+{
+  "id": "AoT1adyFK-PPmLAP7vHooQo",
+  "created": 1777697794,
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page displays a premium membership popup. It offers options like 'Continue Free-Trial' and 'I don't want benefits'. There are also navigation links for 'Home' and 'Shopping Cart', and a 'Scratchpad' element. No product information, specifically 'Oral-B Precision Clean Toothbrush', is visible on the page. There is no indication that any item has been added to the shopping cart.\",\n  \"thoughts\": \"The user's goal is to find 'Oral-B Precision Toothbrush' and add it to the cart. The current page content is dominated by a 'Premium Membership!' popup. There are no elements suggesting that the 'Oral-B Precision Clean Toothbrush' has been found or added to the cart. The product itself is not listed on this page, nor is there any confirmation message about an item being added to a cart. Therefore, the goal has not been completed.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": null
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 399,
+    "prompt_tokens": 711,
+    "total_tokens": 1110,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 184,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 215,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 711,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

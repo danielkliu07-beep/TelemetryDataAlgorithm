@@ -1,0 +1,52 @@
+{
+  "id": "rXP1aYu3NrnitfAPqKq0uQo",
+  "created": 1777693613,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays a Wordle game in progress. Four guesses have been entered: 'CRANE', 'STYLE', 'BULGE', and 'LOUIE'. The grid shows two more empty rows for additional guesses. The keyboard at the bottom indicates which letters have been used and their correctness. No end-game message or statistics modal is currently visible.\",\n  \"thoughts\": \"The user goal is to complete the daily Wordle game until it is won or lost and the final result is displayed. Currently, only four out of six possible guesses have been made. There are two empty rows remaining on the board, and no final success or failure message (e.g., 'You won!', 'You lost!', or the final answer reveal) is displayed on the screen. Therefore, the game has not concluded.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/7id2Hu0atEV2FmKWQd3B3EwvKw9uL9jVjuJrdyczS0xKYK+Ealv5YQC/4mmag7TrJ8BJ5/Ej/+xs7B3GGlhWGY4YdnSYfSQsiba/5cCdWkf+b6oMGycFzhNMCLboR7K68uCk5R4x8/QHK0MgbGagKqCSP2Th+AlyVWJPw+b8+vMRuFFL+PUrF/cnPeP4Ym6x4VbKP86aev8cjYfU0Bj3CpTmGbJiuNqjza5ItYOgh+TLpFiKlG3j3+G0dj4cc9doxFYXFmo8hdaX/RCIOrypi0A2Wv/bHj146pdl5LKn26bh8ha9aOIXmH1sL6liwYbwy7O7R2XlRtLdbrKyuJiBDqXyWSg/7Pit3n42WJB6Dod/rtOVAtmJA992E22hAn75w3SdIOpmf3doCRomAZ3JYBkWM0dgu01ZvhZHy+j99CtOW++ZjML3OoyEnx825iR8CAFKlOspqP7V6OP+SvtPjWuNFwvNfYMyWCZHuGyuiEi/4CVAjn1mtJ3AjtwgukYkyW9+0QulHJCYuRIZi/VJxNW3VIcSM0YANA+K1IZXnXLGE9IcfL+3u0tYTG8HLRpXkOCBB4u58pYABHbEScW1Y08ShqLd7BN9P27rWJ4tIY5X9CRhewxayu+Rqdl8+wOdSC6PAOsSfUNB/BQ8GvFQusdtnaPEuA0Bx8yKVh7WuVoW27R9kysvs/Eijby1fPlO0xQzc6Yf86I7ImpAGjXnTZpY83sYMhCAZgbrdAy/hFQmrjpj4XytDqQyPVxYyLYRcP/YGSeKUVZGKVqvH/mnwF4zYEettv5Px9m9DpDiSbl98qVpTfZt78+H2c4kh5YzeJk9jkVQ+LaJ02WN3uyLk/Ny4WjN2HnoNxdEjILRlXhuS31amiEohwY5FW2DST6oiEubiBnpiRC1N6BoFcM3pJTIUQ44BWSFCCa2vvmlvMIUqTUmuKTF1iE9IW5VDbNerNopm3KTSQhmYi6AWiHIylxXv2OGPlEWHyrON+QiEWEQoxH9KhH/qXZEXzgTV/q2V5kRKoWLwh/zr82q0ojUIxdzkKVim8wPS48dCLcNPuVkwtIB5Pf7bjYkyKQxqeDIPRjtQkzSE3+CXXAIKnu1d4217GVFXrSlGQZUuizMkrvB5LiCShESMoV7kJXQvsiaFVDjMHGUjZ0J5XLTPqF3znrCIZ3zbSttjXQ6VfCUDLXf4ImY5Q+p1HzX/qSX8x1G1ATXyQHycjp6r9aeApAd3V/iAnk5R0iJQjSu5Yq1QJlZcun1AaalM6p+ufkyS2+OUX9OoYYBHMlQDqOua68PTPUubjhZR7bx7yjf+GlV+oYiD67xy1ODMD/n0VtzkIwmx5jDquiEZukL5RoTYz/G8haZ84/EcrCCs"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 464,
+    "prompt_tokens": 2896,
+    "total_tokens": 3360,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 273,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 191,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1796,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

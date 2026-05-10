@@ -1,0 +1,48 @@
+{
+  "id": "L3r1aeCKM-L02fMP8J_jyAs",
+  "created": 1777695279,
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n    \"summary\": \"I will extract the date associated with the second most recent medical record identified on the page.\"\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": null
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 236,
+    "prompt_tokens": 152,
+    "total_tokens": 388,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 204,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 32,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 152,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

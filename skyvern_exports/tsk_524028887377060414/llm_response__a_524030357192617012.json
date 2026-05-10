@@ -1,0 +1,52 @@
+{
+  "id": "UXP1afObNq3ltfAPrOXC-As",
+  "created": 1777693521,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays a Wordle game in progress. Two guesses ('CRANE' and 'STYLE') have been submitted. A third guess, 'BULG', is currently being typed but not yet submitted. There are six rows total, and only two are finished.\",\n  \"thoughts\": \"The user goal is to complete the game by either winning or losing. Currently, only two guesses have been made, and the third is partially entered. The game board shows many empty rows, and no victory or defeat message ('You won!' or 'You lost!') is visible on the screen. Therefore, the game has not concluded.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/FLK5BCW196fJPk5x9W0yTwTO3qKklMkDbLINzjqzFqt2GESSVoIf2gIiMJlnMrAP+Pgn0IxjQdsKZbW5hrw8SZNMeo3Ay0ImOT5Zwm+XfPffDlBRMVwNv9aSCvwWM1YqPjcRVsQ2PW0MKHVfg0KaV2mvyexlUy+CqbESkFC9aUuCrQfDeu+3G/YK8HKAs61vLOcnCNxa45zWcmRe7wJJFIbfNnRale/yUd0ootRCTVsqf9jkpl3vsbonzUGwwSlqXtYFsOS4K14aCEPpSBPGx7wh/+1rbXTZNylSct2oBiFLjuMdQRHqOLZ8/AndsnLgZp581drIonbiocZCXv8HsCbdKsXS7SLGhnlUhHvvdwn1FKLuyx9MZmPqHMT9GZjdasEujRr/vAludztOyXR+U+QdMkoElVftp9frBVRFkt07g6+PXLcUYGcgUS3Ww1dV9gGeaHTfLqmvnQXTq5DLTri5QXVRMcjdVvPNlt9mWbrv8UlflENuqdVKjGEl1NCykiAzakm0uw4JaenLHum0Pn/WS8nQtQDEGX7wiidHna1R1kV20N/dHSiPcg5fJLVdslNIgHkcBG6vB8yN/Ew+W8MIoglKBjxUOKAEwcwPgihbTWc1sTXNg8GxBnhtt7clubUMAZAzysKNPlG2YCDy3sueiMI58P+/PzFOIoLYWr/ViETr/LqIBSqZM4aKtkbwAWwwny4s3uGGfH8Xrlqu6Vl/grViHCtKZ9ENl1d+inituvvEtmxS7VNm18umyd5lrGN0RQl0JoFqKlE+DjR5R7uLO/ecp"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 308,
+    "prompt_tokens": 2783,
+    "total_tokens": 3091,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 155,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 153,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1683,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

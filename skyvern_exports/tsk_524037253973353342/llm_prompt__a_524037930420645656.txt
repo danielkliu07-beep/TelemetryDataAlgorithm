@@ -1,0 +1,75 @@
+You are given a screenshot, user data extraction goal, the JSON schema for the output data format, and the current URL.
+
+Your task is to extract the requested information from the screenshot and output in strictly JSON format 
+
+Add as much details as possible to the output JSON object while conforming to the output JSON schema.
+
+Do not ever include anything other than the JSON object in your output, and do not ever include any additional fields in the JSON object.
+
+If you are unable to extract the requested information for a specific field in the json schema, please output a null value for that field.
+
+If you are trying to extract the href links which are using the jinja style like "{{}}", please keep the original string.
+
+User Data Extraction Goal: Extract the date associated with the 2nd latest medical record identified on the page.
+
+
+
+
+
+Clickable elements from `https://agenttrickydps.vercel.app/health/medical-records`:
+```
+<div aria-label="Health Clone Main Layout"><a href="/health"><span>Health Site</span></a><li aria-label="Navigate to Home"><span aria-label="home"><svg></svg></span><span><a href="/health">Home</a></span></li><li aria-label="Navigate to Medical Records"><span aria-label="file-text"><svg></svg></span><span><a href="/health/medical-records">Medical Records</a></span></li><li aria-label="Navigate to Appointments"><span aria-label="calendar"><svg></svg></span><span><a href="/health/appointments">Appointments</a></span></li><li aria-label="Navigate to Messages"><span aria-label="message"><svg></svg></span><span><a href="/health/messages">Messages</a></span></li><li aria-label="Navigate to Lab Results"><span aria-label="download"><svg></svg></span><span><a href="/health/lab-results">Lab Results</a></span></li><span aria-label="user"><svg></svg></span><span><a href="/health/dashboard">My Profile</a></span><span aria-label="logout"><svg></svg></span><span><a href="/health/logout">Logout</a></span><div></div><h2>My Medical Records</h2><div>General Checkup</div><p>2023-09-15<strong>Date:</strong></p><p>Dr. Emily Smith<strong>Doctor:</strong></p><p>All vitals are normal.<strong>Notes:</strong></p><div>Blood Test</div><p>2023-08-10<strong>Date:</strong></p><p>Dr. Michael Brown<strong>Doctor:</strong></p><p>Cholesterol levels are slightly elevated.<strong>Notes:</strong></p><div>Dental Cleaning</div><p>2023-07-05<strong>Date:</strong></p><p>Dr. Lisa Wong<strong>Doctor:</strong></p><p>No cavities found.<strong>Notes:</strong></p><div>Flu Shot</div><p>2023-10-22<strong>Date:</strong></p><p>Dr. Arjun<strong>Doctor:</strong></p><p>Flu shot administered successfully with no side effects observed.<strong>Notes:</strong></p><footer>Government Health Site ©2023 - All Rights Reserved</footer></div><label for="scratchpad">Scratchpad</label><textarea placeholder="Scratchpad" aria-label="Scratchpad" value></textarea>
+```
+
+Current URL: https://agenttrickydps.vercel.app/health/medical-records
+
+Text extracted from the webpage: Health Site
+Home
+Medical Records
+Appointments
+Messages
+Lab Results
+My Profile
+Logout
+My Medical Records
+General Checkup
+
+Date: 2023-09-15
+
+Doctor: Dr. Emily Smith
+
+Notes: All vitals are normal.
+
+Blood Test
+
+Date: 2023-08-10
+
+Doctor: Dr. Michael Brown
+
+Notes: Cholesterol levels are slightly elevated.
+
+Dental Cleaning
+
+Date: 2023-07-05
+
+Doctor: Dr. Lisa Wong
+
+Notes: No cavities found.
+
+Flu Shot
+
+Date: 2023-10-22
+
+Doctor: Dr. Arjun
+
+Notes: Flu shot administered successfully with no side effects observed.
+
+Government Health Site ©2023 - All Rights Reserved
+Scratchpad
+
+User Navigation Payload: None
+
+Current datetime, ISO format:
+```
+2026-05-02T04:14:45.164740
+```

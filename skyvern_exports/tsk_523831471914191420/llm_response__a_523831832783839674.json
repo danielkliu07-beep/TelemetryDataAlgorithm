@@ -1,0 +1,52 @@
+{
+  "id": "wL70aaaxJ9_mvNkP6ZCuUA",
+  "created": 1777647296,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page is a Google Search results page for the query 'duck images'. It displays an initial grid of images, followed by web results from sites like Adobe Stock and Unsplash, short videos, and 'People also search for' suggestions. At the top, there is a navigation bar with tabs for 'All', 'Images', 'Shopping', 'Videos', etc. Currently, the 'All' tab is selected.\",\n  \"thoughts\": \"The user's goal is to search for 'duck images' on Google and then navigate to the 'Images' tab. While the current page shows 'duck images' in the search bar and displays some image results, the 'All' tab is still active. The goal specifically requires navigating to the 'Images' tab to be considered complete. Since the 'Images' tab has not been clicked yet, the goal is not finished.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19xsBNyFOeNSq6cG8QZrKfToSy/gZlHj8lXAbl7MMK0PcYXKCrV4VWw43uq9cCCDU7rd8aySHhHAzkuDt2vtSjg0MbZ2jqFICmk8pHG2P9hSrJyaUPQc8+W1tPQ4WUvIE9wImq+1g4Y8h/0IkIckOKUfx04tex50/6YNRYUFdtbqD+ETptkZ9HLNteE0NBbYzZfaPSWwHrMs4yEgEIjIE+Vs/JjtlRx5mnRpk77eZL/tFR2Ar9goeV8oRpKCa5mx3g19YpEOPiwZ+6/3NRR5ZtYcnWQKjhgQFqq/JZZ/JL1ysK1ZBGij9jeWkQ1QP7PWZ98Kpbg5pOHZ9FQ8v0q53WSQdRHGR+YDr5xJWNSCRxowiCFgCy5dmVy2RIavsuzlFQCNqsRG5hnaGAHgpcrwI9LmcR9+vhR4PjtwCGWuSz+9R6wU9hUfgjSP20DIGExQNP8CMiC0OYJGPwQs4tfSfkqczXk6N2LEnU/7uks+2LpYaGX5aWbzpsI+y2CQXuqkyk+k2rTPaaCCdgsPBg+OFH4mkwH36EsdRQp6KECwCQYX977mycDVLAbyVSDY/eaB1JZpVSdFEIVK1KV0ix1PtXc9lRh9R0b116/uL+HbqgFpnmWi8664AseULao1ETghjIxhsreY1qE7Iv/szsWnefvU5YTdpXXy/uWNj5IAiBlbOs6B78wJ5gicCoZV4oo89WJhaQtyGTzCBpN4mR2DGq45XPjgNssZoNGMYBxx8Pc57GNDLrmwxe9GFpNYfOvR1JjlDVSc76V7RgZX3Li37ouc2Kw3lLGw9ouj6rDZjoC1Bm8YFOyAeozPW9gIJX7vAa7XsZ5Ku95UpqBAnZAEPFH3EYlp9Hdwlw9l3qU5wH2uxS1WSS140DsYcblfH6wcXWFbTRIj4Sqrppz6ygIpw5SnkicwgS5XwJ3hm5IITiJnE+rMOghCa2yNuz/FRXrB0hRWvw6J28cxTLslKhmUYkOf2KMF1MmgEu3TLhyQA5PI31EXA78U0y3+DckerqVrR9J8yVGtlVoBgkIRGvV2fCTjvDJ3yeuMr+PHwo53S58rYksh57Dhmk+tJt8Rnvd5Hr+WWDOBnhEFhom8fXsjW1wEuTCtQkprSjsYCMr5BhxA7vh26JaL6Ytz+YG2ErupD+Fy22LNUH80X/j4+maerfPeONxLjVKLkEvyXDCtyymItmwDgFspo8wHqoCzO1snLMtxkyOYZwWRcOmNl5q+L/i9iOYLwVRqSOoMUT6M1s26e3kokDcuh13W7Frqa+lAx4GFj0p3xNxx2dFkHdg7t+TYJpkmBuNyVxHcEUGFDSVPFthmr5OYys09ps7Fhavdd5126YReBGM+z+mxzWBUksheCr3O0tfx4aWdNtXePq5IwjLoZl0sUkf99P2blXZ5G1P+nDYxJ7ta4Ms3h54be7MBFRcyZ3zKisclRzUcKLMiVUW6QogkbVpd0WD"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 467,
+    "prompt_tokens": 19751,
+    "total_tokens": 20218,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 263,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 204,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 16451,
+      "image_tokens": 3300,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "dXP1abbJCozCtfAPhbmA4Ao",
+  "created": 1777693557,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently playing Wordle and has made three guesses. The goal is to continue playing until the game ends.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"Based on the feedback from previous guesses ('CRANE', 'STYLE', 'BULGE'), the word ends in 'E', and contains 'U' and 'L'. 'L' is not in positions 3 or 4. 'U' is not in position 2. I will try the word 'LOUIE' as it fits the known constraints (L at pos 1, U at pos 3, E at pos 5). I will input the letters L-O-U-I-E and then press enter.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I am inputting the first letter 'L' for the guess 'LOUIE'.\",\n            \"user_detail_query\": \"What is the next word to guess in Wordle?\",\n            \"user_detail_answer\": \"LOUIE\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACP\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"This is one of the letters being chosen for a multi-letter word input.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"I am inputting the second letter 'O' for the guess 'LOUIE'.\",\n            \"user_detail_query\": \"What is the next word to guess in Wordle?\",\n            \"user_detail_answer\": \"LOUIE\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACD\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"This is one of the letters being chosen for a multi-letter word input.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"I am inputting the third letter 'U' for the guess 'LOUIE'.\",\n            \"user_detail_query\": \"What is the next word to guess in Wordle?\",\n            \"user_detail_answer\": \"LOUIE\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACB\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"This is one of the letters being chosen for a multi-letter word input.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"I am inputting the fourth letter 'I' for the guess 'LOUIE'.\",\n            \"user_detail_query\": \"What is the next word to guess in Wordle?\",\n            \"user_detail_answer\": \"LOUIE\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACC\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"This is one of the letters being chosen for a multi-letter word input.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"I am inputting the fifth letter 'E' for the guess 'LOUIE'.\",\n            \"user_detail_query\": \"What is the next word to guess in Wordle?\",\n            \"user_detail_answer\": \"LOUIE\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAB7\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"This is one of the letters being chosen for a multi-letter word input.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"I am pressing enter to submit the guess 'LOUIE'.\",\n            \"user_detail_query\": \"How do I submit the word in Wordle?\",\n            \"user_detail_answer\": \"Click the Enter button\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACS\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"Submitting the guess is the necessary step to receive feedback and proceed in the game.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 2108,
+    "prompt_tokens": 5347,
+    "total_tokens": 7455,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 734,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 1374,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1726,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

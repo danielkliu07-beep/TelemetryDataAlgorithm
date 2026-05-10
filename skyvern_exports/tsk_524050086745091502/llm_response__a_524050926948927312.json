@@ -1,0 +1,52 @@
+{
+  "id": "-oX1abYTh_WFwg_Qgsm5Aw",
+  "created": 1777698297,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user has successfully typed the topic into the search/input field. Now, the next step is to click the 'Add to Personalized News' button to finalize adding the topic.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will click the 'Add to Personalized News' button to submit the topic 'Healthcare Advances in 2024' to the user's personalized news list. After clicking, I will check for confirmation or the presence of the topic in the list to complete the goal.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"The user goal specifies clicking a button to add or save the topic after typing it in. The button with id 'AAEv' is explicitly labeled 'Add to Personalized News', which matches this requirement.\",\n            \"user_detail_query\": \"What is the intention behind clicking the button?\",\n            \"user_detail_answer\": \"To add the topic 'Healthcare Advances in 2024' to my personalized news.\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAEv\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"This button is the specific action required to add the topic to the personalized news list as per the user's goal. It is a single-choice action in the context of completing this step.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/WjyPfyWM5LvAy79No3JZWlWMM6svE+L78TgiLnhX6HybqAtKv2KsWKtI9WE2KTfeMjPxu+LweZBKdueXN4efjmVcp+zQAT7roWbaXlDROy4TQeASd14AzRdAfvA/0RCz8v7UAKxpNuPbeTHtvijpFLeL/Fo+mZz6f41mOfkj5Xp57yqayY1MnLPNT3ahOaqzYx/LCKdvWkEGckX0Pj14SG53UkZK3B3p6h3sfBoAVOHcU+t+l2OHzN6sne32/7DKLC+TGRJRdqfZzNSgbT2SPxdm6eCx4KdeywRTobzF0oNOHGKwC1udAWuzbO0eyF1+DsUlNbQr64T+GKs+PWwZbt8I+7MMDECzVviR8aeDx6MBSN69SILC3tdoRHXyolZ7B8WG9nS55ex0OjdMfM8edbd+CZUeLvxrdS6XH1vkgHWXN6XLU8PP9mB2uOyYcYor/raN8s0ALfihCp5zl2ejmkWwDmRZkEru3OtAJSv/yy+3+1HfWcoiqKkBEEKb4+uFQ63H0GtG/WE/f+oi4bEs1SwdUcnfcUnI7pS9x16CSVkPECYQG716GoaLATQym9ZWxIUNM/OR8LagETuNj1Gqxr7eJXliIx6zTpWBijImqox+Z4lnPwM6L4iHVW+vnNbwZAerMsa+zIwddsGAaX14mjW4Vvfxn7JvMcoT2r7Oh+SmX8pt7cP9dzdp7iAl9f9FAh0bFL/VSkoNNb6KZHHjLuaAjopquUL28lYgLHazJP2oZEbNkxJc/Ld7OUX1U9LsZU9CKGhtugr6qpsIWIbyidnIIyLu2Nc3RwircOPXA4Zp8IKBaX2OKQk8nXbN7hBHBSrRzjQ7cDHxwRmtLWFbikayGjlSogit0WI6RHBIyPzvpPlXM04Jy1DEAW1b4GxzUe8QcsQ0hBA7Hsr20rsl5lCSETv1F61f1eHb/yzwKxMrCJZfzb996FRtgnVRfy78s7SBw5ADR5ecHXXUexr0J07dn3OmrXWlDT5G7+GrZ9p1Rnvw7wRf+XATyaDaJ0GTtttSabMFTO+QKahtcUoLCeZIKaoUxUsO3pHd9jlH49WzGjaXiNSuYjTpxmDytg0GD2j4j0dAyzjDvkiyS8AphXSKyqL40iks3sL4FjJoi3oL8n3gheia5K+ezeqzm6leNrMy97xQpjAVoeoDEs0vfMAbkJFsdqO25ApATlWG3fZXXzzPoBbOEsC4FbFONCCjua9j3WECy+4m0+m7N+5X9Pyw0sgt4zcCgWRj9qPnyeEyA8jr2NdBIvq7U//k1"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 625,
+    "prompt_tokens": 5531,
+    "total_tokens": 6156,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 241,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 384,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 810,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

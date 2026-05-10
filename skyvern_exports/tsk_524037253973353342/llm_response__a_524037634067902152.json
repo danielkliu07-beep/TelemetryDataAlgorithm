@@ -1,0 +1,52 @@
+{
+  "id": "5nn1ab3YO-L02fMP8J_jyAs",
+  "created": 1777695206,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently on the home page after accepting the privacy notice. The next step is to navigate to the medical records section to find the requested information.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will click on the 'Medical Records' navigation link to access the medical records section. Once there, I will be able to view the list of medical records and identify the second latest one.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"To achieve the user goal of finding a medical record, I must first navigate to the 'Medical Records' page. The element with id 'AAAc' is the link to this section.\",\n            \"user_detail_query\": \"What is the intention behind clicking on 'Medical Records'?\",\n            \"user_detail_answer\": \"I want to navigate to the medical records section to find the 2nd latest medical record.\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAAc\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"The 'Medical Records' link is the primary and direct way to access the section where the user's medical history is stored. Clicking it is a necessary single choice to progress towards the goal of identifying a specific record.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19HTccv/oW0I0jPRxFMfQ/g2Vzblp4UsrHmLYYMtfF7+5VbIO+ZDZH3jOlRiP1THOdYs6MjzWz3KZil6JfqLtxbEZANDc4HK/pQxFQjKI6RtB6E+8M+yCAcW+s8wG8FhaVW4ceEfAam61cSAPKr26hdtqgOTYnrUdK4peHV1pnivplHE0mmALWBfOPjue55qI+W67HVNyOLaknn3n70wRXJCzlJkmoYCsBH3LrDsGmcZO/1b27tdwv6feYSPugXB8VgzT2NNxRf1WlUKMF4AuILIImVe7gX6hO+ryarEiMVpKvulobYtoQVjK0CsVVtv+GcynXj4LAmbcXi9tQlnH8MlzcKKOdrivc/DOCjuF808MMwGajFsVrxR/cm+2qiGGQMp0uIcLKptkK4pvFXE66dI4i4Iw/k+nGyE2Spj/qxnpBvxaJFDwfhjrNgmx95/MCKXQMtPdPUXyyIJnaHULFb9dIJtf/DLw0pYXJhGzdOwM6znev+PXudFM2V4OOojNFkOaOAHPY6Em8CuJR2lCwJ1vSsMeHYMuLkl2LMtly7HoFbWsmCmBXwDMXla/cZabmXzd1T2hhIWc5qEzviUr+Jz8uI7BEAYEoLGyTM4KDM0UCmHCW8uCNcviMu6vwPbQghGg3cqa/vXZ9jGWWU3HEAOYgYFjmmZhiFMSExNOUKcBvQU27bE6FCn8gOvsA38rICH7DQ0sPJUYWkMvZ0+M4DgsRBN51oVfWD5qynHzURh3P0Noo/pjdh6vzPQHV6BvTaiDmu79+4p3Qf8IBZrrofsy2p2bEhuiAQr93PaSbM5wE="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 524,
+    "prompt_tokens": 5583,
+    "total_tokens": 6107,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 149,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 375,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 862,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

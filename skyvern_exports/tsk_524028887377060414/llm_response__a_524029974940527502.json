@@ -1,0 +1,52 @@
+{
+  "id": "6HL1aauuK4zCtfAPhbmA4Ao",
+  "created": 1777693416,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n    \"user_goal_stage\": \"The user has made two guesses, 'CRANE' and 'STYLE'. The letter 'E' is correctly placed at the end, and 'L' is present but in the wrong spot. I need to make a third guess to progress towards the goal of winning or losing the game.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"Based on the feedback, the word ends in 'E' and contains 'L' (but not in the 4th position). Absent letters are C, R, A, N, S, T, Y. I will try the word 'BULGE' (B, U, L, G, E) to test new letters and a different position for 'L'. My plan is to click each letter of 'BULGE' and then press enter.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I am selecting the letter 'b' as the first letter of my next guess, 'BULGE', to find the target word.\",\n            \"user_detail_query\": \"What is the next letter to click to form the word 'BULGE'?\",\n            \"user_detail_answer\": \"b\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACX\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"Choosing 'b' as the first letter of the word 'BULGE'. This is one of several possible guesses, but given the current constraints, it's a valid path forward.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 1250,
+    "prompt_tokens": 5491,
+    "total_tokens": 6741,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 820,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 430,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1870,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

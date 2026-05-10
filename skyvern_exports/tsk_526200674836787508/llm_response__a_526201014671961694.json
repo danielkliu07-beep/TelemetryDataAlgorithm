@@ -1,0 +1,52 @@
+{
+  "id": "gSn9aa7pJs342fMPk_q7sAQ",
+  "created": 1778198913,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page is a news site called 'NewsSite'. It displays 'Latest News' with various article cards like 'Crypto Market Surges', 'AI in Creative Industries', and notably 'Healthcare Advances in 2024'. Below the news feed, there is a section titled 'Your Personalized News' with a button 'Go To Personalized News' (ID: AAEN) and a 'News Alerts' section.\",\n  \"thoughts\": \"The user goal is to locate an input field for adding personalized news topics, enter 'Healthcare Advances in 2024', and save it. Currently, the page is the main news feed. While an article with that title exists in the general feed, I do not see a dedicated input field for adding personalized topics on this page. There is a 'Go To Personalized News' button which likely leads to the section where topics can be managed. As the required input and submission action haven't taken place on this view, the goal is not yet achieved.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 774,
+    "prompt_tokens": 11468,
+    "total_tokens": 12242,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 544,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 230,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 5968,
+      "image_tokens": 5500,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

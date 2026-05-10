@@ -1,0 +1,397 @@
+[
+  {
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "children": [
+      {
+        "id": "AAAC",
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "aria-label": "Navigate to NewsSite Home",
+          "href": "/news"
+        },
+        "children": [
+          {
+            "id": "AAAD",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "h3",
+            "text": "NewsSite",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]/*[name()=\"h3\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAE",
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "li",
+        "attributes": {
+          "aria-label": "Search News Articles"
+        },
+        "children": [
+          {
+            "id": "AAAF",
+            "interactable": true,
+            "hoverOnly": true,
+            "tagName": "span",
+            "children": [
+              {
+                "id": "AAAG",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAH",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "span",
+                    "children": [
+                      {
+                        "id": "AAAI",
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "span",
+                        "attributes": {
+                          "aria-label": "search"
+                        },
+                        "children": [
+                          {
+                            "id": "AAAJ",
+                            "interactable": true,
+                            "hoverOnly": true,
+                            "tagName": "svg",
+                            "attributes": {
+                              "alt": "Magnifying glass, search icon"
+                            },
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                  },
+                  {
+                    "id": "AAAL",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "input",
+                    "attributes": {
+                      "aria-label": "Search News Articles",
+                      "placeholder": "Search News",
+                      "type": "text",
+                      "value": "Healthcare Advances in 2024"
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"input\"][1]"
+                  },
+                  {
+                    "id": "AAAM",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "span",
+                    "children": [
+                      {
+                        "id": "AAEg",
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "span",
+                        "children": [
+                          {
+                            "id": "AAEh",
+                            "interactable": true,
+                            "hoverOnly": true,
+                            "tagName": "span",
+                            "attributes": {
+                              "aria-label": "close-circle"
+                            },
+                            "children": [
+                              {
+                                "id": "AAEi",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "svg",
+                                "attributes": {
+                                  "fill-rule": "evenodd",
+                                  "viewBox": "64 64 896 896",
+                                  "focusable": "false",
+                                  "data-icon": "close-circle",
+                                  "width": "1em",
+                                  "height": "1em",
+                                  "fill": "currentColor",
+                                  "aria-hidden": "true",
+                                  "unique_id": "AAEi"
+                                },
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][2]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                "isDropped": true
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][2]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][2]/*[name()=\"span\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][2]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]"
+      },
+      {
+        "id": "AAAN",
+        "interactable": true,
+        "hoverOnly": true,
+        "tagName": "div",
+        "attributes": {
+          "aria-disabled": true
+        },
+        "children": [
+          {
+            "id": "AAAO",
+            "interactable": false,
+            "hoverOnly": true,
+            "tagName": "svg",
+            "attributes": {
+              "viewBox": "64 64 896 896",
+              "focusable": "false",
+              "data-icon": "ellipsis",
+              "width": "1em",
+              "height": "1em",
+              "fill": "currentColor",
+              "aria-hidden": "true",
+              "unique_id": "AAAO"
+            },
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+            "isDropped": true
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "h1",
+        "text": "Healthcare Advances in 2024",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"h1\"][1]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "em",
+        "text": "Published on:;October 5, 2024",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"em\"][1]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "text": "Medical researchers have made significant strides in treating chronic diseases through gene therapy.",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "text": "New treatments have shown promising results in early clinical trials, offering hope to many patients.",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "text": "This marks a potential turning point in the fight against previously incurable conditions.",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "text": "Additional findings emphasize breakthrough potential with ongoing clinical trials. Long-term safety and efficacy studies are in progress, adding layers of research and anticipation. The evolving scientific perspective continues to drive optimism within the healthcare community.",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "text": "Related news:;,",
+        "children": [
+          {
+            "id": "AAEr",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "a",
+            "attributes": {
+              "aria-label": "Related article: New Environmental Policies Announced",
+              "href": "/news/breaking-news-5/breaking-news-3"
+            },
+            "text": "New Environmental Policies Announced",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][5]/*[name()=\"a\"][1]"
+          },
+          {
+            "id": "AAEs",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "a",
+            "attributes": {
+              "aria-label": "Related article: Innovations in Renewable Energy",
+              "href": "/news/breaking-news-5/breaking-news-4"
+            },
+            "text": "Innovations in Renewable Energy",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][5]/*[name()=\"a\"][2]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][5]"
+      },
+      {
+        "id": "AAEt",
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "button",
+        "attributes": {
+          "aria-label": "Go Back",
+          "type": "button"
+        },
+        "children": [
+          {
+            "id": "AAEu",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "span",
+            "text": "\u2190 Back",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+      },
+      {
+        "id": "AAEv",
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "button",
+        "attributes": {
+          "type": "button"
+        },
+        "children": [
+          {
+            "id": "AAEw",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "span",
+            "text": "Add to Personalized News",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"button\"][1]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "span",
+        "attributes": {
+          "aria-label": "NewsSite Footer Information"
+        },
+        "text": "NewsSite \u00a92024 Created by Your Company",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]"
+  },
+  {
+    "id": "AAEU",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "label",
+    "attributes": {
+      "for": "scratchpad"
+    },
+    "text": "Scratchpad",
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"label\"][1]"
+  },
+  {
+    "id": "AAEV",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "textarea",
+    "attributes": {
+      "placeholder": "Scratchpad",
+      "aria-label": "Scratchpad",
+      "value": ""
+    },
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"textarea\"][1]"
+  }
+]

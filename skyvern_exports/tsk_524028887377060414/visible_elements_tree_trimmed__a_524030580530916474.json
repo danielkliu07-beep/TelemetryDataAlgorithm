@@ -1,0 +1,1145 @@
+[
+  {
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "children": [
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "children": [
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "children": [
+              {
+                "id": "AAAT",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "button",
+                "attributes": {
+                  "type": "button",
+                  "aria-label": "Menu with more games"
+                },
+                "children": [
+                  {
+                    "id": "AAAU",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "div",
+                    "children": [
+                      {
+                        "id": "AAAV",
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "svg",
+                        "attributes": {
+                          "aria-hidden": "true",
+                          "xmlns": "http://www.w3.org/2000/svg",
+                          "height": "32",
+                          "viewBox": "-4 -4 32 32",
+                          "width": "32",
+                          "class": "game-icon",
+                          "data-testid": "icon-menu",
+                          "unique_id": "AAAV"
+                        },
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]",
+                        "isDropped": true
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": true,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+              },
+              {
+                "id": "AAAY",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAZ",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://www.nytimes.com/2026/04/30/crosswords/wordle-review-1777.html",
+                      "aria-label": "Forum . Hints . Community"
+                    },
+                    "children": [
+                      {
+                        "id": "AAAa",
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "div",
+                        "children": [
+                          {
+                            "id": "AAAb",
+                            "interactable": true,
+                            "hoverOnly": true,
+                            "tagName": "svg",
+                            "attributes": {
+                              "aria-hidden": "true",
+                              "xmlns": "http://www.w3.org/2000/svg",
+                              "height": "36",
+                              "viewBox": "-4 -4 32 32",
+                              "width": "36",
+                              "class": "game-icon",
+                              "data-testid": "icon-forum",
+                              "unique_id": "AAAb"
+                            },
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][1]/*[name()=\"a\"][1]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]",
+                            "isDropped": true
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][1]/*[name()=\"a\"][1]/*[name()=\"div\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][1]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][1]"
+              },
+              {
+                "id": "AAAd",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAe",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "Statistics"
+                    },
+                    "children": [
+                      {
+                        "id": "AAAf",
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "div",
+                        "children": [
+                          {
+                            "id": "AAAg",
+                            "interactable": true,
+                            "hoverOnly": true,
+                            "tagName": "svg",
+                            "attributes": {
+                              "aria-hidden": "true",
+                              "xmlns": "http://www.w3.org/2000/svg",
+                              "height": "24",
+                              "viewBox": "4 4 24 24",
+                              "width": "28",
+                              "class": "game-icon",
+                              "data-testid": "icon-stats",
+                              "unique_id": "AAAg"
+                            },
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][2]/*[name()=\"button\"][1]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]",
+                            "isDropped": true
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][2]/*[name()=\"button\"][1]/*[name()=\"div\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][2]/*[name()=\"button\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][2]"
+              },
+              {
+                "id": "AAAj",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "button",
+                "attributes": {
+                  "type": "button",
+                  "aria-label": "Help"
+                },
+                "children": [
+                  {
+                    "id": "AAAk",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "div",
+                    "children": [
+                      {
+                        "id": "AAAl",
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "svg",
+                        "attributes": {
+                          "aria-hidden": "true",
+                          "xmlns": "http://www.w3.org/2000/svg",
+                          "height": "32",
+                          "viewBox": "0 0 32 32",
+                          "width": "32",
+                          "class": "game-icon",
+                          "data-testid": "icon-help",
+                          "unique_id": "AAAl"
+                        },
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]",
+                        "isDropped": true
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": true,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+              },
+              {
+                "id": "AAAn",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "button",
+                "attributes": {
+                  "type": "button",
+                  "aria-label": "Settings"
+                },
+                "children": [
+                  {
+                    "id": "AAAo",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "div",
+                    "children": [
+                      {
+                        "id": "AAAp",
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "svg",
+                        "attributes": {
+                          "aria-hidden": "true",
+                          "xmlns": "http://www.w3.org/2000/svg",
+                          "height": "32",
+                          "viewBox": "0 0 32 32",
+                          "width": "32",
+                          "class": "game-icon",
+                          "data-testid": "icon-settings",
+                          "unique_id": "AAAp"
+                        },
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"button\"][1]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]",
+                        "isDropped": true
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"button\"][1]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"button\"][1]"
+              },
+              {
+                "id": "AAAr",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAs",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "children": [
+                      {
+                        "id": "AAAt",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "children": [
+                          {
+                            "id": "AAAu",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "a",
+                            "attributes": {
+                              "href": "https://nytimes.com/subscription/games?campaignId=8YU98"
+                            },
+                            "children": [
+                              {
+                                "id": "AAAv",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "span",
+                                "text": "75% off",
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]/*[name()=\"span\"][1]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][3]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"header\"][1]/*[name()=\"section\"][1]/*[name()=\"menu\"][1]/*[name()=\"span\"][3]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "1st letter, C, absent"
+                },
+                "text": "c",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "2nd letter, R, absent"
+                },
+                "text": "r",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "3rd letter, A, absent"
+                },
+                "text": "a",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "4th letter, N, absent"
+                },
+                "text": "n",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "5th letter, E, correct"
+                },
+                "text": "e",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "1st letter, S, absent"
+                },
+                "text": "s",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "2nd letter, T, absent"
+                },
+                "text": "t",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "3rd letter, Y, absent"
+                },
+                "text": "y",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "4th letter, L, present in another position"
+                },
+                "text": "l",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "5th letter, E, correct"
+                },
+                "text": "e",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][5]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "1st letter, B, absent"
+                },
+                "text": "b",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "2nd letter, U, present in another position"
+                },
+                "text": "u",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "3rd letter, L, present in another position"
+                },
+                "text": "l",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][3]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "4th letter, G, absent"
+                },
+                "text": "g",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][4]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "aria-label": "5th letter, E, correct"
+                },
+                "text": "e",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][5]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "id": "AAB5",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add q"
+                    },
+                    "text": "q",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+                  },
+                  {
+                    "id": "AAB6",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add w"
+                    },
+                    "text": "w",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][2]"
+                  },
+                  {
+                    "id": "AAB7",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "e correct"
+                    },
+                    "text": "e",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][3]"
+                  },
+                  {
+                    "id": "AAB8",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "r absent"
+                    },
+                    "text": "r",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][4]"
+                  },
+                  {
+                    "id": "AAB9",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "t absent"
+                    },
+                    "text": "t",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][5]"
+                  },
+                  {
+                    "id": "AACA",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "y absent"
+                    },
+                    "text": "y",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][6]"
+                  },
+                  {
+                    "id": "AACB",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "u present"
+                    },
+                    "text": "u",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][7]"
+                  },
+                  {
+                    "id": "AACC",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add i"
+                    },
+                    "text": "i",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][8]"
+                  },
+                  {
+                    "id": "AACD",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add o"
+                    },
+                    "text": "o",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][9]"
+                  },
+                  {
+                    "id": "AACE",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add p"
+                    },
+                    "text": "p",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][10]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "id": "AACH",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "a absent"
+                    },
+                    "text": "a",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][1]"
+                  },
+                  {
+                    "id": "AACI",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "s absent"
+                    },
+                    "text": "s",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][2]"
+                  },
+                  {
+                    "id": "AACJ",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add d"
+                    },
+                    "text": "d",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][3]"
+                  },
+                  {
+                    "id": "AACK",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add f"
+                    },
+                    "text": "f",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][4]"
+                  },
+                  {
+                    "id": "AACL",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "g absent"
+                    },
+                    "text": "g",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][5]"
+                  },
+                  {
+                    "id": "AACM",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add h"
+                    },
+                    "text": "h",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][6]"
+                  },
+                  {
+                    "id": "AACN",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add j"
+                    },
+                    "text": "j",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][7]"
+                  },
+                  {
+                    "id": "AACO",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add k"
+                    },
+                    "text": "k",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][8]"
+                  },
+                  {
+                    "id": "AACP",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "l present"
+                    },
+                    "text": "l",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"button\"][9]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "id": "AACS",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "enter"
+                    },
+                    "text": "enter",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][1]"
+                  },
+                  {
+                    "id": "AACT",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add z"
+                    },
+                    "text": "z",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][2]"
+                  },
+                  {
+                    "id": "AACU",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add x"
+                    },
+                    "text": "x",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][3]"
+                  },
+                  {
+                    "id": "AACV",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "c absent"
+                    },
+                    "text": "c",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][4]"
+                  },
+                  {
+                    "id": "AACW",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add v"
+                    },
+                    "text": "v",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][5]"
+                  },
+                  {
+                    "id": "AACX",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "b absent"
+                    },
+                    "text": "b",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][6]"
+                  },
+                  {
+                    "id": "AACY",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "n absent"
+                    },
+                    "text": "n",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][7]"
+                  },
+                  {
+                    "id": "AACZ",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "add m"
+                    },
+                    "text": "m",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][8]"
+                  },
+                  {
+                    "id": "AACa",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "type": "button",
+                      "aria-label": "backspace"
+                    },
+                    "children": [
+                      {
+                        "id": "AACb",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "svg",
+                        "attributes": {
+                          "aria-hidden": "true",
+                          "xmlns": "http://www.w3.org/2000/svg",
+                          "height": "20",
+                          "viewBox": "0 0 24 24",
+                          "width": "20",
+                          "class": "game-icon",
+                          "data-testid": "icon-backspace",
+                          "unique_id": "AACb"
+                        },
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][9]/*[name()=\"svg\"][1]",
+                        "isDropped": true
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"button\"][9]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]"
+              },
+              {
+                "id": "AACh",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "https://www.nytco.com/"
+                },
+                "text": "\u00a9;2026;The New York Times Company",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"a\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "li",
+                "beforePseudoText": "|",
+                "children": [
+                  {
+                    "id": "AACj",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://www.nytimes.com"
+                    },
+                    "text": "NYTimes.com",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "li",
+                "beforePseudoText": "|",
+                "children": [
+                  {
+                    "id": "AACl",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://www.nytimes.com/sitemap/"
+                    },
+                    "text": "Sitemap",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "li",
+                "beforePseudoText": "|",
+                "children": [
+                  {
+                    "id": "AACn",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://www.nytimes.com/privacy/privacy-policy"
+                    },
+                    "text": "Privacy Policy",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "li",
+                "beforePseudoText": "|",
+                "children": [
+                  {
+                    "id": "AACp",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service"
+                    },
+                    "text": "Terms of Service",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "li",
+                "beforePseudoText": "|",
+                "children": [
+                  {
+                    "id": "AACr",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://www.nytimes.com/privacy/cookie-policy"
+                    },
+                    "text": "Cookie Policy",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][6]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][6]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "li",
+                "beforePseudoText": "|",
+                "children": [
+                  {
+                    "id": "AACt",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale"
+                    },
+                    "text": "Terms of Sale",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][7]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][7]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "li",
+                "beforePseudoText": "|",
+                "children": [
+                  {
+                    "id": "AACv",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://www.nytimes.com/privacy/your-privacy-choices"
+                    },
+                    "text": "Your Privacy Choices",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][8]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"footer\"][1]/*[name()=\"section\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][8]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]"
+  }
+]

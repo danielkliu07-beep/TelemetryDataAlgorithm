@@ -1,0 +1,52 @@
+{
+  "id": "57z0abXzNvTFmPUPgMq8uA8",
+  "created": 1777646823,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is on the Google homepage and needs to perform a search to find the requested information.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will enter the search query 'NBA playoffs 2026 Hawks vs Knicks winner' into the Google search bar and then press Enter to see the results.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I need to input the search query into the search bar to find the information about the NBA playoffs 2026 Hawks vs Knicks winner.\",\n            \"user_detail_query\": \"What should I type into the search bar?\",\n            \"user_detail_answer\": \"NBA playoffs 2026 Hawks vs Knicks winner\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"INPUT_TEXT\",\n            \"id\": \"AAAf\",\n            \"captcha_type\": null,\n            \"text\": \"NBA playoffs 2026 Hawks vs Knicks winner\",\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": null,\n            \"context\": {\n                \"thought\": \"I am inputting the search query into the textarea identified as the search bar based on its 'Search' label and 'q' name.\",\n                \"field\": \"search query\",\n                \"is_required\": true,\n                \"is_search_bar\": true,\n                \"is_location_input\": false,\n                \"is_date_related\": false,\n                \"date_format\": null,\n                \"is_text_captcha\": false\n            }\n        },\n        {\n            \"reasoning\": \"After typing the search query, I need to submit the search. Pressing the Enter key is a standard way to submit a search on Google.\",\n            \"user_detail_query\": \"What key should I press to submit the search?\",\n            \"user_detail_answer\": \"Enter\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"KEYPRESS\",\n            \"id\": null,\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": \"Enter\",\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": null,\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19TP2NeiRkc9UzHZXE/gfMuELfoFx6/EyzePKSrQAFbWgak2IcRCv5lwqETKEb1W66NVIuC5LkiorVuPQB5Ns1AzpOoi1piWeFwkEJd+u2MTBm/gDxHV5kRUXHtbilc5zBGHFFfDYrJo9/QWjZToFSbHwFINNbobSBKTcSHpsYqtXLDmgrFsAnuZcdx4cG+SevOAIjoj+ryljp8AkwPRx2EqXIVzrpLK1lgV+kWLfxgDC1nliKMJMlhItvEjJ6jpKQRxiymDn/rmIWu9XytcK3Z0q6cZGla+n90EPWcQQVqg25pvdfowyo3cgLl3bfIASklmWpVQmCao7Rf6oCXv0KftQHHyO7QCrYN63YhdVhSWzf6DBxtO+FM3tKeCKrQq7rdbSwuxXpmfTtWVhzN4xH8POHGTZnxlFwxx2LZ9YvVmcRe62wvTem2UKLqr1xWxekoCKqEkEBfPxUjAZQg71OesbbnjlszA0T4xVEAbMkTRDGk4Y/hVVhFKV4IeS8iWWhzTv7wR9KLfuk8JdZFKQbe+7PDbhdKwYwtsfaoo73pyw9NGf45JJ4YM1T6Fhtv8OlFXHgXYDwYKSaFC5/7W05zTAR9ByeTV7Z6XDm1KS5jLAOhta3flfBjcjBCLHkgMLAuLFPaEZ7skFrczBSbESn1jmsPGWs2NmsH7Fmihf8XKuN03zshJS0mJ/nMpTAdyNo1h2B2i8gvgjrKwAzABnwhTTgcj4Gdg5aaD0VAQsrGkeQp9Lnbvhu3oeZBVjZSC0EQtEPGvbuOmap3VTj+k6bLb0rgerwXbdH4Q5QfVI7bl+nHtNFpAMm0s4bIaH00Kt0fpk417u7BX8Y8353j+03aB6zUKhdlmsn8feOo/3LTlGmroUFJyb8gP+jdhgvVuF4="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 747,
+    "prompt_tokens": 4909,
+    "total_tokens": 5656,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 178,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 569,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1288,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

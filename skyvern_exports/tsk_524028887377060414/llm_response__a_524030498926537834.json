@@ -1,0 +1,52 @@
+{
+  "id": "cXP1aZOtO63ltfAPrOXC-As",
+  "created": 1777693553,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays a Wordle game in progress. Three guesses ('CRANE', 'STYLE', 'BULGE') have been entered. The feedback shows letters that are correct, present in other positions, or absent. There are three empty rows remaining for further guesses.\",\n  \"thoughts\": \"The game has not concluded. Only three out of six possible guesses have been made, and there is no indication of a win or a loss (no final result message is displayed). The user still has three more attempts to guess the word.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/n/f/G6JPRsvDu8XoSCfLsMs2fNSpFs4zIrf8XJOwROYnUYI20D+iiLKtV4wSCZ3pZF6tbiw2YBDgcsXajTHEa1lsEW5ZRGj2sQHRjmhnSl0mGAUhLHojDzu4j93aile/x0EmTlDVEfszc4DB1/a5+SeWcBZ1toWR1fBdPrcvfda4ShEaRiWH6eOB0fsYUjGgEYQkOBocNiBLJW79KNW/3dUaLhoNrBHj7Icx7K46SXrpu3RskIJ/KR9Qq8ixthIjAAdnAP+2KvWWOxSxoYGd+cyhrLXaDUwaXMUwkqMYG+mou5Ab/RJnQZuJtiOqLe4tjoF9Ym0PodV/m77dFlJ0Y+HpnzLWlY84RE7kfQaQxZn7F1JWS8+/k/Kf9b+nXE+FnUO7EsLUuKGgcMMNTYihmLxSZGz1gF8pe/2yLEILCrns/gRDR9bHhAO8C8s1lmZEWY82XcKENeLjJUaAKSNNa9rt8wdimLRd2XV3NJQyb9RR8OOzqi2VjRa6W4+VrzH4gWtfAqWV7N0xXrlS8fjE3KLu5Q0g+m21p4m8ieDU05RIutoo6yxPnOJwpVyPw45nqyJiQBOnjcxRQp/w99med4vtNHWkA/29zKjiASoqw8gEpHKluBooIWFQBAS9eR8CUEAPUP858eKYK99v7vc4zp+4JodWHdMq2NpDBusBZfxbx++Z4yn6yWoPJ7KgsWySdWxCVMh6tfHpOzft7lOEy5t7qGzszxVmQ5Bdmx4PHzGFNyTBxImjwPtWjrVtyUOEQfqNdzd4V6EPK0aUtAfazax4L00vxMdqg5pcHPwUn2l137X36qgX4Fy2L"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 283,
+    "prompt_tokens": 2813,
+    "total_tokens": 3096,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 149,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 134,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1713,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

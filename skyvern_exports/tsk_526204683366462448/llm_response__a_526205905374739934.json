@@ -1,0 +1,52 @@
+{
+  "id": "9y39aeLOGLmtz_IP3c-IiA4",
+  "created": 1778200055,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays the results of a Juxtastat game. It shows a score of 4/5 with a visual representation of correct (green) and incorrect (red) answers (🟩🟩🟩🟥🟩). There is a 'Next quiz in' countdown timer showing 03:32:26, and a detailed breakdown of the five questions played, including the comparisons made (e.g., Mean distance to nearest Active Superfund Site between Hawaii and Washington).\",\n  \"thoughts\": \"The presence of a final score (4/5), the colored result squares, the 'Next quiz in' timer, and the 'Details (spoilers, don't share!)' section all confirm that the daily Juxtastat game has been completed. The user statistics also show 1 game played.\",\n  \"user_goal_achieved\": true\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+yGaXwHBBT1rmbTdGN/0OSa0O3rDqiHv5GaCdW81yuyxba33Ng8yHUoaC7bMl+vW6gJXgeF9xIu7qppPUU2h3x2Fatp21+nJW1ROTOscRLpIKDdcKiyaLbkS85Q5qROB8DDwTzJHLXSaTVvskGGg4Wm0uizxujFjJrlbuNvCNkQ5sNy1jRcli/DpreREiCiONblqHNmNWcxDDeU8xe99XjV3stHzswK4A1cNoQCnXx2H6zks2ZsRPArqHhMBZVPtaVbp7HiSGSqGl2IjDHca6mHRRlDA/CIqNmu22O2wzAaaHKNEzauX9XzQY7XcLeqVJCJ2BVUFA62k0XhFJLfCgmi0C/Nv80O3Dt/xPs0VLQkahH8XKJLu1r+MsbhGTCHttU9ZyPOvK7zkVi6Rv5rbd0H3QE7KD49bszlAIHwSrZPJldUSQdooJ/as4bxzN70O6omxfiIq6RqkoWNnXFfsGCYSfMEwUnlp4UIqkg1pb+aTXrAKHH0sfB07tker6bpwvzORwPCgvFaLgSrHOv/cSleH7p1st2+ftBb76o3t041fvAco/v+Kp8WQaeI0ukJo/NEG++1NK1whPKokpL4rS8N+k1/YYE+j+M/u0KmfHvyYi9PZtL8L643+oj/xIFagmUW1ciBokw20ii64HUFIONQFRpDPEQkqX2lKFwNCo/kDC76RPT6k7fNBR2F2BtdcCHY6u09ScR+w1gIFWp6OH3K8c8pzjppt9WzawCznp5Q8I9wQCBkY2xSWpNgDl86vNFTThNaNhpyuG/82m6Qw1WccdwniICrq4i0TxdpP1DUPhamuxD9YyLoKzm2hirQIer6yR2qxT9S0KL5+EwovSd+ZfiIdThdoEYkb+nvInBGXp6TGpIBoDF/kFQ0lRaGsZ4/HfqWXRO2AtyCCzB94JqrWb/q/2/fas4DpbTuF4wdyMnHG0h4TZHHFklekJWlH5RSnYINHCS7pLPPELNpknKUMFUvE9z2jpHyB+mJiLj4SjJFRLTkJTD7hYg74dj4nyFhNPRARM8w9HoVgyPMU9Cb7MBmhiayw=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 396,
+    "prompt_tokens": 5146,
+    "total_tokens": 5542,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 201,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 195,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 2946,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

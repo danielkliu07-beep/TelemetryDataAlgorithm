@@ -1,0 +1,3 @@
+{
+  "_ca6236899a31b759f38ec56492541dca64728ee211e1a3bf80d38f5a5b64c9f7": "https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+}

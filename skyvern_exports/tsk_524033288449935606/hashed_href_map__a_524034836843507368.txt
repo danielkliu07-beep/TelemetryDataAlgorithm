@@ -1,0 +1,6 @@
+{
+  "_53dcc2971bbb77a46bd49e4402c02e87f949019e9b3546cac80df7954995f38d": "/comparison.html?longnames=%5B%22Fraser+Valley+Regional+district%2C+British+Columbia%2C+Canada%22%2C%22Niagara+Regional+municipality%2C+Ontario%2C+Canada%22%5D&s=2cNpMzJ4v2q1f3xnMV6Z",
+  "_457608838fd0ee46b048a1840f847f7d73d69a937ccd261309b616ea07899dd8": "/comparison.html?longnames=%5B%22Youngstown+%5BUrban+Area%5D%2C+OH%2C+USA%22%2C%22Charlotte+%5BUrban+Area%5D%2C+NC-SC%2C+USA%22%5D&s=6FK4R8LfsvUq9Cocy7",
+  "_0989a9737732b6c97807fa9a5495e341f6f8741f2ba11fa243086c0608f5f3c9": "/comparison.html?longnames=%5B%22Gatineau+Ville%2C+Gatineau+Territory%2C+Quebec%2C+Canada%22%2C%22Winnipeg+City%2C+Division+No.+11%2C+Manitoba%2C+Canada%22%5D&s=EUncLynV7PiQNaofECCdJH",
+  "_b885e42064303b7388e61c6e5bc645f4ba702912e31b7050943ce210e5ff5298": "/comparison.html?longnames=%5B%22Detroit-Warren-Dearborn+MSA%2C+MI%2C+USA%22%2C%22Shreveport-Bossier+City+MSA%2C+LA%2C+USA%22%5D&s=2rXweZ1KLQ1vNwMEZqHnnc6V"
+}

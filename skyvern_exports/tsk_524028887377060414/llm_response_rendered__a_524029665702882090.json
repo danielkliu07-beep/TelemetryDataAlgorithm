@@ -1,0 +1,5 @@
+{
+  "page_info": "The page displays a Wordle game in progress. One guess, 'CRANE', has been entered. The letters 'C', 'R', 'A', and 'N' are marked as absent, while 'E' is marked as correct. There are five empty guess rows remaining and a virtual keyboard at the bottom.",
+  "thoughts": "The user goal is to play until the game is won or lost. Currently, only one guess has been made out of the six allowed, and the game has not reached a conclusion. No final message or statistics screen is visible.",
+  "user_goal_achieved": false
+}

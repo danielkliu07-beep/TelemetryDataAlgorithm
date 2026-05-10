@@ -1,0 +1,52 @@
+{
+  "id": "R3L1acvsB7jBtfAP5ua9oAw",
+  "created": 1777693254,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is on the landing page of Wordle. The game has not started yet.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"Click on the 'Play' button to start the game. Then, input guesses for the Wordle game until it is won or lost.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"To start playing Wordle, I need to click the 'Play' button on the landing page.\",\n            \"user_detail_query\": \"What button should I click to start the Wordle game?\",\n            \"user_detail_answer\": \"Click the 'Play' button.\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAAK\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"The 'Play' button is the primary call to action to begin the game. It is a single choice to proceed to the game interface.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a18Pw2jk2sW/gcs7O9hkZ88Ph781rKrkRY2EtiUxqq5nT3IKPIti4Uzh0epy3Cf5SJo9WI/yz1x/TR7PZo2ztCQLrjm+PadUdelhwgXfgaHK+1IKCfYjeAjUCgLgfe6VGXkUN2NBbLYx/mFVpDywWHPn6koXI5g6SsX1/Hu/JSkWcr1+A1IVKA8h5wFkWRw1n9d9t5LaU9pEVMDcnPXBr1KUZc9F+zAE3/OhNrREnVIUyh11RL9zE+DlzRJH7s4pR0Up1D7GVZIyQYr9edpiD1kN1AUdp/rPxw=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 346,
+    "prompt_tokens": 3964,
+    "total_tokens": 4310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 48,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 298,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 343,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

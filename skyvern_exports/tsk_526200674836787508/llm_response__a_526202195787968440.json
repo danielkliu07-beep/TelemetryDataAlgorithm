@@ -1,0 +1,52 @@
+{
+  "id": "jSr9ac6VLtmhz_IPvuLH-AE",
+  "created": 1778199181,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays a 'Personalized News' section which currently states 'You have not added any articles to your personalized news yet.' There is a search bar in the header labeled 'Search News' and a 'Go Back' button. No specific input field for adding topics is currently visible on the main area of the page.\",\n  \"thoughts\": \"The user goal is to locate an input field, type 'Healthcare Advances in 2024', and save it. Currently, the page shows that no articles have been added to personalized news. The input field for adding topics is not visible or has not been interacted with yet. Therefore, the goal is not complete.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+QdD+540fX2TLIPfGdzqRmDXEHs1zjsjRjRwRoB0UW242SViJCA5D6HUDXjZAFLMbf1jrWqFeYbZBOdok9kye08EGLEW2GrThGajSqh+NgYgq6xwh9fau0y0dovMcg0RiIZLWQwrapqORKeZF6hvu207VxLqaiTfhvIzK+dl85Ei3PZ+vnah0DG932xT6+vXvHii7WWJ9s2pXBayRhl1qAqeeHxTC5wGjS9VPfl0wRBuR/U3VSM/Gowrne6fM6JEKLLbhMabkLWmRACnIwlYUzi9cjKHlf6zMFbgJdS+dqcuhyjBnz7+BfR1a1i6Bh1GtIG55GyraX/efIBR6aFRBY9At0/KZYeB2XCaRyDIoZayxAdW+dEqC40XZ4yaZXg//tg+sD3uiqzxb4ESZS8zIyrNV1xJNOUjGoNkakU+mTNlti91wag+pdz44zVUTKH34dNx0vos54S7YeYOOWq9HN1ImHkBUNxESnOwfDy6tZOpqyVcoTyN0R6Wno91rLB3zo22Zj6BJRdcV0K6i6JY9i/G/zioxAfI+Jiarnk/hZEjB0Wy29XuZCjr/Ud4HLxQQtsOEoF6xBxn1w8C5/dRO9xKgl+d44oC1IWD34GnYNHMJXRNbKh4YQQHIvtapvcfQZg4HyINE8YDYPsftvtJfOi39YhbHpjYEoDCu0y5QKt4+gjkrtBUdsJ5kQiNxcIpN1Y398M9gFMjWCJbWKudcTEPG/jkiC0YnEw0qfAWkOJnR2HwlGEef7ln32wEl25kyMsAfjSJFAFiIcCijbXL2ui+xQGOFo3d9wGkSvbVTRC3vSM7gh5s7NTha+v91YH9SfmysbCtAsJqP1Gxnf9zH27wz6rg9rZSGLqc7AWh/ecjlfgw6nsNk5l+glpTpJRDxfWcpofPsXEWD8d9w+gu9WGrITMVGJHMb61KVsuTt+wA/YPM7A9OVNgyuWeO2t9lXzGlQ2OQ7v8qhHK2ulOt+26VNiDeWil/65vBqnfXtDClZoxwfe7/GQrTgJgqjkrv4Baj2N2aVbUVljMc/mgcWT5x4Ok1efjTyH3/8KAk9jMSI7BsmgNxt6niJcn4P2raC8kcaEEfh49KAbDwx0f3FIkGuGwlPpWSmwKsw9GUzyPGGSc3xvihQj28ZA3QlbwjU9gII57mIRsSIqO/XPbu2l3qCpUAuX/n+Djecj8f2BeCI+3FI+hTqSmVZpGEezwzxf7JL3L6Q3YyhKii4w8U87K33+EghL7bb/91uR3+i6sd5QcORAqVNsa2Jh7Dq+/tjGL/oN4j9ODgOODU+gJZ23qkdKq5WNXdYP4YsHx4lNZizAQrAfaQmhsnbyq9GvkPcexI8lnr93jx3xu6uW9TUvIYPAm6Bc7oc0ewOSxX1Xx/KAF1/gEq4+8n5Q+FT/9cYvJoEjnvnyFMRu8OoLImraY/ptfR9ICeAZHBsSBBsoaOTiwiIGwBciG/EglrAabt1c41Whiw7pfAdom/BTGR8tYE5cw7E4ODWwya+VnkLECyjGU0EGo/zG9dAa40UccTKzQ8OEWRwN2dGi8UVOtiA6pBRt3Uk1hTSmsEUYCxHkf/PQcXIvdR6wuxnqMsJ/C9IZcGSmVyVdDHQyg293J6TY+6p+8Zm5FGJ/80bGvMb5R5eaF3J/2G5eFM81A5hQ1CYROd8en0Pj+JWYPTQ3Xdm7kbQuAENUlRPVYW9vHz4tvQAxmmwSvgrQmaVmsCOHV6YkgAdKMGNMkSf5hQAdDVC9CWUm86IXnMedhX77tSuTqXMDWt0W5WeQEA0mqTPW+rBf6ionW8TKhiRks+HAf5GfdwpeUnFfGPgjC1WDvxRuS/JtQk/NDmkyMMnjgQF/PufhTv8USo91MOE+05I2AYcM+JtF2BwjHkcBTm0deFccIhVoXUC+I29U1xpJwdQg/xMSAtP3dtUtEXEg7DoZg5V+fd2J4tmwyqITLFG6or/FTPKwSn7K6SrgEvn9A3EbIV5BDpdY1GTrHwt0iGJ5/bsJSCfdk2d/OqqY9USHhWx3mPZ99ga492k8Q/UHBJe3eRscduxO7eZfWRREl1B+vDmNQQlmhk7A+ABSB/49pxfO3tujiyDpwPAQTi9ZR9IC0R1X1/lN8c9WOkse2bFSvtPX73ZkfS2WH4OPlW65x2mBHZUYj+jjr+hGy+XgYT9O087RF9/tVw+YLZwTcxsXbons19bDTMJhpqeKYEoyF/bURXnPERZSkEESdWiH/qkb/wEVhcytgsO9+ZAFR63PbUTN1AUoTZCwLsQaK3vJk5gaNW8XxG7mLZm27ZiAP6TcdF+MGiKBJ8DjcOjAnwbQL4Yyi1Bkis56VCXCTp+Re18/PUF4kzmsGAjLaFQdjcv0mHqiS7cqIDTEAjR+gGW7OKMvV1/dMqhBH35R124Izd+RXi2onaiQ94HULGnWUkN9ECI6y8iTQ5P4qi1znuJdiNMIJdy+O8wq8CSekag8pJkPcTSZV3JWupphSUFJ6HJHuqlFe1AixKbPDjf7xUsg5G7AS63V6/l2mm/KlnCqnqd4SH5KaV9CHV4yIWMQd6hIrVVth9+Bf5qEXNf93IoReh7hROQtsczTyCbcwvOqDuwctUV7enqmfiR5/PNxDA6RwWHWa+4+xWlJ/I003nMjw5UBQ97tLjhRHrCOAzSlYFYXbkRZp0qL3aBVnvkefKzoCH387F0hU2M2OBSi+eVxJUORHTIvuIdh/w8mMrSqXGMVfH1DJFPmcG2iYzbOF5xwmaJPQSDizdV2"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 648,
+    "prompt_tokens": 2755,
+    "total_tokens": 3403,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 485,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 163,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 555,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

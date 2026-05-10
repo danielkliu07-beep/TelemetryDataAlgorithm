@@ -1,0 +1,258 @@
+[
+  {
+    "id": "AAAB",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "li",
+    "attributes": {
+      "aria-label": "Navigate to Home"
+    },
+    "children": [
+      {
+        "id": "AAAC",
+        "interactable": true,
+        "hoverOnly": true,
+        "tagName": "span",
+        "children": [
+          {
+            "id": "AAAD",
+            "interactable": true,
+            "hoverOnly": true,
+            "tagName": "a",
+            "attributes": {
+              "aria-label": "Navigation Link",
+              "href": "/shop?dp=p1_w_s"
+            },
+            "text": "Home",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"a\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]"
+  },
+  {
+    "id": "AAAE",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "li",
+    "attributes": {
+      "aria-label": "View Shopping Cart"
+    },
+    "children": [
+      {
+        "id": "AAAF",
+        "interactable": true,
+        "hoverOnly": true,
+        "tagName": "span",
+        "children": [
+          {
+            "id": "AAAG",
+            "interactable": true,
+            "hoverOnly": true,
+            "tagName": "a",
+            "attributes": {
+              "aria-label": "Navigation Link",
+              "href": "/shop/cart?dp=p1_w_s"
+            },
+            "children": [
+              {
+                "id": "AAAH",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAI",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "span",
+                    "attributes": {
+                      "aria-label": "Shopping Cart Icon"
+                    },
+                    "children": [
+                      {
+                        "id": "AAAJ",
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "svg",
+                        "attributes": {
+                          "alt": "shopping cart icon with two wheels at the bottom"
+                        },
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][1]/*[name()=\"a\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][1]/*[name()=\"a\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][1]/*[name()=\"a\"][1]/*[name()=\"span\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][1]/*[name()=\"a\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]"
+  },
+  {
+    "id": "AAAL",
+    "interactable": true,
+    "hoverOnly": true,
+    "tagName": "div",
+    "attributes": {
+      "aria-disabled": true
+    },
+    "children": [
+      {
+        "id": "AAAM",
+        "interactable": false,
+        "hoverOnly": true,
+        "tagName": "svg",
+        "attributes": {
+          "viewBox": "64 64 896 896",
+          "focusable": "false",
+          "data-icon": "ellipsis",
+          "width": "1em",
+          "height": "1em",
+          "fill": "currentColor",
+          "aria-hidden": "true",
+          "unique_id": "AAAM"
+        },
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"div\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+        "isDropped": true
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"div\"][1]"
+  },
+  {
+    "id": "AAAO",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "label",
+    "attributes": {
+      "for": "scratchpad"
+    },
+    "text": "Scratchpad",
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][3]/*[name()=\"label\"][1]"
+  },
+  {
+    "id": "AAAP",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "textarea",
+    "attributes": {
+      "placeholder": "Scratchpad",
+      "aria-label": "Scratchpad",
+      "value": ""
+    },
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][3]/*[name()=\"textarea\"][1]"
+  },
+  {
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "text": "Premium Membership!",
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+  },
+  {
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "text": "Click continue to join and enjoy exclusive benefits!;Using card on-file ending in;.",
+    "children": [
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "b",
+        "text": "1551",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"b\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+  },
+  {
+    "id": "AAAT",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "button",
+    "attributes": {
+      "aria-label": "Show More Options",
+      "type": "button"
+    },
+    "children": [
+      {
+        "id": "AAAU",
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "span",
+        "text": "More Options",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"button\"][1]"
+  },
+  {
+    "id": "AAAV",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "button",
+    "attributes": {
+      "aria-label": "Accept premium popup",
+      "type": "button"
+    },
+    "children": [
+      {
+        "id": "AAAW",
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "span",
+        "text": "Continue Free-Trial",
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"button\"][2]/*[name()=\"span\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"button\"][2]"
+  }
+]

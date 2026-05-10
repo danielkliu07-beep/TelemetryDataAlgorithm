@@ -1,0 +1,52 @@
+{
+  "id": "C730ad7vAsiqz_IP6s3ZmQY",
+  "created": 1777646858,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page is a Google search results page. The search query 'NBA playoffs 2026 Hawks vs Knicks winner' is visible in the search box (textarea id='AAAQ'). Below the search bar, there are various search results including a sports snippet showing 'NYK wins 4 - 2', video results from YouTube, and articles from NBA.com and ESPN discussing the 2026 playoffs between the Knicks and Hawks.\",\n  \"thoughts\": \"The user's goal was to search for 'NBA playoffs 2026 Hawks vs Knicks winner' and see the results page. The search box contains exactly that text, and the page is clearly displaying the search results for that query, showing scores and news articles related to the 2026 series. Thus, the goal has been achieved.\",\n  \"user_goal_achieved\": true\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+Pwo4vZn9gihITbGIJhvTMB+GVqtE6fEJMIsV1pl1FKBvTT4cGmjLfNAcHvn4jYxxdd5nwJhfNZhh+1srfc2fXFYX4eJqtbjLkUv9eKWpu9KffJTh0/TwOaIedZ7aEnzWGL7GqQ6q1neoScx97S/YSvCTM/LWsqt0wxE9bPydkAe1ecW0cbY3ol8+5ZrQ3DnOI7CsRrTaC8mMLg8R+9DAKo4sPUH4w+FfE6px/SJ3HwWbwL09lv5j3vPqOZFAfu0LRTZBv1tgKRZjsz1pO/9IJnQEmsrNqOhiP+kne5MTduvdJjmhAosLLEYL4eplWcleXi+D5ZheYRckYiY41YE2byxbbb9+vga6JvyC2SuEK6AMQw5MFrs0DZ2Xo8/esVThaZcWKNA3PXUFn+0ceNLWp+NNVkUG9gIfEFom/socpdeG1ljioqAxuaI7Tp2hg2Xm/R1QkrvU86FGR7B2cTd16G5IxDQ5ox0tk7xwAbPJFD84L1Ai5MXIs2U4j9wEsF2giIe7Y4vQ+xlq5xMD8Xyfo/dZSwGFVqFUy81IaDqjOdQKQESvLfBNFn5XAu8gj7Aqce8rsknS8UERsoec8IknXc7d//ICsiGpuidyJHkG700B2wRyt9UUbZTavhxuejPeAsYM73RdNs1yjTz++e29mGO7wRoLPKapXIz2Owcsnzx49JK267JZSQxIKGE6AxrRUiJq8xiOoYq6JS7I/ATd9D4jKQDuEhRjq0MSd9JHc7nyOU1XyjgwSXyMEugbIc8ADukVRvSSayQfyorOrR91hX60RYo0m6zmPokumil3sgjv0WxMXvfTmOl62qp2w5jmQkM5iYfP/AtSawsTMeZQkU3UnWAU78R0WDxQfV9qndWgvxzgsAa67yH/9QO9FvOlxu7CYDkMj/3fCCHxYei8+cOMK4MyyU82s5yyE6sEZdktMUJFIr8oSRbqeViaYEYuTGIgPQs9b9imlsAbj0omat0bdAMv0RdE9uulm+bmT39rP8fChT3tBxGTuyT/232AgI/ysBQdIMwcjjI4KTCq/u8DGX9DxH7yghxkAwFLXktvrEe6wuE5+/lONgQVSH96wMa7zNw5/RNXvEcjN+tcPaXPuXkrr6NLzjdiJ0ShwCd+DvW+MyG3LopoWwHWMqZExgYTcRQG9BVU/0Ke2DPBq5g=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 390,
+    "prompt_tokens": 17341,
+    "total_tokens": 17731,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 195,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 195,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 11841,
+      "image_tokens": 5500,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

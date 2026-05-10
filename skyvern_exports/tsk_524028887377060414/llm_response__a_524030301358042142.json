@@ -1,0 +1,52 @@
+{
+  "id": "OnP1afL4DeL02fMP8J_jyAs",
+  "created": 1777693498,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is in the middle of a Wordle game and is currently entering their third guess.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"Continue entering the guess 'BULGE' by clicking the 'G' key, then the 'E' key, and finally the 'ENTER' key to submit the guess.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I am inputting the fourth letter 'G' for the word 'BULGE' to continue the 5-letter guess in the Wordle puzzle.\",\n            \"user_detail_query\": \"What is the fourth letter to input for the current Wordle guess?\",\n            \"user_detail_answer\": \"G\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACL\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"The word being entered is 'BULGE'. After 'B', 'U', and 'L', the next letter is 'G'. Element AACL corresponds to the 'G' key on the virtual keyboard.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/m1RW0KSCFJTPd88il/MgNDf30cJrKVFuA8wCssr/JzWBSYqsy4i42HjwvFc1bUvC7wm477YDPQhahHqdwEMmES2LBVsZFfo3uLTVnkOODeq82V3Hlo9Zq/X4V3F+wpC1SIJQGsi+q3RxBLO+QkYhxHD+Ubf4xGWc7n8r/ym62Op4FnnpTxAhTczzhkVKRczRuj9OAwRKp2C31o3WE9JFYZryw+ZaXkvAOjWoUvJq2i9aPyiJQePcFjrG4Y9qwGhIAM+o8ooy4g+1dj0WTCBy3T+E8L2uYHSpv3xLkPtXZ/MHf3IsfDoy4M1I3aIfgP401seEbvvOfPbC56L5jByJuwZf1P/BvABfdRCM6WK6BlYhLHFdlpxS1aM9mJdBEWeOxVg1F2plxQttzZ/QWBBnWMTS9E4wpD0xelwkZY/zq3vUYOCTD1LxqkC8y/0qZ7Jf40skvUEVWjNDB1EfnbClCeGGs7Dp6afpCvEszR8JCAIOSl+wGyv9hqV3TZBZ3suJEbp+8AaXn0y+I/FT3tSCp8cZtyupz7xcFNhCQCRKSNtsgDyiyZn2SvKc9Ta6k0KWhehheHNCzWbJnGNgmgiFretjWd8zxYcoh7wNx5exeJDIPYxg/8vmQF2qmYhy1qinB9tXmYtJVuuDX3r+hpd1nzn1DL6XLoDdi02Mi3gtyh88r0CIQAjukTleTH7yWp0h1t2Jm/Wm9F7kkKirRvlyuWUelnd1waNGy93ek+l9yaKWHlTuyZ8X84Z6SDTQKGxx9Gm0Ax2VEKpIiPO3YbXF5VRAnJ/BTrdTUY3I9aLSulwMIayb1rbU/MEIxOfrQBNGPEKYoCItG2wzZg4NCzoot0EKSVrZSR0Z0GmvEY8kbwiXI+zJstWhx5DcFCxRayZuvlVvH7WOnm19uvBTp/lpqWxyDh3Gj9TE/iDXMAu/+RC4j80LutaMJ4KMLOd49uSj1fFFgVd2Ibpvme2kc4KziJzKoYSMx1LLwqP/jwjRFO/ZBjVvyt2m9cnbAm6WBUJetGWshCCVyfshrX9Nt1TuIBMbg2tx+Ya97Rfm6FNtebFpPdKQUCGDt36GFphK7ZKZOyiX5q9Jdo5YnmvtFTGFN581iPSsEMVzpjWc1uemJDTDa+N69+Z5Iwn8cBuJo0FADiArumlNOTDmmZTohsq4m0NchpdnMvhtmxECsCra40d5RshiX5dIF0Yku5wZB93WmTLccdJPy1OMgjfhb+ippqhFLe1K3H7DlvP9rVLt8HM8f5Go440rdmPlhx0+OCwI9NcddW48W13eJnQG7JS2d4J6n03ApVABkSXo4v/DDlNbW6Wp8EtmrddL/88k3kzK97i74jdeBF+D7nHLP5lXzVy60a8n89kF9AUPZyyJPvvQDqdltuh7gAIsmqMwMHUuUkvKY5ckqmR03LOjHa/GiklvelDlQndCRe9sx26Xni6BBXkkPYcjoSKUU1VFsCiNbz9mHO2VsPVR9uZss+HBG+qM1d8mFkON1hp7MUTw6kiuQxe3crRekk9Gmk1bzVTeLjD+0XldCW1eGM43c4QfuUczFOpQnxKOT3gtUvSJlB4dMaHLKSzKsTzuPRgt4iwoh5d7hlCU9BMWb4JyPBG8QC6sdCHsE0MED63U/YC0hW9AfEbxvGWf/4jiBZbMOt3mUZyU60xS4otctRIjuHiV9j6KNttROHgPMIPFJv2+Dm6GBzVn2DEEE8k9nvm6/Ewru6KhvY8LcYB/x8bXFTpepG+UWvlPny6Yt2j5Awx91gYyLmHqBKqJeTWJ6Eed4xmsH7UP8IyMt"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 839,
+    "prompt_tokens": 5244,
+    "total_tokens": 6083,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 504,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 335,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1623,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

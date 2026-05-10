@@ -1,0 +1,52 @@
+{
+  "id": "sHL1aaP6JoGrmPUP-YPbwAQ",
+  "created": 1777693360,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays a Wordle game in progress. One guess, 'CRANE', has been entered. The letters 'C', 'R', 'A', and 'N' are marked as absent, while 'E' is marked as correct. There are five empty guess rows remaining and a virtual keyboard at the bottom.\",\n  \"thoughts\": \"The user goal is to play until the game is won or lost. Currently, only one guess has been made out of the six allowed, and the game has not reached a conclusion. No final message or statistics screen is visible.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/GCZZCxPZRy1CSBqykKJbtd6PTAbEcjbDZ9h0u4VTX4DIzOk+unFnuoETZYduXJ6S+9ByjK5uPJMfDLEtWAUwOIvWMjIczXp4xEkvLPPeXe3vXsxOQJqw19V87DgOUu0I/J84cn7YPRFrO6DodH4m+LyQMRIQIQYZCRLhaAV+/dw7IdW7/EvGO3durt42SvqUrR3cd598APBe1hxowLWsldVcUMbLD4ZsIaAiELQLQqcSXD6j19BDPdp9RCOipTW5V8QoltDZe4ZouY/5JwXKYS/uMUdSHx33wyao3EPMic1ZDKRk94gT8cUAXQrqnjdLO9FBBo9jFwABWNY28w81vVac4U/i5oeH20JnCzQQpqS4ElMAuatpbW5pdqyDw3MeigLRXqt/4juKW8+ueJ3rKA6TbB6lLWciImNjZMR+M+iB9ZqJGnlxREBF/WhHncMTnUMCuC6383tZQfsr2n6UZFM0aTsUwixvMckQrv21xVWD6/9h99OmIgIujfDzTRXqw5oAabmLNbPg5+svFMkkCDErKrlMsd/ISV0iPJNiSb+pHikaJSjOg2IdsSNm+Ynh2zIVdQe4ZtqGH2eGMaLt7dlzPVMB3PdASajSlKT7vO8zBVkFb6QZDFQYfjakAMJdT8/Y7BVZe"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 268,
+    "prompt_tokens": 2644,
+    "total_tokens": 2912,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 124,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 144,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1544,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

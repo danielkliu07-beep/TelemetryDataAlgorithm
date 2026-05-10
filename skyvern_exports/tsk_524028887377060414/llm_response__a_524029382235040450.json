@@ -1,0 +1,52 @@
+{
+  "id": "Y3L1aaKuNLnitfAPqKq0uQo",
+  "created": 1777693283,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is at the instruction screen before starting the actual game. The modal explaining how to play is currently open.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"First, I will close the 'How To Play' instruction modal. Then, I will start inputting 5-letter word guesses using the on-screen keyboard elements until the game ends in a win or loss. I'll start with a common opening word like 'CRANE'.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"The 'How To Play' modal is currently covering the game board. I need to close it to start playing.\",\n            \"user_detail_query\": \"Should I close the instructions modal to start the game?\",\n            \"user_detail_answer\": \"Yes, close the instructions modal.\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAC0\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"This button is the standard close icon (X) for the modal that is currently displayed.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a18+YFn24+y6UVikE2YfftargqharykTJNHQ7HB5cK3I/AOxpcDeRucb3kmkaa0u2jN5p5N/9Ky4FgILQIImjCC2INeI0jXQg8iaNPsIekkO5rYCqCe78va6L8A1itjdiPZ5eKh2VqLol5KcZEAJKd4ec8G7+UH+93uvb2KdU2iDH0awMF4vmhNxz1Wq50bwrVNqKDdjn9I56fOdwVz9lF0K7UzAh/pGUNIyUYPumeWbxVFc5cQafpJr5WKTJCLxslSK9Yp8VJ9NfGQxE3U/SKKKPkOgPzb57gl9HFFBOe+KQpXhJ2Zx2tH26nkIixTU8pUlyqZq0CEtJ/XXdNcao37DmNzHWv5TgfGI+GqtCBmna1mgJZJfeRMkhJCD6QsU14C0lCpKdRPdYPLeujKwsVz96rrnAtghykxclPGKnwy4uXMx1owJOdJ6dL1EF9IRDqcAOyQdn7hx56+plj2rpKwBjuJWyRspeTPfa0z9Si5oh0xo6SlQ47pLlaqnNkVBCa8ZdHyv88GQ/BnJKH02oIDjdFC27RGX7DVpwJMY6l9tWEjcsCg+nFW2nX+i59Xssk9cSSQhwcHuT3/Ua5XnUGE3/tf5aUsEBbUxR5D2GKc8Tb3igZhTX9XSbQYcVWYvji8N4mV1nYFEbgBAs8czFqAHZ3d4WpscB6qCqc0tKTD6LqmElkelRGqSllAwdJ6CpbEaRzmPfSnW50J4Z+SzGe9beS0wNEcsCcmJwaKgsbo4QbdcA5wbDnwTyhXKCf73GqhtaxdJLbELjSBgiaH46+WTI744OHexfCUzTF2MK7uSdPvqsR/xMo2x+x6zqg=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 483,
+    "prompt_tokens": 5523,
+    "total_tokens": 6006,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 157,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 326,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1902,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

@@ -1,0 +1,965 @@
+[
+  {
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "children": [
+      {
+        "id": "AAAC",
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "aria-label": "Spotify Home",
+          "href": "/spotify"
+        },
+        "children": [
+          {
+            "id": "AAAD",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "img",
+            "attributes": {
+              "src": "https://cdn.freebiesupply.com/logos/large/2x/spotify-2-logo-png-transparent.png",
+              "alt": "Spotify",
+              "aria-label": "Spotify Logo"
+            },
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]/*[name()=\"img\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "children": [
+          {
+            "id": "AAAF",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "li",
+            "attributes": {
+              "aria-label": "Home"
+            },
+            "children": [
+              {
+                "id": "AAAG",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "attributes": {
+                  "aria-label": "home"
+                },
+                "children": [
+                  {
+                    "id": "AAAH",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "svg",
+                    "attributes": {
+                      "viewBox": "64 64 896 896",
+                      "focusable": "false",
+                      "data-icon": "home",
+                      "width": "1em",
+                      "height": "1em",
+                      "fill": "currentColor",
+                      "aria-hidden": "true",
+                      "unique_id": "AAAH"
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                    "isDropped": true
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]"
+              },
+              {
+                "id": "AAAJ",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAK",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "a",
+                    "attributes": {
+                      "aria-label": "Navigate to Home",
+                      "href": "/spotify"
+                    },
+                    "text": "Home",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][2]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]"
+          },
+          {
+            "id": "AAAL",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "li",
+            "attributes": {
+              "aria-label": "Search"
+            },
+            "children": [
+              {
+                "id": "AAAM",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "attributes": {
+                  "aria-label": "search"
+                },
+                "children": [
+                  {
+                    "id": "AAAN",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "svg",
+                    "attributes": {
+                      "viewBox": "64 64 896 896",
+                      "focusable": "false",
+                      "data-icon": "search",
+                      "width": "1em",
+                      "height": "1em",
+                      "fill": "currentColor",
+                      "aria-hidden": "true",
+                      "unique_id": "AAAN"
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                    "isDropped": true
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][1]"
+              },
+              {
+                "id": "AAAP",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAQ",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "a",
+                    "attributes": {
+                      "aria-label": "Navigate to Search",
+                      "href": "/spotify/search"
+                    },
+                    "text": "Search",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][2]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"span\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]"
+          },
+          {
+            "id": "AAAR",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "li",
+            "attributes": {
+              "aria-label": "Artists"
+            },
+            "children": [
+              {
+                "id": "AAAS",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "attributes": {
+                  "aria-label": "user"
+                },
+                "children": [
+                  {
+                    "id": "AAAT",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "svg",
+                    "attributes": {
+                      "viewBox": "64 64 896 896",
+                      "focusable": "false",
+                      "data-icon": "user",
+                      "width": "1em",
+                      "height": "1em",
+                      "fill": "currentColor",
+                      "aria-hidden": "true",
+                      "unique_id": "AAAT"
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                    "isDropped": true
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"span\"][1]"
+              },
+              {
+                "id": "AAAV",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAW",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "a",
+                    "attributes": {
+                      "aria-label": "Navigate to Artists",
+                      "href": "/spotify/artists"
+                    },
+                    "text": "Artists",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"span\"][2]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]/*[name()=\"span\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][3]"
+          },
+          {
+            "id": "AAAX",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "li",
+            "attributes": {
+              "aria-label": "Playlists"
+            },
+            "children": [
+              {
+                "id": "AAAY",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "attributes": {
+                  "aria-label": "unordered-list"
+                },
+                "children": [
+                  {
+                    "id": "AAAZ",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "svg",
+                    "attributes": {
+                      "viewBox": "64 64 896 896",
+                      "focusable": "false",
+                      "data-icon": "unordered-list",
+                      "width": "1em",
+                      "height": "1em",
+                      "fill": "currentColor",
+                      "aria-hidden": "true",
+                      "unique_id": "AAAZ"
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                    "isDropped": true
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"span\"][1]"
+              },
+              {
+                "id": "AAAb",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAc",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "a",
+                    "attributes": {
+                      "aria-label": "Navigate to Playlists",
+                      "href": "/spotify/playlists"
+                    },
+                    "text": "Playlists",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"span\"][2]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]/*[name()=\"span\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][4]"
+          },
+          {
+            "id": "AAAd",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "li",
+            "attributes": {
+              "aria-label": "Podcasts"
+            },
+            "children": [
+              {
+                "id": "AAAe",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "attributes": {
+                  "aria-label": "audio"
+                },
+                "children": [
+                  {
+                    "id": "AAAf",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "svg",
+                    "attributes": {
+                      "viewBox": "64 64 896 896",
+                      "focusable": "false",
+                      "data-icon": "audio",
+                      "width": "1em",
+                      "height": "1em",
+                      "fill": "currentColor",
+                      "aria-hidden": "true",
+                      "unique_id": "AAAf"
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                    "isDropped": true
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]/*[name()=\"span\"][1]"
+              },
+              {
+                "id": "AAAh",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAi",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "a",
+                    "attributes": {
+                      "aria-label": "Navigate to Podcasts",
+                      "href": "/spotify/podcasts"
+                    },
+                    "text": "Podcasts",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]/*[name()=\"span\"][2]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]/*[name()=\"span\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][5]"
+          },
+          {
+            "id": "AAAj",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "li",
+            "attributes": {
+              "aria-label": "Membership"
+            },
+            "children": [
+              {
+                "id": "AAAk",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "attributes": {
+                  "aria-label": "user"
+                },
+                "children": [
+                  {
+                    "id": "AAAl",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "svg",
+                    "attributes": {
+                      "viewBox": "64 64 896 896",
+                      "focusable": "false",
+                      "data-icon": "user",
+                      "width": "1em",
+                      "height": "1em",
+                      "fill": "currentColor",
+                      "aria-hidden": "true",
+                      "unique_id": "AAAl"
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][6]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                    "isDropped": true
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][6]/*[name()=\"span\"][1]"
+              },
+              {
+                "id": "AAAn",
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "children": [
+                  {
+                    "id": "AAAo",
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "a",
+                    "attributes": {
+                      "aria-label": "Navigate to Membership",
+                      "href": "/spotify/membership"
+                    },
+                    "text": "Membership",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][6]/*[name()=\"span\"][2]/*[name()=\"a\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][6]/*[name()=\"span\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"ul\"][1]/*[name()=\"li\"][6]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"aside\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]"
+      },
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "children": [
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "h1",
+            "text": "Music App",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"h1\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "text": "Explore a colorful mix of topics and discover random facts, useful tips, and more!",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "h3",
+            "text": "Music Insights",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"h3\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "text": "Dive into the world of rhythms and melodies. Whether you love rock, pop, or jazz, there's something for every ear.",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "h3",
+            "text": "Tech Trends",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"h3\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "text": "Stay updated with the latest in technology and innovation. From AI breakthroughs to gadget reviews, get the scoop.",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "h3",
+            "text": "Health & Wellness",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"h3\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "text": "Learn tips on how to stay fit and balanced. Biology meets lifestyle in a fusion of wellness insights.",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][5]/*[name()=\"div\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "h3",
+            "text": "Random Facts",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"h3\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "text": "Did you know? Octopuses have three hearts, and hummingbirds are the only birds that can fly backwards!",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][6]/*[name()=\"div\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "h3",
+            "text": "Tips & Tricks",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][7]/*[name()=\"h3\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "text": "Discover everyday hacks and clever ideas to simplify your life. Stay curious and always explore!",
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][7]/*[name()=\"div\"][1]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "children": [
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "text": "-;Taylor Swift",
+                "children": [
+                  {
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "strong",
+                    "text": "You Belong With Me",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"strong\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "id": "AAA6",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "aria-label": "Previous Song",
+                      "type": "button"
+                    },
+                    "children": [
+                      {
+                        "id": "AAA7",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "span",
+                        "children": [
+                          {
+                            "id": "AAA8",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "span",
+                            "attributes": {
+                              "aria-label": "step-backward"
+                            },
+                            "children": [
+                              {
+                                "id": "AAA9",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "svg",
+                                "attributes": {
+                                  "viewBox": "0 0 1024 1024",
+                                  "focusable": "false",
+                                  "data-icon": "step-backward",
+                                  "width": "1em",
+                                  "height": "1em",
+                                  "fill": "currentColor",
+                                  "aria-hidden": "true",
+                                  "unique_id": "AAA9"
+                                },
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                "isDropped": true
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+                  },
+                  {
+                    "id": "AABB",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "aria-label": "Play Song",
+                      "type": "button"
+                    },
+                    "children": [
+                      {
+                        "id": "AABC",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "span",
+                        "children": [
+                          {
+                            "id": "AABD",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "span",
+                            "attributes": {
+                              "aria-label": "play-circle"
+                            },
+                            "children": [
+                              {
+                                "id": "AABE",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "svg",
+                                "attributes": {
+                                  "viewBox": "64 64 896 896",
+                                  "focusable": "false",
+                                  "data-icon": "play-circle",
+                                  "width": "1em",
+                                  "height": "1em",
+                                  "fill": "currentColor",
+                                  "aria-hidden": "true",
+                                  "unique_id": "AABE"
+                                },
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][2]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                "isDropped": true
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][2]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][2]/*[name()=\"span\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][2]"
+                  },
+                  {
+                    "id": "AABH",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "aria-label": "Next Song",
+                      "type": "button"
+                    },
+                    "children": [
+                      {
+                        "id": "AABI",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "span",
+                        "children": [
+                          {
+                            "id": "AABJ",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "span",
+                            "attributes": {
+                              "aria-label": "step-forward"
+                            },
+                            "children": [
+                              {
+                                "id": "AABK",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "svg",
+                                "attributes": {
+                                  "viewBox": "0 0 1024 1024",
+                                  "focusable": "false",
+                                  "data-icon": "step-forward",
+                                  "width": "1em",
+                                  "height": "1em",
+                                  "fill": "currentColor",
+                                  "aria-hidden": "true",
+                                  "unique_id": "AABK"
+                                },
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                "isDropped": true
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][3]/*[name()=\"span\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][3]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "id": "AABN",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "children": [
+                      {
+                        "id": "AABO",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                      },
+                      {
+                        "id": "AABP",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]"
+                      },
+                      {
+                        "id": "AABQ",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "attributes": {
+                          "aria-disabled": false
+                        },
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                  },
+                  {
+                    "id": "AABR",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "aria-label": "Mute",
+                      "type": "button"
+                    },
+                    "children": [
+                      {
+                        "id": "AABS",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "span",
+                        "children": [
+                          {
+                            "id": "AABT",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "span",
+                            "attributes": {
+                              "aria-label": "sound"
+                            },
+                            "children": [
+                              {
+                                "id": "AABU",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "svg",
+                                "attributes": {
+                                  "viewBox": "64 64 896 896",
+                                  "focusable": "false",
+                                  "data-icon": "sound",
+                                  "width": "1em",
+                                  "height": "1em",
+                                  "fill": "currentColor",
+                                  "aria-hidden": "true",
+                                  "unique_id": "AABU"
+                                },
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                "isDropped": true
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"div\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]"
+  },
+  {
+    "id": "AABW",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "label",
+    "attributes": {
+      "for": "scratchpad"
+    },
+    "text": "Scratchpad",
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"label\"][1]"
+  },
+  {
+    "id": "AABX",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "textarea",
+    "attributes": {
+      "placeholder": "Scratchpad",
+      "aria-label": "Scratchpad",
+      "value": ""
+    },
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"textarea\"][1]"
+  }
+]

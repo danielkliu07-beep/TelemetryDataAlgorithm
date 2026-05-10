@@ -1,0 +1,52 @@
+{
+  "id": "Inf1ab3CNLnitfAPqKq0uQo",
+  "created": 1777694498,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page is the Juxtastat game on Urban Stats. It shows a quiz question comparing the percentage of people with STEM degrees between Gatineau Ville and Winnipeg City. There is a progress bar at the bottom with five slots: three are filled (red, green, green) and two are empty, indicating the user is currently on the fourth question of a five-question daily quiz.\",\n  \"thoughts\": \"The user goal is to play or complete the daily game on Juxtastat. The screenshot and elements show that the user is currently in the middle of a session, specifically on the fourth question of five. Since the quiz is not yet finished and the user is still in the process of answering questions, the goal of having played or completed the game is not yet fully achieved.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 742,
+    "prompt_tokens": 3566,
+    "total_tokens": 4308,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 555,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 187,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1366,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

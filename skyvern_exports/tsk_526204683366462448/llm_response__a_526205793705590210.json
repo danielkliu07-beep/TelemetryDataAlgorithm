@@ -1,0 +1,52 @@
+{
+  "id": "0y39aZrYLM342fMPk_q7sAQ",
+  "created": 1778200019,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently on the 5th and final question of the daily Juxtastat quiz. Answering this question will complete the game.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"The plan is to answer the final question of the quiz to complete the daily game. I will click on one of the two geographic options provided for the current question.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I need to select one of the two options to answer the final quiz question and complete the daily game. I will choose GA-02 (2023), USA.\",\n            \"user_detail_query\": \"Which region do you think has a higher percentage of people whose rent is less than 20% of their income, GA-02 or NM-02?\",\n            \"user_detail_answer\": \"GA-02 (2023), USA\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAA0\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"The user must choose between two mutually exclusive options to answer the quiz question. This is a choice between two specific entities, so single_option_click is false.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19+W44AlqMfp8J6tvo0RvL23h19OR7a0c8+RS5wwTN2AFwRpRQsYJW2jBAPjO5OlOZ9MaGhKj18nCUdGyOudmD/fPxnIhOjb+2dpaSw0v2CiMmaXRRJ2mwQdmkia2C7mWMpR55BMgtsGliRPamIz+qOUQpAmfL1uEllrupyNj6HjCHZtAjXMGHVtXfHI27uz0CzUqWHMTnp9VkPCENE2gYRkDez6EGYiLVy/0OXXNZY35cyEwzPgsyP0RwqfTp+6t0ynmB6pSQztI4yfnW8uD5I72hWc90lTK2JMr4Dy1cQy3h8n4rOUnFkNAevEB/MD8UtIR6lB7CFCve3m0VqhvM3Wi6REBDob4W7kT8rSIrQZmjEIr7vJutfjYZN5vNvVT5cCx2VQuYb7pgrDP05k+vP3/sg1YFe4V0oURS3jP57La9K0xFPMbHY/Ez7PFEZ7V3dVU5s7Gur6f+kqURITV4fEn4pRoFE8fKmHCygyc3hdKVFB5KvR1dRedt5LTie7axZ6EEsmn55tkFp73prFuoYjw9JYGAsR/LIUov7ppeVEMHpMKK5PLV4CPSfVs7jCyr63uhUL/6qrFQPxo1wjXORnmsDWn0vre/s+u9QJ8A5gIj5eP3cZVnByXpz6kyh3qtvsRsgnVi29HwWD84RBIs32Un4rwlJLasbIgKsy5UG6qGAa6PAg39UkG+Rpn5yF1chmNsBHtf++tutFFIePiAXu4/sKKzmTT/ka/kwUgKSkSQPm2cWDNnzUwgfMVi0v4dpYoLBK62tD6t5wRvQW8zYFy66sdhWZuy+vtDn8h0JOWA8Izmb1ksoYIaXq6kT8KR2//c3tMBQzDCTKHV2ltpleX5DjWBV/Sj5UeZDhnY="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 556,
+    "prompt_tokens": 4922,
+    "total_tokens": 5478,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 193,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 363,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1301,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

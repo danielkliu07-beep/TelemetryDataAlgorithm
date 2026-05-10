@@ -1,0 +1,52 @@
+{
+  "id": "84P1adfeJp-rz_IPqtTXqQU",
+  "created": 1777697779,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user goal is to find 'Oral-B Precision Clean Toothbrush' and add it to the shopping cart. Currently, a 'Premium Membership!' popup is blocking the view of the products on the page. I need to dismiss this popup first.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will first interact with the popup to dismiss it and access the products on the page. I'll click on 'More Options' to see if there's a way to dismiss the offer. Once the popup is gone, I will search for 'Oral-B Precision Clean Toothbrush' and add it to the cart.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"A popup is currently blocking the main content of the page. I need to interact with it to proceed. Clicking 'More Options' is a likely step to find a way to dismiss or bypass the offer.\",\n            \"user_detail_query\": \"What should I click on the 'Premium Membership' popup to proceed to the store?\",\n            \"user_detail_answer\": \"Click on 'More Options'.\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAAT\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"The popup has two buttons. 'More Options' is one of the choices to interact with the popup to move towards the store page.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 1103,
+    "prompt_tokens": 4114,
+    "total_tokens": 5217,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 703,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 400,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 493,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

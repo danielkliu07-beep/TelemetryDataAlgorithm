@@ -1,0 +1,52 @@
+{
+  "id": "qy39adaIB8Pv2fMP4uOe-AQ",
+  "created": 1778199978,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently playing the daily Juxtastat game. Three out of five questions appear to have been answered based on the progress bar.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"The plan is to continue answering the questions in the daily Juxtastat game until it is completed. I will click on one of the two options presented for the current question: 'Which has a higher % of people with no religion?'.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I need to select one of the two options to answer the current quiz question and progress towards completing the daily game. I'll choose Toronto this time.\",\n            \"user_detail_query\": \"Which of the two regions, Winnipeg Urban Center or Toronto Urban Center, do you think has a higher percentage of people with no religion?\",\n            \"user_detail_answer\": \"Toronto Urban Center, Canada\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAA3\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"The user must choose between two options to proceed with the quiz. This is a multi-choice question where the user's choice determines the path.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/KW2vaz8eJgL4Q88FBnfJXswpc4/65p3RVUQkw2GcYpmKjrJSZApdGF2+XnrT75/QD6y0MNZy2keELiQRtxmO8C4e1iTLlHZ87hzRJ6ZGIMewaVRDfsUzImHWQ0Bd3ru2OTzc1oc8zZ1P39mHJRwK5ZkLix1lnn0RRlvrqgaWh6t2UHBAHaxiIG44PuNPDc6z9ALTmTLQygnjz+QZ1/g8lbKpFQZPwtBGuyullWuokbjpmRnjXANmnNamN1ggFYniNIMaH29mQ8dk7SDVVCK3G/IEus2RmihdjGvrXjmT09QqAI5ldvCk2pGKYY8FvVktlGAbM16EEnZfptJIshExPYnd8nNrmd3cD2628YF0CfXtbY3wFGJAd0LAbYsOlzrC2NhBpgDL5C+aVdxYdiTQ5xyEkLtnV+Iker1TibT2Lb29HEHfjKib1Kx5+aekDhYMzA4T/e2qEpZspx8Mks1cQA9jWUZ+435DiEk2DJOpWkhRZdY9lVa3bsmOLNs8vHjevusKxBP22QeAeGDS7a0+qbrcdTDUdCzrOiJtV7OKwwtXCx/2x7BsuPP8zQgf3T/1IEnZBBzJmmlO/gYxPw9r8JP7LFRQsRJLuj59Npu65aeuSV9PXTq47foyFAwbl7RmLCo+CJKiVq+MWMKtZYhUxrB+x6dyNN0M78I4+p05gTixBgXHu4ImaIVqoRMJpAi6YJ+VjchXktI4n1LPZ9CqGVNYuh0RNaTdYB+XtQjGCzXQFlluOTZRZgMD3VG0Dj5Zm0u4/w8dRXk3RJHvg2x0HehDXezTsYmTTO7Z51clssQnkLGVTHYYxhBMMKoF+QzScaQ0sQop2/bJbJFnmhSwUNUM1WHYTWh2h8swvGG8m+GVLgmHYykOfyglM8FN5EtkzixF/lc3OCIjR3/R+iymNgG4RfC5hxaftFlyR4w1qfiYR3S8Lx29npfAoAggkwyJ1++K356RB2PBDj4Bj3DwRxvr+86Ewslq6bV2BF3MqGV3OvJhc/ApLle6LckIcKs1v4mQpunDc+tcC5xLE6182QxLDSLu6VntDhz0nr/1YkuzjxZ2PM9/uuJx4ECtmN0pfm3R41odaLtiuZll5gyw6be4igOslB0rETIfP4NHalJc3yrFqShYsppLRyotWG/dVMXPoIZx4I6NTJQ6ayN1Q9KbAXo7KGztBvSCma1cZPw4xb6pueA73hgSWFYk28q+2Wc2i4MjLH4njFLApU6v540jgIQsVDqEWhNbrO2HV3k4rUcflyxYFgUFmITxdsgewTR3kEhjwzIRq4K2C1tIEYljLr6XcU15Ejx8k79nbbw7kHWHy1mZHGe7usdwwd+hmO3M774WsteBMW7NuxbrtuxmHS6tL59Vib5ykgo7EpKeeVhqgiH5fUU7AZVZfBINZRgKgd+uXBazsIuOjjlipr9jKTV5yGO5m+Mq1v652vphPkZrFNSKA6o5rdhhTbNjBYy/26ARSCBra1Cii5CObj+09rl50dwwrzOD3Dv5vp24TKP0nl5rENa/S09OTU2ujOBSmdNH+MFh/GbvdRh9+znhfpWlTYaOF69uggk/xkJfAbKN67MID6CJip2n5P7EBA7wSBzK+F/AIFEMLUubCJGceFNw5HT9/wfIu6KIOJiHhgtGDy54l5mNSA9qoWDMbISdoktkQ3ufYhuZEUNpPwlw18CHMyDebcZQIUcp7q1T2o8uTDZxG1NQ0X4Tobe6DvtuoGpiu+CGkvvNt1QLWTgR5QxDc8Z4AxumjUOBPMyjR4UZ+WDTme6cnyvhvXMrDy7mJmYuiLANDVzQJhNmTYzp67siA5CHZpaO2yI9J8lhvTUyl8U1zLChJXbmTbpJGakEfSUJFVCilAw3xq5d4WWr+LJy1npignHGs8oCk87f9cj+7DQ6C3K3a+XqPAejM8htkwftPbJg2ORbk/G9Jk6KsFC+Z3Trw"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 716,
+    "prompt_tokens": 4894,
+    "total_tokens": 5610,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 358,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 358,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1273,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

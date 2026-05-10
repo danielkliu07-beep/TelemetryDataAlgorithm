@@ -1,0 +1,52 @@
+{
+  "id": "5nL1aarIPOL02fMP8J_jyAs",
+  "created": 1777693414,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page shows a Wordle game in progress. There are two guesses entered: 'CRANE' and 'STYLE'. For 'CRANE', only the letter 'E' is correct (green). For 'STYLE', 'L' is present but in the wrong position (yellow) and 'E' is correct (green). There are four empty rows remaining for more guesses. A virtual keyboard is visible at the bottom.\",\n  \"thoughts\": \"The user goal is to complete the game by either winning or losing. Currently, only two out of six possible guesses have been made. The game has not reached a conclusion as there are still four attempts left and no final result message (like 'You won!' or 'You lost!') is displayed.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/VG/AkCl//ZCfDt40pDZjR0b6EQqjJ7mZEN8GLX0fvxnPaTjStyXJGM8bF9R63bGrGcsV68Aw8AEh5vcYJp8Bk37lb7V11FWyOp4qKAZKimZaDapJK+qmVqmHVu8c5vAjCd7ZzuK5QoGc8mg4H6NOTpWRM6V0H3pWRQ8b/gOPdmGjI0+26k/XiPg9SszBuKgvAbp9Z7MrLo4x8Cxp0xoqBs/tqinLHePE9dO1KmVbI35G2kYZ3F9yQ7F/AAfuv7/nCyXCKW3Rb8Zh2qCs8QnGqPHLi9rL7TV3ghkE18Q/heYXIc0m4kh92mHD3+I46bN+O9n6fCREd0wVzsdhDEzS3cKrjOls/xLTAA48+kxljXEfzyD8xXDb/P1YQPmxwZHLsiycpGU1wFfAEL1rgu2Orv5Vge/Id9kkC+9i9E2LE6tq5TDmhZMI5NvSjenU5UTR3dMLGndd15AsRWBkMv9afpRKAsAUUTR3OJYOJAa6Wa839z9b9v5gdTTc9Vm5hxptBVztfJjMss5cIa22FPSSDWrtdsLdjzcK2qh8e+aMVTgvedWFVnVAbTUy/cr3LHGvY49uC9P0SnCuqt8Xw42kyb4pGit6TNIyueGzMuayLcEQ4MKpq63rabhbGaX3NZlQUNnXgIZmEnWjWR7p3ZVwP84VDLbZ3gxxgg2waidAnshrQGvJDnHBmj4UpVe2TA4WYr90gwLClsyuyFMZLF1G92qjhpCfRT+OSsKX+kk40SFl+eBciek/gho6LuFUw1nneLe4hw7YcVsEwspZQxYQ57hQy6hi19dZyjRTeN3NIasXe+QY0hKR1ewR3+csJHyXcZqM1gKl68YnHOpxqwQoBZ5YGZfIoNvBgIsAVcocD7vCttxuPNadWbByVoZs8dri7dAbQ9doDcTCjSfVfBiS3Rgn1MMOjCO3SmVrrXc1uo+KOIPmJSU8GJ+juA5QtmZ0AC5NK1I1F26mrIOL7Qk06yBw0zI3cBp8i3nXyZ6dv+rFraL2UpmMIniZq9GiT/iTO9jUfvFa3w3N8rczIp7Ia6YP7lItdozmMW7iogpCvuVTFBJ1Lis0Oxm3Rx2xLAhIx5OZaagGNdJpcilC39a/Jujz27Hmp2FFpMieI2E97Fw=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 419,
+    "prompt_tokens": 2727,
+    "total_tokens": 3146,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 241,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 178,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1627,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

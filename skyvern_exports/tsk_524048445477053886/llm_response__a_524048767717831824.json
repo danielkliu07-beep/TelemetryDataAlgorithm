@@ -1,0 +1,52 @@
+{
+  "id": "D4T1aYaACumxmPUPhJPC0QE",
+  "created": 1777697807,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page shows a pop-up titled 'Premium Membership!' with options to join a free trial or decline benefits. The background is dimmed, and a 'Home' link and a shopping cart icon are visible in the header. No product information for 'Oral-B Precision Clean Toothbrush' is visible.\",\n  \"thoughts\": \"The user's goal is to find 'Oral-B Precision Clean Toothbrush' and add it to the cart. Currently, the page is showing a promotional pop-up for a premium membership, which is obstructing the main content. There is no evidence that the product has been searched for or added to the cart yet. I cannot see the product list or any confirmation of an item in the cart.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19kNfy4ogvX3khiDUm/Lj3a50MVUXdZjDQ9DB3nc0XkTOoRh3h4YqFEh7zssTPxbsdd4IcKVH9huwzBMlG/1XBm2GIpxZgbz5fv2S/wDan+twjAAMAeUIjlZgNap7e5pVrgc1gkzQlGcX6cyW0ThEyqIZuoUbFI1c/vRyQf7zu0T8C4ueY8XCRVRPgojSoK2JYZnxMAUmf9YhvEydd//kGJ8tMcj369jAsqqp8OsZ8xpKBYAkt375Jv9LbGAS24QwqUvXvxZmTTcexwMce8sSXzcOvRhSRE2QQi99TBZqlrLDHufVNsNRdQUiwHnfSu5fWhoOteG1DaNF1oCDOG9IgEDOtO+Qj9uUDsqCO+bHtK+YX+SqLQXOnn9FrqPXMg/9njFA/cHcVMapjYCmSGVUHvDQhnNHBxYzOS6ZvHahiDygvugAWQQiNXTIBzRbBttCw2OflUGfHmU8R3G4G7sECWMrc7eEp1gWEa27HUcpQCWMMvRunooGnYH0DDs+7E9AjkMEf0vnp8u27qGaKaVhXZdGt1+4xC3UJgs9I7ttpnpSaTgEJ0lzkTKr+2nqkPO3e69p2LkFR66DTwqxIdXYwInZGDbxoc5IFRjZs8/MBa/suMcEoDqfee7LcA1QROZpjheZeVqfiZC6Ne0yAhSYYDIWsWmR9vMHA0jbdLaCIYmsYYRLE1+ToW3uAqMa3ZxY3ZVQAumVREm02c2/FTCOi5MD5WHo5TAXjca43ZtsMw4QnrZhVPvltsf/1E1QQoAB3Pu1FDflu4jSfQXnhU4RHq3dBlAyZDw4J8fXfYKRHx2z9BcLeTEPD5PRnnxyUxGeOh2aklCfo+aUkMZqzkcvsiMRjd00YnpxiB92rPii913U5i5UTyCt0wa12PpNO6P25S1dbCvNh6G3U7tLonm1ZF1rcQHGuqSgcwY4ul7pmg6uFX8IhbobcS4mcNCA6MgQ3Z4HLUVygTP/H6IK2C2PVDsO+ovgplRg+wlbAxDKtqKY2zIxtimKDzRvrEfysok30EtsAJvHK3tPspofyOXiOZZvfMY4ZNLP9Qpr2DEj0cQMlSp6Plh21eTjnAQ9WNkcRPXVSyO3SutuRTonxCIOfnAcYNoUKyPofDraO6BDp1peRgPXD+gEqKDZlCjCIASRt5AOL7yxMjn2wF0zqjyFn0iMGC+ENf/j47U0hra/e5QlslmBlcCxMZalhpO6V2V2rOo4PYhy1UgZu0TbsR/++IIX9ii0v74q5HL4/RzQTramqC+z1dN9qk8K/BBqsSUYonskFIQ4765RASE23mOsCdZu2CF8jQnOpZgjodcFwGOXdcRyI9QWr7IXMj1U0ABH2rTd5NnIx891ZAt8addVYgN86nGTQPw/tg2gT1hxr3"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 427,
+    "prompt_tokens": 1730,
+    "total_tokens": 2157,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 251,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 176,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 630,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

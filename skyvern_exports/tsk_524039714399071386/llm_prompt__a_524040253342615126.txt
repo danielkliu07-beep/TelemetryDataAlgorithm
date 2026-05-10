@@ -1,0 +1,31 @@
+Your are here to help the user determine if the user has completed their goal on the web. Use the content of the elements parsed from the page, the screenshots of the page, the user goal and user details to determine whether the user goal has been completed or not.
+
+Make sure to ONLY return the JSON object in this format with no additional text before or after it:
+```json
+{
+  "page_info": str, // Think step by step. Describe all the useful information in the page related to the user goal.
+  "thoughts": str, // Think step by step. What information makes you believe whether user goal has completed or not. Use information you see on the site to explain.
+  "user_goal_achieved": bool // True if the user goal has been completed, false otherwise.
+}
+```
+
+User Goal:
+```
+Navigate to the Spotify Premium Individual pricing plan and initiate the purchase process. Select the 'Premium Individual' plan and proceed to the next step, such as a payment or confirmation page. COMPLETE when the agent has successfully selected the 'Premium Individual' plan and reached a page indicating the next step in the purchase flow (e.g., 'Enter payment details' or 'Review your order'), without actually completing any financial transaction.
+```
+
+User Details:
+```
+None
+```
+
+
+Elements on the page:
+```
+<div><a aria-label="Spotify Home" href="/spotify" id="AAAC"><img src="https://cdn.freebiesupply.com/logos/large/2x/spotify-2-logo-png-transparent.png" alt="Spotify" aria-label="Spotify Logo" id="AAAD"></a><div><li aria-label="Home" id="AAAF"><span aria-label="home" id="AAAG"><svg id="AAAH"></svg></span><span id="AAAJ"><a aria-label="Navigate to Home" href="/spotify" id="AAAK">Home</a></span></li><li aria-label="Search" id="AAAL"><span aria-label="search" id="AAAM"><svg id="AAAN"></svg></span><span id="AAAP"><a aria-label="Navigate to Search" href="/spotify/search" id="AAAQ">Search</a></span></li><li aria-label="Artists" id="AAAR"><span aria-label="user" id="AAAS"><svg id="AAAT"></svg></span><span id="AAAV"><a aria-label="Navigate to Artists" href="/spotify/artists" id="AAAW">Artists</a></span></li><li aria-label="Playlists" id="AAAX"><span aria-label="unordered-list" id="AAAY"><svg id="AAAZ"></svg></span><span id="AAAb"><a aria-label="Navigate to Playlists" href="/spotify/playlists" id="AAAc">Playlists</a></span></li><li aria-label="Podcasts" id="AAAd"><span aria-label="audio" id="AAAe"><svg id="AAAf"></svg></span><span id="AAAh"><a aria-label="Navigate to Podcasts" href="/spotify/podcasts" id="AAAi">Podcasts</a></span></li><li aria-label="Membership" id="AAAj"><span aria-label="user" id="AAAk"><svg id="AAAl"></svg></span><span id="AAAn"><a aria-label="Navigate to Membership" href="/spotify/membership" id="AAAo">Membership</a></span></li></div><div><svg alt="A checkmark (tick) symbol enclosed within a circle. Represents success, completion, verification, or approval."></svg><h3>Successfully purchased premium!</h3><span>Spotify Premium Individual;has been activated for your account</span><div><div>-;Taylor Swift<strong>You Belong With Me</strong></div><div><button aria-label="Previous Song" type="button" id="AAA6"><span id="AAA7"><span aria-label="step-backward" id="AAA8"><svg id="AAA9"></svg></span></span></button><button aria-label="Play Song" type="button" id="AABB"><span id="AABC"><span aria-label="play-circle" id="AABD"><svg id="AABE"></svg></span></span></button><button aria-label="Next Song" type="button" id="AABH"><span id="AABI"><span aria-label="step-forward" id="AABJ"><svg id="AABK"></svg></span></span></button></div><div><div id="AABN"><div id="AABO"></div><div id="AABP"></div><div aria-disabled="false" id="AABQ"></div></div><button aria-label="Mute" type="button" id="AABR"><span id="AABS"><span aria-label="sound" id="AABT"><svg id="AABU"></svg></span></span></button></div></div></div></div><label for="scratchpad" id="AABW">Scratchpad</label><textarea placeholder="Scratchpad" aria-label="Scratchpad" value id="AABX"></textarea>
+```
+
+Current datetime, ISO format:
+```
+2026-05-02T04:23:40.552757
+```

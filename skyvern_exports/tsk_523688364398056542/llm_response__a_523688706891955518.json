@@ -1,0 +1,48 @@
+{
+  "id": "lTz0afKsBcKHtfAPvqvsmAI",
+  "created": 1777613973,
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"pricing_plans\": [\n    {\n      \"name\": \"Free\",\n      \"price\": \"0\",\n      \"price_unit\": \"/ month\",\n      \"features\": [\n        \"1 GB data\",\n        \"no overage\",\n        \"1,000 Signals steps processing\",\n        \"no overage\",\n        \"15 day retention\",\n        \"1 project\",\n        \"1 seat\",\n        \"Community support\"\n      ],\n      \"call_to_action_link\": \"/projects\"\n    },\n    {\n      \"name\": \"Hobby\",\n      \"price\": \"30\",\n      \"price_unit\": \"/ month\",\n      \"features\": [\n        \"3 GB data included\",\n        \"then $2 / GB\",\n        \"5,000 Signals steps processing included\",\n        \"then $0.0075 / Signals step\",\n        \"30 day retention\",\n        \"Unlimited projects\",\n        \"Unlimited seats\",\n        \"Email support\"\n      ],\n      \"call_to_action_link\": \"/projects\"\n    },\n    {\n      \"name\": \"Pro\",\n      \"price\": \"150\",\n      \"price_unit\": \"/ month\",\n      \"features\": [\n        \"10 GB data included\",\n        \"then $1.50 / GB\",\n        \"50,000 Signals steps processing included\",\n        \"then $0.005 / Signals step\",\n        \"90 day retention\",\n        \"Unlimited projects\",\n        \"Unlimited seats\",\n        \"Slack support\"\n      ],\n      \"call_to_action_link\": \"/projects\"\n    },\n    {\n      \"name\": \"Enterprise\",\n      \"price\": \"Custom\",\n      \"price_unit\": null,\n      \"features\": [\n        \"Custom limits\",\n        \"On-premise\",\n        \"Unlimited projects\",\n        \"Unlimited seats\",\n        \"Dedicated support\"\n      ],\n      \"call_to_action_link\": \"mailto:founders@lmnr.ai?subject=Enterprise%20Inquiry\"\n    }\n  ],\n  \"faq\": [\n    {\n      \"question\": \"How is data usage calculated?\",\n      \"answer\": null\n    },\n    {\n      \"question\": \"What is a Signals step?\",\n      \"answer\": null\n    },\n    {\n      \"question\": \"When are Signals steps consumed?\",\n      \"answer\": null\n    },\n    {\n      \"question\": \"What happens if I exceed my plan's included usage?\",\n      \"answer\": null\n    }\n  ],\n  \"calculator\": {\n    \"tokens_per_month\": \"100M\",\n    \"tokens_gb_equivalent\": \"0.3 GB\",\n    \"signals_steps_per_month\": \"1,000\",\n    \"plan_summary\": {\n      \"name\": \"Free\",\n      \"base_cost\": \"$0.00\",\n      \"included_usage\": \"1 GB + 1,000 Signals steps included\",\n      \"data_usage\": \"Included\",\n      \"signals_steps_processed\": \"Included\",\n      \"total_cost\": \"$0.00/mo\"\n    }\n  }\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": null
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 947,
+    "prompt_tokens": 2732,
+    "total_tokens": 3679,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 193,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 754,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1700,
+      "image_tokens": 1032,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

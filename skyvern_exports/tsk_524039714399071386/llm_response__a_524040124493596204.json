@@ -1,0 +1,52 @@
+{
+  "id": "Mnz1afzpJ960mPUP4Pj0kA4",
+  "created": 1777695794,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page displays 'Pricing Plans' for Spotify. It includes three options: Spotify Premium Individual ($9.99/mo), Spotify Premium Duo ($12.99/mo), and Spotify Premium Family ($14.99/mo). Each plan has a 'Buy now' button and a 'Learn more' link. The 'Membership' tab in the sidebar is currently active.\",\n  \"thoughts\": \"The user goal is to initiate the purchase for the 'Premium Individual' plan and reach a step indicating payment or confirmation. Currently, the page shows the selection of pricing plans. The 'Buy now' button for 'Spotify Premium Individual' has not been clicked yet, as the agent is still on the plan comparison page. The next step would be clicking that button to proceed to the payment or order review screen.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+BeLOSa0Q3v6zwfAFJPh09Q0ekpAxmBVo7iTl1QWm6QbaQv7Jgj3f7HhujSKlb6PViGgVDfI/8eXFECXMknew9lP1R8VVbiNd433d6SLTdz8xWMokaoWynGe9btAxiOVmotVnuUYsJJEH4WeCt1TFeUr9v811dGgIJPdput7vHj9+NnP9QzXKCL1jb9S4oNtN5oqBFNz+D6MlsuOyYNbIXPnyREsdr1igWDUQPoEp6AMwUsnsWh4o1Ls6A9Wr2J8Ym0EAaqVauhgJ/sqxmLtrgFM3NZFzXHrpmsxg1ysqqImOYcfLXRN2FUggxdf9tN77S+3UHoSkhu4Tkyk/NfI8oxd75ZF4aP5VctKBZt2sxwXV632j68naP/vogydz+qXucBBLfLObF8VxSWfTaetCFrwPnWCsoTlTutYVGUBTMKIWj2H31KLRmlcZQ72HjSPtp0xcdfVBvlDbLabESI2lD1uX11goTfYp/QCzVXr6bRwVrtYgnGQ8yt0b+EAR4wVK8Hw3hc6rt3goxkAx8eUl9inU94hQkrtbbljdPJvGgMG6Y89fG8FcbXnLXBru+lqv9yQ/JPVTMhJuFiA/XkvWN86kjooRjolSi7cmA7M4m7DA/ADyVXNrB4fWM6HSPQ8Xjx/oklYKffNUlKXgvYNPUUwepoofRcTXIFElFRxNAn3IHr7W7AP+bOOfWBSP0u5TtmYQ/3iKOvCAKBMHTr9GV5W+jGUinVEXzdtbMN+7jsjN7aRY1/fNwVDMKIaktYZEhA86gPsbR3lLRqHH3JUWTvP5EZz2KwjJZXz2/V27/KcWG1rqnIZTvKJtucvwknNxGEkiczdmawhFWuxkq+9IZsi0QUcSahXMr0FctQ0s/EP7McRsNYEZJx3jH7UL4NVC7ANbZEjqwCFq6M7PZmOCBvoggX94th4/u4Y73oABVb3Twku3O28IhyxDzBCZthmrlDzGEr6ikXuMSqPKFc3su53LprYGGbrvDvWw2D/V4KrYtcVn5czn85TgjJbqtYS3uocDq3UDXlTbqsc3Acs1E9pTnPh8Ds5tuTfkl57UzTM8eACaSCrkr4qeVofZMlzBn+sUGl/oY3bxz84aNvKJeYbDDvikSloVu2lPwuEau1Uq9NzDXkVtJ/iZOCKNSC8/ypRcLUWmkiFjlmrfhBZMVP/Nf0aSWTiDMiAvX36eUvBqPhA=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 385,
+    "prompt_tokens": 3727,
+    "total_tokens": 4112,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 189,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 196,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1527,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

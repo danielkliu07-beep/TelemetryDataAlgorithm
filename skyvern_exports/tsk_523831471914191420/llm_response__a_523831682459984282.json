@@ -1,0 +1,52 @@
+{
+  "id": "nb70aYRqwoe18A--q-yYAg",
+  "created": 1777647260,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user goal is to search for 'duck images' on Google and navigate to the 'Images' tab. I am currently on the Google homepage.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"1. Input 'duck images' into the search textarea (id: AAAe).\\n2. Press Enter to submit the search.\\n3. Locate and click on the 'Images' tab in the search results to view duck images.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"Inputting the search query 'duck images' into the search bar is the first step to finding the images requested by the user.\",\n            \"user_detail_query\": \"What search term should I use?\",\n            \"user_detail_answer\": \"duck images\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"INPUT_TEXT\",\n            \"id\": \"AAAe\",\n            \"captcha_type\": null,\n            \"text\": \"duck images\",\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": null,\n            \"context\": {\n                \"thought\": \"I will enter 'duck images' into the search box with ID AAAe, which is clearly the main search input field on the page.\",\n                \"field\": \"search\",\n                \"is_required\": true,\n                \"is_search_bar\": true,\n                \"is_location_input\": false,\n                \"is_date_related\": false,\n                \"date_format\": null,\n                \"is_text_captcha\": false\n            }\n        },\n        {\n            \"reasoning\": \"After typing the search query, pressing Enter is the most direct way to initiate the search.\",\n            \"user_detail_query\": \"How should I submit the search?\",\n            \"user_detail_answer\": \"Press Enter\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"KEYPRESS\",\n            \"id\": null,\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": \"Enter\",\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": null,\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19WDr3KOutGhj2In4+TH3YG/kp/ak4hjtqusyDg0WJjTftjV5VNVzTYmhMG7pPz0yuifqXZahCKcoH1LV6Uw5Ai39GjDY/WfVlndwpNdDD+Zr4gPs40jnrItf2kvkfKyN5cDDMjqke6MFOieXOu5MoA9vD0SFG1T7CNAP1AzHEFuH4Bw4EW+3M7jjKqdCK4pOwvrkUhu5vgY354ieXDKWgtKKSwT6T8i/OriJee7cOP8JGSlAD+b7/jza5hQWGIS381rpwCUFv7X0Ea1RmwF1Njs/Pa5oSrZVn1iRAq75/hKdVT+Gj+9UaPjO35E5I2bAYi6T1BTXQXTJdM8rSGmyLYafduvf0ZucXYhAQwaY1tf4l7Mv0cIvgYLwGvkTiGufIk2u/g69bZ+P6CIhtYK74AN94olpuZcRolMFi8v0SCx2jwqF5l8WSrxdyaba5Yvgjwj07gFvIWXPDVpT4vNVgXJGTNMLayz83R1NY1b+j7hRef4vWhXidSwQxTpIbp5oj+4t4x108zC50SMo6ktzRjNpdPZpfnZpqo+2t4vwJU33/SqPMJTCiuNaiid45ogsgMafine/JN/se7AQt8QWRXT5OhqT/XTv+EgWBr300LjzcMeHYJxFlh5Kkq7CDjeZB5fphSfQ9eyxnh1uFknvgAXlbg+tDdIayecmHdy+TjHsNCaPLlUrmO0RH2U4sM/z5zp8BF3Jz3SLX+4hj0ng+I3yuH8WWt0rU/FNyQ67sCKHmEhvPi+1md9S3hlQmTgSkzQLQaIsp5B5T3eIVo/X5kt05Iyx+WhKLd5ZcAoaPekqblOW2khIIzIo+OI5knLYj/ssahvB+75VB/wY0HBLTQCtzhVbmsVL8FD4+0EQUZk+D9JFDgJn2+r0rpN7yfQDMmn9K4HemzSStzlEvbS6bRaVTEjrzo7/wC2t9yxaGOeGCM8zmzvguM7HGtrxaJ67XfSxEDZSdxweCaJDdMhCcIi5miAW7RVqcqoAveK9sJmxDhwl+tMqud7QxDt1VWuBkCL8N4r3uJWz2C/572MVMMhU/KTMSdWS7d1HWPIW6OV9cxIFd+u0Icz8RZ6OIbJDis71CiPCjiIXeXqgVTY/UTyIrV4nz4KoGJTMdaOYKna4EJQwfEyjIkau3SvfsbX+zz0a1M6L5u6ETSSCk52d4Q1oHgq+NelobJ0Os3Uzwhqez9a2hdj1tIV89TM3FqxmJaJswC84ZXWiS4S4j13P4KhQgaSgNa+dh7sitBApLK/dHcEMz/5WxdWFt1HydJn4/lM0JVD4BURgr5zaL525oe615I7D2fIhHPpRowqum+ZuR7iQM7Zxghid90F8PrV580U7Gyjh/drQBWYMyccvmb4rF5p3yhlPwA37QXvUACC7cM4RHZfDCii0+oipmhP54amSb4rdD18yDnCy9dGozpdBugnHkZsYJgV6/4WkhEQM1dyXYeSctQRXcUgZoBflPRCkx4KV24AnOsjlrGWcN2eQjJtmjHZTe3rGfwMiHtt8LSM2BHJfJcr8doNVUgKM9JgnlMlcdM2134KA=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 867,
+    "prompt_tokens": 4911,
+    "total_tokens": 5778,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 309,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 558,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1290,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

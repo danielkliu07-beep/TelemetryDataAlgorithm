@@ -1,0 +1,52 @@
+{
+  "id": "TCr9aYK6E4DjtfAPhO3loQY",
+  "created": 1778199116,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page is the home page of NewsSite. There is a 'Welcome to the news site!' modal visible with a 'Continue' button. Below the modal, there are news articles, a section for 'Your Personalized News' with a 'Go To Personalized News' button, and a 'News Alerts' section.\",\n  \"thoughts\": \"The user goal is to add 'Healthcare Advances in 2024' to their personalized news topics. Currently, the interface is blocked by a welcome modal. I have not yet navigated to the personalized news section where the input field for adding topics would be located. Therefore, the goal is not achieved.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/JoCX3kB/xV88Q+HRPytuar1KOyF9B9udxT/cIPufka4TKgqL5TEFsAsolkapHnX0XrMA/1FfFmBCMntG84xgn584p5Wt6rJtWbxlb4T9lp3h06bfWF26+HhtUkJUErkAJ2Q5lI5KSQdjRBu/akUBXRIVB/ZyJVzWWSZvJA0eZfqGdzRVeyvyNlh3UteQyl11JqMc3uOuc7vwB9OgD/wa59vIPqlUJXGJA8ExKJKfTloX/fP20vA12vwg4Hnc0VJr3yOkVjM6l0PgOBnkT8zNdNwJMkJOKd1q5jDNqU3oSTGXEtWcFqDjU6TRiYlud6hOJBz8DC3xgpF2RYL/j9THvbU0gdHzZI4tjQiJtolHK8esoTP+RK5wb/iFT4FzMaCdU8g4Xcy1zWwRHcLLTzqyRUKNW7qaMCfbYV6oQTvwPL1UsclKwOesHCdFiGO55EgGetI7iAUtmM46XeN9Vgay+VBi9c7HJOLak2fQ6htLwMOpIoUkvTvoi3XZnKe9TA21kNcO6g+VOkxSDMMnDTQpB9Iu4rMDgZN1TiP7iGt29T1HjSOGanvHq/HN2Y5o5YK3VU5iWmKWe7ThQyoXVCB7rakGcifOIn+uhzJ/I2gp6ixemlK9SJ1hw/auD5FlTXiBnO1ch2N1lnX/toPdD2IoqWPW01xPLLHh+ysHDv/S2H9rrjngs/1RwgeJxi6LedHaQzmng/imk4r4ojR0zT/Us9+SWPsPCX617blsbV8eRXKa+BU6e7Yu2neN/a4rO2Wurt+xwtWBfmgsamFZArKbecgErUBjus1MKeorRkPhZdtVcM5kKtVArDC+fQMV59fwj6+Ugp6HI276DvQPZ0wNMr+r43fNXKXiBj+M/5F9GLjcQMbhgRGBrTVUsGdgvuDXnprEI//dZMROABBhNE06q58xFU9pXyNOeu08udleGdTBGw2WE9K6dRQNd/loC77MZIEKcEUPDUln0362G3FESSS9K1tzBFC8GkryAbfe3BSkYmjS5dWZ89t5bWVy7qn4bmExCX/ot305ORO/13VmxlFT6LJcb9ejXvGgXX5hMkh2PsbJz8KnQrzT9fQP524YDTqRGDs2YwnAXIKsNO2YZiCMbc1Z7OUaXbz1lC0QOfVQDrnpbQyVHlH4nDmQwBn1KAQeh1VL01OVVPy+5OgJwgW6goysRi0N0RtVDlYMAmvCrtgvDAm2e2OTZX7gDGi8PCNXR74cUYRy7mnqBrzF6kcfyffNkmVndk1oC3xmmCcVp2tX7efSuY2VUKs+M8XOm4t3S6hEg8YhM5YR2AZm8gPn7sX/6Cjqu6UMmcGR7K7r7c1Pz/0/7XABLE7A0a5Dy0mjRA/zqwYbCoXXzvFjJps+9q4dI86u8XfoqXI9vDl7RlSFtMhDB3ewnSNhceKdJhpaBjmJAllD+4q6m3VL7VMH87c4OZa+JnOVoB2e+fQcGb/GKzM2OUTkUvtfGYPMVlMJBq80vdF+r1Y3l1u3jvfrO7UlJwR0GRvPx3tv31bqHaOJ9xTctJYONByNPxSapN6BOEOwuu2WAXV53vjMbAVnyCDSqDTEBmg/fL7OzV8C5uLJFEMTsizXxwV+tLYdW9835UYAHp5Xq0ixDqc++gdqBvuN0HmrXCBhq0+wgVY4gG6XsjOQI8Fjz8LjNxlmweu8//rLRZ9Ms2sfDCMrUJsqb4JLnRJW9BZ7P5bDYhgMzJ9xzCBYR2KQZNE4FOZxjUaUGOqXoBziHJncuQpzlhMSUpQy/DOT8Kgyhx9TXZ7mrbZkssAjP2jSLjdtj80utos/Z7h580Z+gsl9qf9bMKxqHscKajIdIUgL8l3XF+AQy5yVJev062McAKc6GWCCkttcKMbBx84ommLxfpcEFJViv7G99MX8tS5xTEx/BW8NMJTsDnmlgO3LLjvC90T3px1abAvlzD37sANCn9w5mzkoLY14cBz7elpkZxQ+CIre32i8="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 529,
+    "prompt_tokens": 11570,
+    "total_tokens": 12099,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 369,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 160,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 6070,
+      "image_tokens": 5500,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

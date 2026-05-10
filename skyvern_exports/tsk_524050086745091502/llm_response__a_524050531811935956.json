@@ -1,0 +1,52 @@
+{
+  "id": "qIX1aaOlN4f1hcIP0ILJuQM",
+  "created": 1777698216,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page is titled 'Personalized News'. It displays a message stating 'You have not added any articles to your personalized news yet.' There is a 'Go Back' button and a search bar labeled 'Search News Articles'. No input field specifically for adding personalized news topics is currently visible on this specific view.\",\n  \"thoughts\": \"The user goal is to add 'Healthcare Advances in 2024' to their personalized news. The current page explicitly states that no articles have been added yet. There is no evidence that the specified topic has been typed or submitted. The 'Personalized News' section is empty.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/kI21svKg7zkCzK5AD1XuUGg/8qkVLAeGg3GggUVbfViegIhgWnEO+1rQiC4j0z9JHcSM92mZkIUnBYDc+G6yRyCvP9h5uWp3LA3hEX/JMC3mMDElVrkx3RoQ05uEvmzAK3bslYF7erzJCdM00pNIHNEhkoCcscEBtSDxf0Zc9vMTjYfqXolVHVUpe6xnOO7SmEX10ZAWzEcUJULLgDfx5rjYtgbQNlTII61h69GJ7ED50JdJ3pvCyn+oy8iuguUHd4k5gCN0mUuljIi8lrMxg5xv5heZylQYpQBLEaAm6kgm1AbgctPFoMxsviMqv/8QmfpOEI9gl9o7mZ50O+aIPgpK9M6IlKLAXxcQvwOmbohn0HsUzRFRztXzpSe3bxAcFeKN7T2zkgks+rqcbYsxsCBcqd3DJdbZv9HaER3vY4Ji/70ODRAcYCJF+wuCO0BTu/J4LYMiX6WeKXS8Squ90ZEkq5tR9yC9WeRboxaULtw4b7Z+2FR/PXCxi1O1SY1oLb/0LY8wOO/6g9EwCYEwLQrStJsEBd0H3sKLvgmmvjIpoaYrtNCB2dyOkCTiuceWMzl38UHN2y3O/TVZsl4WxND4H4DOOsPBB/e/t4nPISCkE46PIUbYw1kMkx2HB8FsHagTzztebq6ilsSr1FZlBH+J5OTHK0ln14UaFulrKTwtaaRC76swxhliwn4stfciYev+A2CFJkIpMhu6D+u+6f7LdYH6TNeDg0XjeAWVQcWanhunAwMaJVF5gnMm0QBGwj3S4sPtfa9N9y/4MmirtrYdfElsz9vtQ+Jx50P+DcpnT1F5nIP0auPqvzmNEgh2zJZuT36TqDRURcW+FIsypXJ6+KYj3XbBTbz03xS/RDLQEyN6UkUpjqJBENEMrjnTiogAp8Qpi7Mc9cxFQvpSbEXJb9H+yxRKc666jZ6TekG5VNS+1ZxTt4WJcwlXTJPqowiTd/c/sgqbrVIoRnjf3NYYg6yj9/fPes/XYEKS7yN/Zy9xB6QXb2UAX10z1YLQW03h1qOhDTMrE/4Xc8qfgz3DABFnh+3pPsZM0lzOIqiYd1E5thIawt6XNs2giEvb/edfrtx/ZNw4IBNoeTS7760Eq0a0XkQg61jP0vWfFLSP1p+4KLPfT8ddIHOB2iAyMfQK2Pliz7vj5mFH230XOo1GbtkSkj8EMYACBPSOSabB+PtxvUYBn8lLDiyzwiHIJ7vJ4I21AjEoje8aFZZ5GX0m3In+z66EjmQ/Ws9aR7f5YJEgQ7Flaxw3ZStPfOnwFqSatIf8kTkE5p1+X/PgToNckqNZdITwHTq8mdNobC06PdV7YNmCoGOv+iZluGgmHVYMIvWUe4nMGtKIwInjEfEV6EtCfte1whf0ayujiCeRsfRor71nQWHkukt1PYUkGZ8rE3oPbXagfrLYWeHFOxnHSwKswnOYn8jSc0JekU2kF65/ClnQXiEM6O1c34L3NQnunzCAYCfjhCSJtSwRW3RXklcWp/MU3atnsd7sq2hrmXvI+wrSH0WJ1GqNLQ6tY+Dqjy9tbg0nsVbcPmuvh6oQ/u8DGM039Uml60SEKrYBUoPpIHpy0Rapk1x0yqbfOrO8rQxzYe3c+BHfb8lG1TZ+qQw+e35cSmk83eLsVaQdi7fFwLQz1F5CX6h0UP2PDTwuobzZMBM/2C5BrCs/JkrUfkrgJLl2ZldB16pFS2vdhVMft1tTi4WLujm+nexEAX6jpM5Q11P/Nj2P5Q1LIc2lklqXQRmwa4Qjy6i2Db+CkBrIAyvdvTV5Po+kJDykXyAGn0Id00Bei1/WQLmZ4uAs8oBO0PVljh7liToBmMeqxTtImdfD90FED8XjisXKAxMidO08IxiDzzajYLGv2qACAJAACss+tRnEpLpdqsYESOPlY0W3OFDiY3pDqOnmEKOJ6bQt9oA+nuJrML6/0aNU="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 492,
+    "prompt_tokens": 2754,
+    "total_tokens": 3246,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 338,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 154,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 554,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

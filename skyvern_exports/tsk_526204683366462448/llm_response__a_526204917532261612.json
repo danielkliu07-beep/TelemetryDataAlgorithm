@@ -1,0 +1,52 @@
+{
+  "id": "Dy39aZCNMb3nvNkPgLmFiQs",
+  "created": 1778199823,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is at the start of the daily Juxtastat game. One question is presented, and the goal is to play/complete the game.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will click on one of the two geographical options to answer the first question of the daily Juxtastat game. I will continue answering the subsequent questions until the game is finished.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I need to select an answer to the current Juxtastat question to progress in the daily game. I'm choosing Hawaii as the first selection.\",\n            \"user_detail_query\": \"Which region do you want to select as the answer to the question 'Which has less exposure to active EPA superfund sites'?\",\n            \"user_detail_answer\": \"Hawaii, USA\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAA0\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"The user must choose between two options (Hawaii or Washington) to answer the quiz question. This is a multi-choice selection based on user preference or knowledge.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19l9OS4NtgKSZeoo1cuZmheGI4m7ncU1ND3sCwJwirtEaQVNBHxfh7IsWDjDloi3SSRlTsEQxWmod4hAnGwbyZNTcadhaWzEruPdBpkmu0TUhjMWd6qyyuwEtm9QkmJLNf+tmiNBwnIWsYyMOfmwGffS9kKDJGVvZVclDZp1rEMwQ3sTe/Fx16Q95cVBCWWir3AEyWGWHjHuDF/NmgACZ6NZS+1j+zwNLOpCJZY8lv20BK9lvQOS1dkMrqKaa2gNIgaI5pePrdCnva+BfKDpEeh8QmpK7BzqrLHIcyREVAw5XwJ3YiqX32Tu7LD7zcsb3q1WU44H69xJHUY0hCn51vt3OymDzc0dX44LFa+486xO58wRxWMvxNA/g50HxhQ9SpbbgwFg73IWxsCq5MeROgGYa74I/0X3N7whBiV1QywMiaYHi/VBMnl3ylYyV0ebxsAj3lItJmcGTON/wErGjkeT+1t371O70cLjnT6383Kndj7BqIAgmKVVxsIbY9KXIHjicPfMTLwuqGMKLZ/T6K/Yea70jSKyS2meJuLPigHLam14k6PtEJbXz2pbxLCFXsFAYdphQCdYSJPibUdN8zgWmSDJJxIu4YyWN3mlIe8JEOnvveL9lH5XB4WEmjdTus4FEweU5Y8a6FdbqFCFbvGFwcZeGiKWkfdGV6EEbgs8wxFVphNuK/dVhII54kSvnTwp4svwfsiyB16AAygwzaXfqvfNWzP3kNG++oFu66fmrvswKhYXSMesL6pDZTFRdhJblRY9tGwZqq5Xs1MUmHB2AIRjU5FNr0lCHsoh8fodqe3lPJdQJ1LdkbR+lolm23Wdv1GOCg0RoMW7WC0ZWAi0CG5JjG106hjHReiQGHqTJ93WF4gNan2uzOyvRE5xikoPaNRwR1aU6iGl8T6aiQCRI5zysB6DJV1YsDbcQdV3CS6v3EylUSSABnMNIwyRujT60dVNHEWUWgxmwvCrhLcC/nqhaPgjTG51bAgNQ7eOfqqKPn/w2MXruX12FY1P1sSZhFvifKau10PRy4yL39nmb2cUYd/DdAXZNEWNf86dKe+GeyqJxs6xcJQFWBVCLIjyzb9la/tKIp5oWJH66q7ok9Oc92xHJYoPiaWif4izZ2ihQMgH4HD8UvgH1yAz+1FHDRlv2OQ/jE8SFbVj+fYX6KL6t+HkyQKaJJI3pHLfRva77of4B+nqsKeIRsjzrdqYpv7dEpIn3iYCPq5n6DT6ikeZPV2oilc7hg7z5nqb48F+qPLWbpywiJyUK5PJ5Hnrdp+g0A="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 580,
+    "prompt_tokens": 4839,
+    "total_tokens": 5419,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 227,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 353,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1218,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

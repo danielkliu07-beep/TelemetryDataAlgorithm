@@ -1,0 +1,52 @@
+{
+  "id": "qS39aZ-1Or3nvNkPgLmFiQs",
+  "created": 1778199977,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page shows a Juxtastat game on the Urban Stats website. The current question asks 'Which has a higher % of people with no religion?' comparing 'Winnipeg Urban Center, Canada' and 'Toronto Urban Center, Canada'. There is a progress indicator at the bottom showing that 2 out of 5 questions have been answered (indicated by the two green blocks).\",\n  \"thoughts\": \"The user's goal is to play or complete the daily Juxtastat game. Looking at the progress bar, only 2 questions have been answered so far. The game typically consists of 5 questions. Since the user is currently on the third question and has not reached the results screen, the game has not been completed yet.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 588,
+    "prompt_tokens": 2439,
+    "total_tokens": 3027,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 410,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 178,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1339,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

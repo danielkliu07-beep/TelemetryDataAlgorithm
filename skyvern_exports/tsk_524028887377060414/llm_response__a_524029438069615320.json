@@ -1,0 +1,52 @@
+{
+  "id": "e3L1aYj2I9DivNkPxLimiQw",
+  "created": 1777693307,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page shows the initial state of the NYT Wordle game. There is an empty 6x5 grid and an on-screen keyboard. No letters have been entered into the grid yet.\",\n  \"thoughts\": \"The user goal is to complete the daily Wordle game until it is won or lost. Currently, the grid is completely empty, meaning no guesses have been made. Therefore, the game has not concluded.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a18U0eBsCorKl3WJszUtAQDosupHBKeQw0COwibKlcGuI6YfbsleZlezGYN3po05HzBLL7gLRgPVnBuPlSGh1icazyHf1EtC4URL1q0xuPg4Cug6qrj9tuMa4H09UqE2RA/wEXVfZIhLb1TqQLr/6Eq05Y+87id0K+YABXsOHvOM+X2VWAtEYb6/lO9P1/hM8sS4NtzgFbx89oKVvH6JskjF9z9+kcqJdjT0q+MpAIIA8HFFFjKkUUovZdETol01UIXYXiwq/rgoXyCNa3s37twLQqNwF9paSQ69Ietyz9M6v9xgaAGkkzKSRIbVO01LNTa9dUE0p6ewXIGja0g3PIBgmuRqApReprsmVjZGtfdsbYvvSmCHciF+d+BrhTFMGS1mgpskGRXtMhoPWmXoJk5CyY6K7kALIHZIUUTQvm83of1CRfmwEa9Uxm7iGpAfcDbOvIMbqjnBNydmT3FgsIpdWQ/87vDNPchVrwVZD7UuYFPHesd7XZfUE76ezzKWz3zR7u+fR/IPnbn5wqxBPVX40ZLvPoz6n/zDT5wJIcGX6bim//XeNUAc7RiHaXfcFOYub+4AAp7Mg4n+ckzPSBDIfZ6FZ/mLb8qyn8TudjNY5SzwPYG3btx8zuAPeoaTMqscvW7GRDP8V719snnVglYA4uJ5g0f/m9JbH5joT045bhhUjysP6CgGuVd8N6ZnB6Bb1sePKBmPQUHi8Vt1LMKtUxP7ywZ68g7RNyh6y/lPQK4AWDMRr7/v9tMIIz/0iH5d8VCb8zaxlLfw2lOreE7b6E/vZ7L6GZHY+T+k1hKD3zlgbx+n0/W7f2D2yxvXGH/wCyQ9gidJfKrHPNnp9soDPCxTKi58ftotN/6H2ky19BnydoiZlElkXmZz88BsVNt451/TfjUvj2j8/RQeYJf25/3SS95n/b9fGRWo4dA32H6d0+/oviYPgPrSdkj/zCOST/L7C5cjr05GziBuiEcp5y6KAZQtDraniAcC4gGzT3Y="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 295,
+    "prompt_tokens": 2564,
+    "total_tokens": 2859,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 181,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 114,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1464,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

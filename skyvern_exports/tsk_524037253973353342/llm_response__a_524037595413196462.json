@@ -1,0 +1,52 @@
+{
+  "id": "5nn1ad3QHePPmLAP7vHooQo",
+  "created": 1777695206,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page is the homepage of a 'Health Site'. It contains navigation links for 'Home', 'Medical Records', 'Appointments', 'Messages', and 'Lab Results'. There is also a profile and logout option. The main content area displays a welcome message and the site's mission statement.\",\n  \"thoughts\": \"The user's goal is to navigate to the medical records section and identify the 2nd latest record. I am currently on the homepage. I haven't clicked on the 'Medical Records' link yet, so I haven't reached the section where I can see the list of records.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19nKh053mFl1dU5pKC9NoPy5Q2EevgsO+JxcwVTXxSLeN7VL8zNfv+Yvw7rSxywf5sGAk/RBjMQAjQAlzhiDzddtjzLt4Y7BzRbROdMmCdLCMN7RZQwzAZXMAQA8oqKfHoljb0LQumnM6jJNUqtpCJA6fSVPcMT+aB1WJvFLghPFqRgbeTqirBZQyMSmRggfiiDXRDukGBovpPWEbeL2MXydIJ6qk7JlwswE5/lryw/sKFZIJJeobwmpFuKKIaPefqN41yLpzEnXw3vdUxcwnXe9MbvUTJXPYoABkCENtIDrx56ci9qWKqh2Ag+U/8ZIzppNvG+vqI7Mgh6kEHrq7AgSlklsC1NbBREOIiE/PgW7F9IWZoFu0fxEc4Nq0gm35Bdh+IuPHLgdj4hf8Qdel7qMFUcuj8lWAMQSS6gp/ZuoHCc9XpahENohOGfD6BFe8b4b2IDZX8NoJlmB2vOiNssOTxP0Y0utr2lA8cnIP0/lgDdExlnlEK9TkccVAqHYLF9FRxXXG699hSxvtbhMbxemcwtOiod5mY4HqGmnsXZhQNLkI3F4Se02dk970YfEmns7guA03ESnfmuG/olb5o7iITegmL3z4Fu93CP5N5gJ6OHI48+8oKINsvQtPciMzO9ZsjxTLJAsrY/IMJ6H2s4N3P0hEyrLufqIc7MVO3h55anNm4Y8u4j43opAvAMqgvoXENcXEn4NjcTbIcKODJxPBlyu+lvUDzvxzAmuTZdchwWw4xCMy5xPH/Ao9p03ZwRXKI="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 290,
+    "prompt_tokens": 3085,
+    "total_tokens": 3375,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 137,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 153,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 885,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

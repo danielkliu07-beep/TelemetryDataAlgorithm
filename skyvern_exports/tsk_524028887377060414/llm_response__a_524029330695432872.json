@@ -1,0 +1,52 @@
+{
+  "id": "Y3L1aYWyB_u2mPUPpfjc-A4",
+  "created": 1777693283,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page is currently showing a 'How To Play' modal dialog for the Wordle game. Behind the modal, the blank Wordle grid is visible. A virtual keyboard is also present at the bottom of the page according to the parsed elements.\",\n  \"thoughts\": \"The user's goal is to finish the daily Wordle game (either by winning or losing). Currently, the page is displaying the 'How To Play' instructions, and no guesses have been made yet. The game hasn't started, so the goal is not completed.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/a1zJO/QSISCTcmFeKso46VI+l51HmvqieZ4fOuXUJDH3+FeUJWRJpnyfalc0P2d6PdAUbxi5QZQB1SyGZkUSR7mEUeTTXtl5e8Zy8HSJhImq6X767YNvopdUEzRXFrcxerE+QFEhkfq5Ct4r0r/Wy7JKtPGpI6LfUn/DHJHpjUoT670MMkafZr2OZnvxaALFndTPQlRa8/oIWXhUr7YgoUuEECrxcUT8WluW7mfzjvkNsx0C7iyWIn/LviaB9rdbYTAKCbgLM94Svv5sDPdycNkU7gNKqT35UEh6yWT869VL9429Q7FuXwFYwlLOgcUAQBPawdlHbhXYGsX4yJVQGH1xVB+pHdLHMRF17gLwCOu9M8JtYy8JCv48v5nfK/XwZYpL95k6lyWXI1nxpxiA4oiy639YdM/EeeXwINAiwjwBouwQ8z1cvID2ssbHgLUgb3TXOlNVsh2is2QlgTcApEKiZb1y81L+XYNhAfJlbaSlmYVzdXBemHI0XPxnJ/TBd4J64G0IYfD7oMLNspibsj6lJ4cFCsIbx3EgXuvbyXpHMPQX8wkRCTFhNLKrIxyEJzsM9+2GF67iSzJxyaM34fxSjBDRAIz+XL2Zx/Au+J15z2zb0ja/EsFDU5NHPP+CRYO99/SF2Z6kMZ9B7GANgBSNxPU/sLZhnbHmHog=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 252,
+    "prompt_tokens": 3059,
+    "total_tokens": 3311,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 114,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 138,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1959,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

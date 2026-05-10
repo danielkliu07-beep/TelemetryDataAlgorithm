@@ -1,0 +1,52 @@
+{
+  "id": "4IX1af2jG4f1hcIP0ILJuQM",
+  "created": 1777698272,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page titled 'Personalized News' contains a search input field with the value 'Healthcare Advances in 2024'. Below the header, there is a message stating 'You have not added any articles to your personalized news yet.' There is also a 'Go Back' button and a footer.\",\n  \"thoughts\": \"The user goal requires the topic 'Healthcare Advances in 2024' to be successfully submitted and added to the personalized news. While the text has been typed into the search input field, the page explicitly states 'You have not added any articles to your personalized news yet.' This indicates that the action to add or save the topic has not been completed or processed by the system yet.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+WwgEvESWQPL496JC2MzfpNOXOm5Cwk8nOjnA94OMdFzokzHWsefFh2kPfPYJ0z29ri7ke3hQR+4scUAj7XojZ60/B3CwiZpFQ6XhDgNJyOHBb3PNSTwR1PFXMJ4BbK8HKSL7uTS0G3QfWJshbP6bIRAcQFfOn/iSb7idzy6KXIbQEJyJhn4Gdgv04ZKw53wI6LLKoxBDq0msmYZW9v3mjGol+uhooBtb8IpDHs0iR9iPYRHMFcZtRl2CjWkWSneyvxVqzErP2oskhHcjI2x4336p633XA6tSiOpwDrmW3cUyutoWJNDtmF9ziQDMklpsBDUmt54hoNdKjPSjsZe1Y8riC4N3Ny/+MYMsjs0FlqkrpbQhVxN4WJnui9gKJZdllPBbFszQMGlcTr1sxIdqdYRp+eYx54lViYdyn8jHwkoTCANlbL5I0c+sRwNMAkgldWfRBRwBQiEsMe4jiKY9cHDV5nT4JmD8By+hw8xjI+aKP2ThFzR8beRoq1UjULa6Hn2Eu1t3bHDT+kASy4cSg1OMgJ9tMm/u7cJtA3BuFWcrJjK9akuHzrfNL9K89pb2XS5a+OmqlKzpBfJM2682kDDsis1QpqSjrpUc7CZFe3zLotn097B0e6TAw2VnDhMIU+BMifgNfLpG3sYWGKHzc5jN7PSWtU3oRvp8/THKAy6poJKcxsob8KBtgDGPphjvMYZm2QgCQXI08nZxHklOmVmg/7fqvewMII9ZNqPYA66yb2JeuVxTTTyq3TXzdHbspDy005SdwZO9ZDJJpk/KHkjTOOLsr+VeDMfrJTTwgOzwTpD0mBz8cxAVoanEtCz93ZhbDeMxq5NaT4gKD2YmMqDf97h6u+xTjwq9jXRzHBtl0UUfBkrVpaIpPCs2oH8Ysd23Pha7pF9EDIm+RufXU1n5GBqJ+KcCI6mwtcFiyskvxDtkYisZkXsai26I9KjxKnausrdW6zA02x15opuaN28g9nnNtH6KDbRbsF+ZgOeEGNy0OzBc/OyJf2tejoJJsW/qk0n+8rrKRUgVqVDuX00970tCjNWGIltaDhzmlmmc1xB5Y9HSFas3x3O+p7j34YchcBHi9RtnykqarfX3vZBOsqDhAOoqstgpMvmGq0wGwySCcfhMJYO5YR8iE28Es5Mytte6cEzzfP98Q7KR/6JzvNTXLVxy/Q8CyPqM8jk7NW22fjIDcAZpYkXwU01xihSzZf+5C86wsoQbXXG5v6rUpIXq1Tnl2j4cbAlvBaWH/StA3SpFvASnAt9as4Xy+mSH38zzCIH/qBZpQs5PCd/igX+jd6CqyhetbbVRT7C5lHU0UvM+v9WYu4BjjZuGPYENP1Ws8GCr21udWaOgfti0P8Ld7066VUSJSc06cdrJ/wOph48OFolJY2Gd2uoTBZz4iKRTeOaZgnXkuJlgHx5DzpcmtqYmI6rgRQHD46kuC+XyGn4B89sTzmkFifB/0n9YCp5iorl4pPYiGQqgJRh8kSuMzYC/st+02p51fO3te34s9WA6yA+qg8OZhUXO1xj3v0S8TwjtJHhyQ5bAacgDJ/yuTG2dbVSB7FCQpHQsCNpigxlL0uPDFwLG6JNfVwjdVkoHN5/SGTN3c+EY2eV7svsltvh2XIZURlTyyHtzDzdMCFgqvnAy9NrxPp3B4H+vtFRgqLk7cRGX9L7Gq2e2vlM3s7I/qNRmG02hZq+Xur0YD8iP0Z8pbcfxxxmmpmCLW4rtPL7/jTl2ZCsyJnomQhEjIkpxIrOgo8lEPcOWIn/2OPYtVEOBF018VtBLEyuxeHYYpJP6Pc+zN2VjWProkqhUsnxNgwVrmWT8MZHwyBWOrs0lwCUe9lT1Mxgd0S8xNcXGBkpfQe1sRBOpQohiE0NmDruDCyh65i6+SafCHLpzwfO90aySdkycP2ve6uTJC3YHkzISMH3bEO1VdSSTN6fEXTaJfgJGVidZuGZWcdBBAtLC3AgKxNRyCQSMh4VuFs4yDx0Ad0x+cZ653K1MTWtxUZz20xIv6P5e8xUhs99q84CWgxND0ymBJ7MQzWV1ldpUHdeTRqKacfTRSvSb/p42uYt0on+aUxpHybsVMgzVLZujqyGur5Cncffxh/5xB2l4EGEGG/YvyUitz5r/tW+sHab+dy6jTSI0nTxWiPMbPnb9MlWP7T5kjq//YbEyLL6NO7UEfceHcGKKPdQEKT9mwGtTPTP5nnvw90SOpWBth88fsha509lwwGH9sR66swF/veQQk9iijIlfxJtdSOdBYFEhXiGyJAABAVnS53k8cw3iEOwSoa7rZWmvZ0dEXopsflx3EQkjpd5uwWue9uA2yJfBps3d/H42/vAM6ea1cQ8D2+4JSXXgejfDWNGwmHEEdKUZNJohM7+ejPhJSqmPXHdrQz2wQo8tF9RTZCJuTXhHAAoNUlrSZaaojqnZo8G3hJPaxM5h5XhzVicIGwMpkab6EjZ8fRJH6hsqclYPooqda9xYCThDPyKsCDXw+uQ3vjVk1WcTEksnxQasVmU07r+UWdcKFMwUSIDaT+PUnRJ+6YVq+qS1FUglgPeXX7KoJQYnTqzf6UZfpLA5KL2C3WeKn7KvqPl4B6p9obNCnHBC5K2o1h1C4QT65Bc9Qa4Y0rxPxePtdkgZA6XeyDiu/0tEdDnXKnKCdrK9O+yaSqFI1ZqMHpnP24PcTS6P8HmeK8L6sAa3yL4MloLtzuwxIsQ++5oSjk07tqSxPXrA1FagSgPAZWFz1WQfQ6OspmC3i/WVhx/zNTOdZK4UrAg4rs8kVrnf6TVkmtsKincH1657AHPzOcZuOR38F681JT6VWfdkyuwqiVxFNnFkuBdnu8+klfBoXbvOOoI7mmVbHen0HpWUOYh+ofUCqM8GSoqk9UPiS7pPjF07ytbDz1bQUsp6qVaV1rCAXhm1x1uHbFF4fYYH0vmgFuYZ6i4kR7vcEHalxczuu0iK/yuf9dyNZTdYkfEQoU0HM8WG3YHHXTFCdwb2y6oacct+mVjoi5fta5e+Cd2pHYS0qQlBCnrH4l14o78SEvZvJPqVO8dTzC8agywp/PYUah+co+mDdNcZxgtNxkbHEePru/5lKuLRkAD4NmfffzQKuHwNrkv9QgYv0VcwJ+qr/03mxMfbjtv79WN9a180AmICG8BKcsdfhAviGpeFQlTXlLpK3b8yegYfgEnRPWYXRAdO0OSAkqmqFAaj96pbJ3cD+fpwhaS7bJSR4nOA+v1eOllU2A0PjQcViYs7WoqMlSVRfbM3KyduaZjbIrqtpoUsdO/eRPYmZEXaOE/n8ZT5nivy8IIHxPShD77Qqba1ZMHeSBe4xTarT2b/FXhqrVVp0ae/rkucdMd1NfU2HwofRO2mbyCZeArQ="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 757,
+    "prompt_tokens": 2823,
+    "total_tokens": 3580,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 585,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 172,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 623,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

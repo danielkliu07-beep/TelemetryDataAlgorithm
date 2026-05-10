@@ -1,0 +1,273 @@
+[
+  {
+    "id": "AAAB",
+    "frame": "main.frame",
+    "frame_index": 0,
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "attributes": {
+      "class": "App-module_app__yRiXC",
+      "unique_id": "AAAB"
+    },
+    "beforePseudoText": null,
+    "text": "",
+    "afterPseudoText": null,
+    "children": [
+      {
+        "id": "AAAC",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "_container_1d9lu_1",
+          "unique_id": "AAAC"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAD",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "class": "Welcome-module_contentWelcomeMain__O6vot",
+              "unique_id": "AAAD"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAAE",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "h1",
+                "attributes": {
+                  "data-testid": "title",
+                  "class": "Welcome-module_title__uhLqe",
+                  "unique_id": "AAAE"
+                },
+                "beforePseudoText": null,
+                "text": "Wordle",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"h1\"][1]"
+              },
+              {
+                "id": "AAAF",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "span",
+                "attributes": {
+                  "aria-hidden": "true",
+                  "unique_id": "AAAF"
+                },
+                "beforePseudoText": null,
+                "text": "Get 6 chances to guess a;word.",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAAG",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "attributes": {
+                      "class": "Welcome-module_noWrap__ThSVO",
+                      "unique_id": "AAAG"
+                    },
+                    "beforePseudoText": null,
+                    "text": "5-letter",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"h2\"][1]/*[name()=\"span\"][2]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"h2\"][1]/*[name()=\"span\"][2]"
+              },
+              {
+                "id": "AAAH",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "class": "Welcome-module_buttonContainer__K4GEw",
+                  "unique_id": "AAAH"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAAI",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "data-testid": "75% off",
+                      "type": "button",
+                      "class": "pz-moment__button secondary default Welcome-module_ctaSales___DnSr Welcome-module_button__ZG0Zh",
+                      "unique_id": "AAAI"
+                    },
+                    "beforePseudoText": null,
+                    "text": "75% off",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+                  },
+                  {
+                    "id": "AAAJ",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "class": "pz-moment__button secondary default Welcome-module_button__ZG0Zh",
+                      "href": "https://myaccount.nytimes.com/auth/enter-email?response_type=cookie&client_id=games&application=nyt-lires&asset=&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fgames-offer%3FcampaignId%3D8YUQL%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fgames%252Fwordle%252Findex.html",
+                      "unique_id": "AAAJ"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Log in",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+                  },
+                  {
+                    "id": "AAAK",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "button",
+                    "attributes": {
+                      "data-testid": "Play",
+                      "type": "button",
+                      "class": "pz-moment__button primary default Welcome-module_button__ZG0Zh",
+                      "unique_id": "AAAK"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Play",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"button\"][2]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+              },
+              {
+                "id": "AAAL",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "h3",
+                "attributes": {
+                  "class": "Welcome-module_date__Fmbmx",
+                  "unique_id": "AAAL"
+                },
+                "beforePseudoText": null,
+                "text": "May 1, 2026",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"h3\"][1]"
+              },
+              {
+                "id": "AAAM",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "p",
+                "attributes": {
+                  "class": "Welcome-module_wordleMeta__P_0lJ",
+                  "unique_id": "AAAM"
+                },
+                "beforePseudoText": null,
+                "text": "No.;1777",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"p\"][1]"
+              },
+              {
+                "id": "AAAN",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "p",
+                "attributes": {
+                  "class": "Welcome-module_wordleMeta__P_0lJ",
+                  "unique_id": "AAAN"
+                },
+                "beforePseudoText": null,
+                "text": "Edited by;Tracy Bennett",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"p\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]"
+      }
+    ],
+    "purgeable": false,
+    "keepAllAttr": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]"
+  }
+]

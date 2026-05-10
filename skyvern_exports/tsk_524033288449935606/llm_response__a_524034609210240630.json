@@ -1,0 +1,52 @@
+{
+  "id": "Jnf1aaT6LYzCtfAPhbmA4Ao",
+  "created": 1777694502,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently in the middle of a Juxtastat game. They have answered four questions (indicated by the red and green squares) and are presented with a fifth question.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"The plan is to continue playing the daily Juxtastat game by selecting one of the two geographic regions provided as answers to the current question. I will click on one of the region buttons to proceed to the next question or the final score screen.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"To progress in the Juxtastat game, I must select one of the two regions presented in response to the question. I will click on Winnipeg City.\",\n            \"user_detail_query\": \"Which region do you want to select: Gatineau Ville or Winnipeg City?\",\n            \"user_detail_answer\": \"Winnipeg City\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAA2\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"This is a multiple-choice question where I must pick one of two options. Selecting one depends on my choice, so it's not a single-option click.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+A4/mXW+fDNoKq1fTuUu/lwfHq4ZMJt0nO3wNb1PdCx+q6UwrNjc8TVApxCad7DilqTmWXw5kl9SjhMoYXLxXaFZ/p0I4ONIKhUuFsVR4d+3KfcRzvPcfM2A6LLdnsAVbBoPA31MpKTG9/oiRqhZlB34ehZJBjThXfH+ochu6p5EDpLJPcimjdlrZWeTo15hYWrDMFTF5cgc8+/aPp/qmNu6+bncxN4RJxU5JpHJupRcrI5HOe24on4m0suPYv9jWP3SStXIWVVRID9dK4UD7JLwYLjWjKtYuk2vr8XfnbZgdRx025aa4wUWDm+Bwq+OhaOjNt+CK0oM08O1q05uuOH3FzPgQzgBxz8SgnIz2NuP+NDZ7CsEp2Acvmy7Tlec+5xOE3Rh9L+LRjlhqZeQH7q5BStLK6MVByILsbLCdbXCw/g1fDRMBybM/7RGoZI0m5z09MXZKE/3aBDQfrRrRrgmKS5YNAoI8DBDNIahXUW5p8iesXFZnyoHPHO81C5NI1B2sSFQhG4ZDsl3xgmJWkxIrS/Lt28m1A9wBCaYc/wtZBK1+SdVv9Bv0NHLZgn66Ib+Z/w/XiLafqTAFEjkiOojefBfsd550zMrF9ItAu6/2y/bkfhNb+1u1+h43lYR+RCs1dm+jzXkZcXt9tUU4CFOqUnG08Dy/wm5/OloqJJdUYPZCqSmqiHarqVLGGcRnorOIrIxJIKGtAfy+sFUxUb8vE3ird6wneero8fuMzRuF1GnLvVLSyvuhjVkfAxyb8vtQYEEKNYPIFuXJYddzHBvd547FkwIpkLAnVnq1762sCgZKWETMkDibuLL9F3QPxf5HNb7Z9+kWP3rN3wnZUwcQ74EJvnV+xq0fNetGylTGcGLDt1ssdufEC4P0Py+Xi1DqPrme7RmvXBa4HmzXg9pI4jVGD6mwOUmeYMThPC+0JYieUQwjdhYTOKd8Lyjmp/jxhFnPXl6vAMJwjEquSyBRpeY0c32W11VE1+Oz2g0SsupA2C3EQ2vjiocMLjbc1RWQuY5xlhpElAxe3u+LMJXMshEuUNF8yEL5kC/IDm6wq5hxrI3VajsKQ4O7pw1u3GOyfMRSuAFFTW0wCDN2Mdhxxlvi8kt5bA3hPhlVEvJVvnPUy1RUn3jFYAfxuKzP9cd9cnab+W4ME1xQTgukPUtJcH9Bjbg+A2ZLWq92KGRaPt//gMHLc+yy3imD0hjZPRinUlCvIYQxfFsHw5wkX6ZGN2x+HHXMrtc8rigVi0xxYnVXpBs/Ej+qg"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 592,
+    "prompt_tokens": 6023,
+    "total_tokens": 6615,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 228,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 364,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1302,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

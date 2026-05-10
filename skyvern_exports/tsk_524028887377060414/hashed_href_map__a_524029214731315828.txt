@@ -1,0 +1,3 @@
+{
+  "_513a8bdf13e754a2e48dfdbda61c45b4c48bd78187b60a18721cdc10b3bb19cf": "https://myaccount.nytimes.com/auth/enter-email?response_type=cookie&client_id=games&application=nyt-lires&asset=&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fgames-offer%3FcampaignId%3D8YUQL%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fgames%252Fwordle%252Findex.html"
+}

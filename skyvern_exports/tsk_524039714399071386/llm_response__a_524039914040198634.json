@@ -1,0 +1,52 @@
+{
+  "id": "AXz1acWcG-L02fMP8J_jyAs",
+  "created": 1777695745,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently on the home page with a data sharing consent popup. I need to dismiss this popup to access the main site content and find the Premium Individual plan.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"First, I will click the 'Continue' button on the 'Your Data, Your Experience' popup to dismiss it. Then, I will navigate to the 'Membership' section using the sidebar link. From there, I will look for and select the 'Premium Individual' plan to initiate the purchase process as requested.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"A popup about data sharing is currently blocking the screen. I need to click 'Continue' to proceed to the main website content.\",\n            \"user_detail_query\": \"Should I click the 'Continue' button to proceed with data sharing?\",\n            \"user_detail_answer\": \"Continue\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AABj\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"The 'Continue' button is the only way to dismiss the modal and move forward with the website interaction.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a18TXkQ4Q0PHBYYBjPLQxZIdy9jjpXtU/MARZL/OELpPjPfHmSzqeWvJtbIvm8QFKK/F/tV7+KlMAga/oTVg4bgvQ3kKMR7dKIxuatkr0VOIMWN6F1sit1vvzDIDfeRV1NyDCJ522qHCWXRsIOYvx92W+nFMn4PsvJ6XJAz5vjYhYgfhIsprb0cqdYLP8pWCgCdmIpXID9QcKi2ZgrsNyRWfVlI70XlKjgSs+sFmhkNb9L0JwxM6Q5a1oFqH1uUkE0m7WRdu/SIzIyvoerBT7UCVJZLwpIfEm0sdIvsZS4AVTiP5Bb9tOmjhoRBLf4hbRXJqNsE7dPGftX3hItNL+KOcgszrzPa0lTjZOekE6kOnWONd2swwfbMZq3meNOPGGDYgyOKz88X4PmfC9aSO9JTILPRqMRGlLtQ8meROgekRDJEsgP3PUI898lkATUjAk48usFXG6BKh4FO4dD/hD6aNLGH9DrUqk0ZK81hhl3jqRWWtu3uYqhxFyJrBU2T3BPGTaP17LDZs2vBw36gCec5NS6SdqawdXZ82CeDLn7IICMtxIlcwCu+4D7fRJkeXBvGjKnGNiXGCwd7kyRiinrxXp0vRIQvXsHqqwl6zWK9sy6tVpf9Qmgp6FAaf6HsFY49xXD66mJUi3VR0i05jh5LlZQDPF+1KnLzXtvfDZffZ/9ApScKdpclnyWKNHvwG2H9hmGkZUKmff1EhZXHyAwSqtA1H18zUnI4QWcEAP4BX1CMCH7OrAXL21YzdrSt7n0XKSEO71GayIs3klOYXuB9ljGlz3M6QBGZS+b2zei6qrPbzanN5jABekhBiVhdAViAoCj8//T7E4Ijjb4dLk6npqFo="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 492,
+    "prompt_tokens": 6022,
+    "total_tokens": 6514,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 139,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 353,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1301,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

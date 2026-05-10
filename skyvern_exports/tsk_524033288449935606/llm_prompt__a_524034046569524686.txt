@@ -1,0 +1,41 @@
+Your are here to help the user determine if the user has completed their goal on the web. Use the content of the elements parsed from the page, the user goal and user details to determine whether the user goal has been completed or not.
+
+Make sure to ONLY return the JSON object in this format with no additional text before or after it:
+```json
+{
+  "page_info": str, // Think step by step. Describe all the useful information in the page related to the user goal.
+  "thoughts": str, // Think step by step. What information makes you believe whether user goal has completed or not. Use information you see on the site to explain.
+  "user_goal_achieved": bool // True if the user goal has been completed, false otherwise.
+}
+```
+
+User Goal:
+```
+Play the daily game on Juxstastat. COMPLETE when the daily game on Juxstastat has been played or completed.
+```
+
+User Details:
+```
+None
+```
+
+
+Action History:
+```
+{"action_type": "click", "reasoning": "To progress in the daily game, I need to select one of the two options provided for the question 'Which has a higher % of people who are Muslim?'. I will select the first option.", "result": true}
+```
+
+IDs for emerging HTML elements
+```
+{'AABZ', 'AABc'}
+```
+
+Elements on the page:
+```
+<div><a href="/" id="AAAC"><img src="/banner.png" alt="Urban Stats Logo" id="AAAD"></a><div><input type="text" placeholder="Search Urban Stats" value id="AAAF"></div></div><div><div>Main Menu</div><a href="/" id="AAAI">Home</a><a href="/about.html" id="AAAJ">About Urban Stats</a><a href="/data-credit.html" id="AAAK">Data Credit</a><a href="/uss-documentation.html" id="AAAL">USS Documentation</a><div>Tools</div><a href="/mapper.html" id="AAAN">Mapper</a><a href="/statistic.html" id="AAAO">Custom Table</a><div>Random</div><a href="/random.html?sampleby=uniform" id="AAAQ">Unweighted</a><a href="/random.html?sampleby=population" id="AAAR">Weighted by Population</a><a href="/random.html?sampleby=population&us_only=true" id="AAAS">Weighted by Population (US only)</a><div>Games</div><a href="/quiz.html" id="AAAU">Juxtastat</a><a href="/quiz.html#mode=retro" id="AAAV">Retrostat</a><a href="/quiz.html#mode=infinite" id="AAAW">Juxtastat Infinite</a><a href="/syau.html" id="AAAX">So you're an urbanist?</a><div>Settings</div><div><input type="checkbox" checked="false" value="on" id="AAAa"><label for=":rc:" id="AAAb">Use Imperial Units</label></div><div><input type="checkbox" checked="false" value="on" id="AAAd"><label for=":re:" id="AAAe">Include Historical Districts</label></div><div><input type="checkbox" checked="true" value="on" id="AAAg"><label for=":rg:" id="AAAh">Include Person Circles</label></div><div><input type="checkbox" checked="false" value="on" id="AAAj"><label for=":ri:" id="AAAk">Simple Ordinals</label></div><label>Temperatures</label><select selected="°F" id="AAAm"><option index="0">°F</option><option index="1">°C</option></select><div>Appearance</div><label>Theme</label><select selected="System Theme" id="AAAp"><option index="0">System Theme</option><option index="1">Light Mode</option><option index="2">Dark Mode</option></select><div><input type="checkbox" checked="false" value="on" id="AAAr"><label for=":rk:" id="AAAs">Colorblind Mode</label></div><div><input type="checkbox" checked="false" value="on" id="AAAu"><label for=":rm:" id="AAAv">White Background</label></div><div>Juxtastat</div><span>Which has a higher population-weighted density (r=1km)?<div id="AABc">ⓘ︎</div></span><div><div id="AAAz"><span id="AAA0"><div id="AAA1">Youngstown [Urban Area], OH, USA</div></span></div><div id="AAA2"><span id="AAA3"><div id="AAA4">Charlotte [Urban Area], NC-SC, USA</div></span></div></div><div><button type="button" aria-label="Enter fullscreen" title="Enter fullscreen" id="AAA6"><span id="AAA7"></span></button><button type="button" aria-label="Enter fullscreen" title="Enter fullscreen" id="AAA8"><span id="AAA9"></span></button></div><table><tbody><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table><div>Select the geographical region answering the question. The questions get harder as you go on.<div>Your user id is;.;to sync your quiz history across devices.<span>334dbfcee6fdcdc</span><a href id="AABL">Sign In with Google</a></div><button id="AABM">Export Quiz History</button><button id="AABN">Import Quiz History</button></div><div>Urban Stats Version;by;. Last updated;.;Not for commercial use.<span>31.7.0</span><span>Kavi Gupta and Luke Brody</span><span>2026-04-12</span><span>Significant help with weather data from;.;Thanks to;for the Metropolitan Clusters.<a href="https://twitter.com/OklahomaPerson" id="AABT">OklahomaPerson</a><a href="https://bsky.app/profile/elpis.bsky.social" id="AABU">Taylor</a></span><span>If you find Urban Stats useful, please donate on;!<a href="https://ko-fi.com/notkavi" id="AABW">kofi</a></span><span>Check out the;!<a href="https://urban-stats.printify.me" id="AABY">Urban Stats Store</a></span></div></div>
+```
+
+Current datetime, ISO format:
+```
+2026-05-02T03:59:41.410370
+```

@@ -1,0 +1,448 @@
+[
+  {
+    "id": "AAAB",
+    "frame": "main.frame",
+    "frame_index": 0,
+    "interactable": false,
+    "hoverOnly": false,
+    "tagName": "div",
+    "attributes": {
+      "class": "ant-layout newssite-layout css-ni1kz0",
+      "id": "news-site-layout",
+      "unique_id": "AAAB"
+    },
+    "beforePseudoText": null,
+    "text": "",
+    "afterPseudoText": null,
+    "children": [
+      {
+        "id": "AAAC",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "a",
+        "attributes": {
+          "id": "news-logo-link",
+          "aria-label": "Navigate to NewsSite Home",
+          "href": "/news",
+          "unique_id": "AAAC"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAD",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "h3",
+            "attributes": {
+              "class": "ant-typography css-ni1kz0",
+              "id": "news-site-title",
+              "style": "color: rgb(255, 255, 255); margin: 0px;",
+              "unique_id": "AAAD"
+            },
+            "beforePseudoText": null,
+            "text": "NewsSite",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]/*[name()=\"h3\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+      },
+      {
+        "id": "AAAE",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "li",
+        "attributes": {
+          "class": "ant-menu-overflow-item ant-menu-item ant-menu-item-only-child search-menu-item",
+          "role": "menuitem",
+          "tabindex": "-1",
+          "id": "header-search-menu-item",
+          "aria-label": "Search News Articles",
+          "data-menu-id": "rc-menu-uuid-55755-1-search",
+          "style": "opacity: 1; order: 0;",
+          "unique_id": "AAAE"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAF",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": true,
+            "tagName": "span",
+            "attributes": {
+              "class": "ant-menu-title-content",
+              "unique_id": "AAAF"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAAG",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": true,
+                "tagName": "span",
+                "attributes": {
+                  "class": "ant-input-affix-wrapper css-ni1kz0 ant-input-outlined",
+                  "style": "width: 300px;",
+                  "unique_id": "AAAG"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAAH",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "span",
+                    "attributes": {
+                      "class": "ant-input-prefix",
+                      "unique_id": "AAAH"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [
+                      {
+                        "id": "AAAI",
+                        "frame": "main.frame",
+                        "frame_index": 0,
+                        "interactable": true,
+                        "hoverOnly": true,
+                        "tagName": "span",
+                        "attributes": {
+                          "role": "img",
+                          "aria-label": "search",
+                          "class": "anticon anticon-search",
+                          "unique_id": "AAAI"
+                        },
+                        "beforePseudoText": null,
+                        "text": "",
+                        "afterPseudoText": null,
+                        "children": [
+                          {
+                            "id": "AAAJ",
+                            "frame": "main.frame",
+                            "frame_index": 0,
+                            "interactable": true,
+                            "hoverOnly": true,
+                            "tagName": "svg",
+                            "attributes": {
+                              "alt": "Magnifying glass, search icon"
+                            },
+                            "beforePseudoText": null,
+                            "text": "",
+                            "afterPseudoText": null,
+                            "purgeable": false,
+                            "keepAllAttr": true,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "keepAllAttr": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                  },
+                  {
+                    "id": "AAAL",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "input",
+                    "attributes": {
+                      "id": "news-search-input",
+                      "aria-label": "Search News Articles",
+                      "placeholder": "Search News",
+                      "class": "ant-input css-ni1kz0",
+                      "type": "text",
+                      "value": "",
+                      "unique_id": "AAAL",
+                      "style": ""
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"input\"][1]"
+                  },
+                  {
+                    "id": "AAAM",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": true,
+                    "tagName": "span",
+                    "attributes": {
+                      "class": "ant-input-suffix",
+                      "unique_id": "AAAM"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][2]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]/*[name()=\"span\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][1]"
+      },
+      {
+        "id": "AAAN",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": true,
+        "tagName": "div",
+        "attributes": {
+          "role": "menuitem",
+          "class": "ant-menu-submenu-title",
+          "aria-expanded": "false",
+          "aria-haspopup": "true",
+          "aria-disabled": true,
+          "data-menu-id": "rc-menu-uuid-55755-1-rc-menu-more",
+          "aria-controls": "rc-menu-uuid-55755-1-rc-menu-more-popup",
+          "unique_id": "AAAN"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAO",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": true,
+            "tagName": "svg",
+            "attributes": {
+              "viewBox": "64 64 896 896",
+              "focusable": "false",
+              "data-icon": "ellipsis",
+              "width": "1em",
+              "height": "1em",
+              "fill": "currentColor",
+              "aria-hidden": "true",
+              "unique_id": "AAAO"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "purgeable": false,
+            "keepAllAttr": true,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+            "isDropped": true
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"ul\"][1]/*[name()=\"li\"][2]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAEc",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "h2",
+        "attributes": {
+          "class": "ant-typography css-ni1kz0",
+          "unique_id": "AAEc"
+        },
+        "beforePseudoText": null,
+        "text": "Personalized News",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"h2\"][1]"
+      },
+      {
+        "id": "AAEd",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "class": "ant-typography css-ni1kz0",
+          "unique_id": "AAEd"
+        },
+        "beforePseudoText": null,
+        "text": "You have not added any articles to your personalized news yet.",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+      },
+      {
+        "id": "AAEe",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "button",
+        "attributes": {
+          "type": "button",
+          "class": "ant-btn css-ni1kz0 ant-btn-primary ant-btn-color-primary ant-btn-variant-solid",
+          "unique_id": "AAEe",
+          "style": "margin-top: 20px;"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAEf",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "span",
+            "attributes": {
+              "unique_id": "AAEf"
+            },
+            "beforePseudoText": null,
+            "text": "Go Back",
+            "afterPseudoText": null,
+            "children": [],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+      },
+      {
+        "id": "AAET",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "span",
+        "attributes": {
+          "class": "ant-typography css-ni1kz0",
+          "aria-label": "NewsSite Footer Information",
+          "id": "footer-text",
+          "unique_id": "AAET"
+        },
+        "beforePseudoText": null,
+        "text": "NewsSite \u00a92024 Created by Your Company",
+        "afterPseudoText": null,
+        "children": [],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]/*[name()=\"footer\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "keepAllAttr": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][1]"
+  },
+  {
+    "id": "AAEU",
+    "frame": "main.frame",
+    "frame_index": 0,
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "label",
+    "attributes": {
+      "for": "scratchpad",
+      "unique_id": "AAEU"
+    },
+    "beforePseudoText": null,
+    "text": "Scratchpad",
+    "afterPseudoText": null,
+    "children": [],
+    "purgeable": false,
+    "keepAllAttr": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"label\"][1]"
+  },
+  {
+    "id": "AAEV",
+    "frame": "main.frame",
+    "frame_index": 0,
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "textarea",
+    "attributes": {
+      "id": "scratchpad",
+      "placeholder": "Scratchpad",
+      "aria-label": "Scratchpad",
+      "style": "position: fixed; bottom: 20px; right: 20px; width: 200px; height: 100px; pointer-events: auto; background: rgba(255, 255, 255, 0.8); color: rgb(0, 0, 0); border: 1px solid rgb(204, 204, 204); z-index: 1000;",
+      "unique_id": "AAEV",
+      "value": ""
+    },
+    "beforePseudoText": null,
+    "text": "",
+    "afterPseudoText": null,
+    "children": [],
+    "purgeable": false,
+    "keepAllAttr": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"main\"][1]/*[name()=\"div\"][2]/*[name()=\"textarea\"][1]"
+  }
+]

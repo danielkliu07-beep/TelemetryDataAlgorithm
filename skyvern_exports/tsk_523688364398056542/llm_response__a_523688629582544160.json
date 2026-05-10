@@ -1,0 +1,52 @@
+{
+  "id": "hDz0aYPgJtuEtfAP9qjWqQI",
+  "created": 1777613956,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page displays the pricing information for lmnr.ai. It includes four distinct pricing tiers: Free ($0/month), Hobby ($30/month), Pro ($150/month), and Enterprise (Custom). Below the tiers, there is a 'Pricing calculator' and a 'Frequently Asked Questions' section with topics like data usage calculation and Signal steps.\",\n  \"thoughts\": \"The page content directly matches the user's goal of navigating to the pricing page. All relevant pricing components (tiers, calculator, and FAQs) are visible and fully loaded. The navigation link for 'Pricing' in the header is present, and the main content area is dedicated to pricing details.\",\n  \"user_goal_achieved\": true\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/2Kkka9bJiS3U5tvcoFgxzZiQPn7Beif0bvs8O+5We+ljqSAUL3tdD54RNDtUimOL5afLyJoqyUzbyIdMhraH5C+6FX1+g7YVJyfLzmy07qC+TSf8wRf09Rh7ftTpfbBX8Cm+PmQK2U7IdU//wQcyD4ednHpe3I+8vzLAU/9+LMcVwRU9PjTr8GJFFKldSdpo4rFOoowlDQA91rjzhb61FvFt0+yc/IIPbGlKrkBqfSGWhPDbBnMga+CTO0BF0ZBPIA8Ohr/EnPly3m5Z6Q/J3sRi9v1lPJxOahVt4ljJb1VbcA69RD6zNhE/BCEhwELbfW6MZ3s9KhJqwe2S++KeTLH7zHNKnY/daZqwr9CGffh4kqc0PLp4Q/2b9bC9yKfpKfGCiYeuzM291cQsULqGXTa1kuEpJi6GiZZWBHi4whnn/BP8l/ihPoICASwmQrdG6c6VTrKtRsoqXDbCChGgQ7aadE54qWaIBTlaFWsb1XUoHNjy2AMf44Ae1yvudYIy/d1mOh0L6Wq130tG5xkdgtCVssYsQbb55EXLQGyF45lcx1hXzRJ0/6Ssl29eB2U+WdepCtNTJT3nWUvpDrgSXSy4ImejZ/paQEE4S8KDpp3J0np4rSasDghuHP76wuqaZIH5d9PWwHXIvWdWS7UrzGpd8JDnP8x3KW9QNMn9N5hB0zDNe8xnrQL2hGmydlVV29jV++nyS/XEwAxthPI8zXhALZgn18cyirNSWm8D+UAUa4beXBjZ/pEE1X+bwEV919lhRLEXYm62qKXtYuuHCe8lgO7iEdUd3nJh9yfKPlXCfFJTr+p6faq/iXwDjgB3FIYHA2vKAqZSAf4P8tcTDC5DHvNN+38W9gHDeVxd89inUe4CMJIllTanU4c97AnMfc+RQhPtlCcke7+42QfnmvyRWshF3bZSMnFbvib9N2ID0x5iWPweq1aqF2Au8A9OoJhxIvS1c/v+6maIN9hnBWiH+gjjun0Vy+pvbkt8krb9pOEXUexxHNQFxNI631kmzbUbrSfzxbCs4aC8NyMCIsVKSJ6zvQDIJJ43HbHS37HV9X/AsiXTNCphSzfnwPCV+pIJHphSbw0CdsM6D3wiEq2ZAQFogfx0et5ubs4z5dJBHfVRpygs+XTLj06xvCBrGaJpdE6eZ/dDU1u1bvK9uWTmBEa6ryO3vk285M8+1rFIlgPuHH4MYAXpWnnfNZRxKQQMsRoF6Cb3bFtitMOkhJP9iYg9HAguLBfYS0BaFjw8A7qQk1IsqwBRXWGXqET2GKHeIP/0RRnVOG2s="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 392,
+    "prompt_tokens": 6337,
+    "total_tokens": 6729,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 224,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 168,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1937,
+      "image_tokens": 4400,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

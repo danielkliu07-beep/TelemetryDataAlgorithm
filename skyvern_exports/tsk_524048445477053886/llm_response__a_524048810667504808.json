@@ -1,0 +1,52 @@
+{
+  "id": "EIT1aZbdCozCtfAPhbmA4Ao",
+  "created": 1777697808,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user goal has not been achieved yet. A promotional popup is currently obstructing the view and interaction with the products on the page. I need to dismiss this popup first.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will dismiss the 'Premium Membership!' popup by clicking the 'I don't want benefits' button. This should reveal the products on the page, allowing me to find and add the 'Oral-B Precision Clean Toothbrush' to the shopping cart.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"The 'Premium Membership!' popup is blocking access to the store's products. Clicking 'I don't want benefits' is the most direct way to dismiss this interruption without signing up for an unwanted service, which should allow me to proceed with the main task of finding the toothbrush.\",\n            \"user_detail_query\": \"What button should I click to dismiss the popup?\",\n            \"user_detail_answer\": \"I will click the 'I don't want benefits' button to dismiss the popup.\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAAX\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"This button is one of several options on a promotional popup. Selecting this specific option is necessary to dismiss the popup based on user intent (not wanting the benefits offered).\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/7v1Wfsm/mue+kNBszMBfN1DTnWd81axTokuaVfBfaM25BisqWr4RLBemOxHLIjbpnH9giP/QaYzOLT7i/UnkIYemcvfDLTOIm+VIiv7XB16DbQOIR64jLhZSQoBkeg1vI3W7g7Cv+vK/AFofFCz5cAfusKupCZkFc1Za+v+Oh3lHYAVSvxIPLdofLjvb4Kj0g43P6hsuQJipDfwPDR2a5rp0t8guYiWfIWSNF3sZInI4s8ioTl2irvSyil4SIIo3LfopYU4D06fnbTZe6diJLNSh9f+Yr19KTCw++UVG7V9+NJ+Qwy7OfkF6BET3GMmKAPx+MoVfAPEdPGKGDZOzqW9CPcpsZ5Of53QRpOVb8D6U3nn2+5TNKE4DKk4SF0NsTR+QldU+ko4a716Jkq1MYwPbIs0WfXVaT5N6JWmPYAtR/tZPtmu1tl+bPNc3E8mQCnu3bf0qbBklpP5l0n18TB5GpYpz+yW13ghyPuhRubpHazljyAuIcrx1+pQ0Dn1I8oUcZZBXB9CLsMrQUPZu57GNUQ5E7cd7xXKVkUwCPjH3TRd1fYwSQrYrxbeAy41/TopdTddJGoDYWZkOd77qUtQC9C6RE24eeKm8NKwwKp/k4waahAMCYKJRnsbr0Ee2xXVnI3Nk79GeqSj4enacbkHVvxOR5c37hOWlUuIUaS/2e1HeriUnfUVJa07NZxPGY7coDnaBOIGJJOclbN5DgouuttsGQNrBsU9ruJxZgB2ZQBtVDwYF/efR7NaQNGaogtx13jqGiZNiuZ7MCOrfT68WNj1U4zobKUs7LWqDR7AokXD5YSzgjiLnv7bgqEc6oS2fbrWdrUmlNByjNsjSahAE8a9ABYyU2Kclz4YrHJ0gTI1Rrgcid7hvStS7egInoRiqhsLPs9/eZZc3AM27q0lJrAA5BtAlGtPgMHGe1S9QD/LtYUrzfbsLI3wreve5YGIYlHvTFtFb3QJZolqlgosIaOkmbXn9X0IfIfpSC8XJMcRvMYFEXrJdaDxHhtOFRML6KOWhpe4G423AdP2Z4+u0ZB0Mm7d/gGRmdyDcqENs4y98tKb7icQ8jPF2R2uLYRH0pII2UH+O41Q91RJSly77Zc+y/FLhC9p/RZzVPDvUfQ4VeLZLCp03OLMa9lcdjTOnvNLwTCwgeT65MQAKuq0Z0GnDB0NssudWUdnqHP7F7fTZm1GKG2Mz9RGApDSY0igVQdtTD6te16mT9kiGgPWBzHp62TVsEJTEe9omWWlcu3tooHTkwEQyQeo3sQ9E/8dd1REzSsa+dCfVDkc6OLNGPdoL9EzguS8qBJMxlxwe0kNiGUwXcAe2Ur38+/sZOpTeUFazRoLn8T1E6JNKczqwdspXx5s7R3+Ma7NypZXZ7I285sPxjvubl01z0K/UDt1fICfqe"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 693,
+    "prompt_tokens": 4225,
+    "total_tokens": 4918,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 296,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 397,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 604,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

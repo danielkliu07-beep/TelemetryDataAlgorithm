@@ -1,0 +1,48 @@
+{
+  "id": "ZS39aeQ92aHP8g--4sf4AQ",
+  "created": 1778199908,
+  "model": "gemini-2.5-flash-lite",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"reasoning\": \"The screenshot displays a map with geographical information, including city names and highway routes. There are no visible options, placeholders, or input fields that would indicate an open dropdown menu, a date picker, or multiple quantity selectors as defined by the criteria. The icon in the top left corner appears to be a map control (like fullscreen), not a dropdown menu.\",\n  \"is_opened_dropdown_menu\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": null
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 567,
+    "prompt_tokens": 1568,
+    "total_tokens": 2135,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 469,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 98,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 278,
+      "image_tokens": 1290,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

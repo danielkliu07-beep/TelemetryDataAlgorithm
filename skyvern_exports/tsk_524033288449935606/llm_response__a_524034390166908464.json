@@ -1,0 +1,52 @@
+{
+  "id": "-Xb1abfcN4zCtfAPhbmA4Ao",
+  "created": 1777694457,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page shows the Juxtastat game interface on Urban Stats. It presents a question: 'Which has a higher % of people who are renters?' with two choices: 'CA-45 (2023), USA' and 'MI-02 (2023), USA'. There is a progress indicator below the maps with five slots; two slots are filled (one red, one green), indicating that two questions have been answered and three remain.\",\n  \"thoughts\": \"The user is currently in the middle of the daily Juxtastat game. They have completed 2 out of 5 questions. Since the game is still active and has not reached the results or completion screen, the goal to have 'played or completed' the daily game is not yet fully met.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 716,
+    "prompt_tokens": 2444,
+    "total_tokens": 3160,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 526,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 190,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1344,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

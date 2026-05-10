@@ -1,0 +1,52 @@
+{
+  "id": "Mi39ad7CEqDjtfAPj5iA4QQ",
+  "created": 1778199858,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page is the 'Juxtastat' game on the Urban Stats website. It shows a quiz question asking which of two regions (Montréal Territory or Ottawa CDR) has a higher percentage of low-income people. Below the options, there is a progress bar with five boxes: one is green (indicating a correct answer for a previous question) and four are light blue (indicating remaining questions).\",\n  \"thoughts\": \"The user goal is to play the daily game on Juxtastat. The goal is considered complete when the game has been played or completed. Currently, the UI shows that only one out of five questions has been answered (indicated by the single green box in the progress bar). The game is still in progress, as there is a current question active on the screen and four questions remaining in the set. Therefore, the daily game has not yet been completed.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1/UkfRp1ouBxtjPweOT3Evpen/9M/IMyoBdS7CNYYwsJsE4NWoVgSoHqRa+dT6jF2zqJ3ZDmueHr27m54zmImhzLg50Hqj6/3QRXHjID+cc4mCSKkqXT17QsLOnNANL32n2zI7F4+XF8L4YCLCn0rlsA+wpkXOTgeqV88iJdwk0J1BUq3qF0nju31sRK2Jk3Z2l1X46/HzZ5taFPTm8oJgMxIETNZT12NZ5V8ggdC/aee5U+G4JTCFizookrZlexQJcvGsIRKhE6JAgonKDFOBm0OlBKreHCypyE86ZLXojWHP4l9cJxBES5So1OrL51ukSNVYtdHkEWGqT3wrQZ9JioB7q8c6UROUdDD2qgYsJ9dPwiCfsuYFMQMjyDCvb7a6Zmzz36lTLICWmlhvu0wdTlrySCiCQnz/1FoLGxV5QcNAUsK6uOkQ/KIkwQsSljzYYyrzwrfhc7eyNFYSDPwFzGkVyOA0FOjX+PTN4j9W/2KACO7obQ/ubbvGkm3t50j62VFjO7zWknCihUD5/UbtS00rG6M3yF9gPYL47yNrdHVR70MCCiSy4VPveDCo7+lrvrxH8TL3lOljUff63ua+lQOlV3wrkjHzY/z9zRe1ZdbE4faxCoT7Ph9FLlPhFm65X7kzpF3EmSijqnwEUI9VZoPAtAnuHv8ACJUwK0+30G4l6p6iptD+YHvc+n321ja7+gjgqZOSPBbXDueaDnxxakEMRfHVYBJ6KKVzkRG7eNCL6Uz5PIE3+E5HrpGNdMxy9KVsaFDjWXq9JMIcf0dZArAgCakb64gOHpeJDBPE50q8hr/XPXS7aVM5eOBzQkhZxlAAzcV7DDR723il/MTYfmW9KvUKqjZawEp2OYYf5sTF4ZELil9pEfDI+J8ZyvOELHmmVWES/GVXPIVrJAn24bNbG7pn5caLzYbZjdZt2rwLdDdBvE5mmgKxTlqhY1L4uR1wCMBe2S4JgyktCVRjXOsHUmmaqFiAGrTWEnpSe0sdjr7i3wz6n4XdaseSM9NKWH+TVhxfgSo0G/oSvA9jbPJr8ja718KZmbxeH9h9KhHK0JEt4BASjrcLTxEuEYfM4cjUCgLqvduouyFZfncId2LAKEvlI8WjWOQ/PdTZ5zhGF0Lar82O1++FEJmQgTro5P1bk81CE+RX+RYUIkwUrukg26qCctG3e/lNXF5jtssXQlQ4yqO+OIawnBR+fQI+coE/Aimp0PPe6hHKqUcDOZ/ESVPqKdkGKK4g4DdJ3Xcs5L7hxkldrMzzLwsF2/7nu+aqt0oSl2OtR2aZyRMC7Aa4lZku3SlrdY2knTEqGmV0CCFknwcdeYTY5NHxmSNGc66CEjR7n4EtrEmCikqxOWSaaMEioz8Lcn+Xm3yrZBCuPwIhnksqtX3S0BmeYMMdIKCVCTyPHhJBAio44876Sfxj/BfTa/VzAhm6twFjkuS5d8Nq7OZMNd8XN17wOEFOi96oB5SbNPX/LVYSx6kA4xhYWxkcUZvyymvu0Xqtpx+BDYSpIIo1fj4/CkFEy/8xs70MjjmU1Ti8eR+pb16Y6fv7/tMVfZIx01Ucen8KMRAbl6etMgbdTLeoi1b7wGEBuIieurLI6g1TGHsFOE4ArCe3EantLYVA1Dp++PET76AQBP5RWvyNpuFsxfJCiFtIr/1Zg0tRHP2r0eGVoBP59C6bmdBLWhwCZB46xXek87yyTlTmZTrcc0ay0yD/CSCRDo+x5zAVU5G+YDibS8Bsg/9hyNrvymL3eSCSV+H7LUnu1V3trZruj/QcDX08oZXvLVv7azjBUpu3/zI62mgiQMJ2oobM7cICDiExWX1wLHDLAe1GBDFent2cl9tMEF2vZF/dprKunxR7Ucu4V/FMC8obJqBNYNywkcM5OeBlQ2IRpHt+WUji8zwiML+KnKTNfIxE3IzV0m9z5RundCdA3Dmc7mv04njPzxVlF6p+a5EL+O18gArKia9PRqEQoadoOW2DN6EbT+fHq59F1nSoz/MxqAkjyYVXcKZvOtxo3NCDbdZmZMTgq2+WKS4/gx37ZtmhPKOKtt2KQFrv/xuP1i1xHaBDMxJAS7sK45Al+hG6WDzwwmBpYHJcVS20zl66i12DQCjZhw5fMZYU47iYWwTqRg9xJabTlaRzSLGLmSBkZXonqCHOBG6OO6VUUGqfCQXTkNT/OMXHn9hxlyFSJ/i+Om4UAJW1QUCqJHct9Q6YNWNN4+nohJWpBTPhjWxymO/l4EQ948T8/5eK9L8o+N1ISD4GSLXAEEFtYaAo02JbPqPWHgAWUD/+AUN2djU7uvfDqCHy+gXK6DdW3Hm42CeCQnYI0+2c4df8yZPv+aB4xVfV1J1c97sD0aKOjkDqMaOSimbJ7U1jmfAVf/YysiVcBXKqGe0MmPnXLUhAL/MYO7k35ShQZRNof17j21QNy7Tvw9NUFhZESVNb67pbAgOE9dIBuzDtKkM2ArFIRE1u4WzdqjerVJgZ1n6k7F+hYU6mbYqqk+Zj13jKZlBVdBcg71qJPzVhlYD95xGFx0hXuODuJ61gdJNmBK+xycG+Lk6IQLru+Qe+o5gVzAEPIDtnv2C51fEYjaN8biLIl/1a6qWosGURzdC0tKuAXntpoNFKMh4S8Ufg2ATkMX3RML3z4hUYFLKLIkuM8QHG61do+QaZBVQyItigFR2Jlrl0VPTV9Lkv9bJ/HvUkTTWLcFygDxKcNR0X/+G53h45s9+LikN2cyhcFyz8DQpD9YDA94XYyn86TBmAbQDQi0k7a12nhLSHm31VLSY6D86j6I3BF2BgAHBXlFs7aAXW/AOtBFXlyehQRcmKjrNsS9kTVM+iy2dTeCJUL3XcsL8SLWv8IgtjqoZ8GgbQbLN+D9pa6E4wihWLWH7b6I6Ah0yOumZy/rIETMT2Xi7MelnnuLIOGsHlHn2SJsfDKb//y45WaP9fTCCwrU2S2zvtcrgH6plKg3DWgzR1S6BOuYitL97lHUEWaPu/rrx3cdWMt8bz2e6MRjPJrvQ4uZqSn+/hNXBQIxVeYNwCWJhV5bCY3VRC3D3nRU6vhSqgG/ucAVo6sl4pn7RAntdcjN6ySELXAUUbWYwPCQWI1LV/rm+/v9/m3Vc1Vll/SKVMbl6O1QQAkW0dYivtTaL8="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 771,
+    "prompt_tokens": 3556,
+    "total_tokens": 4327,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 564,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 207,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 1356,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

@@ -1,0 +1,750 @@
+[
+  {
+    "id": "AAAB",
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "body",
+    "children": [
+      {
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "children": [
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "children": [
+              {
+                "id": "AAAE",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+                },
+                "text": "About",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AAAF",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"
+                },
+                "text": "Store",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"a\"][2]"
+              },
+              {
+                "id": "AAAG",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "aria-label": "Gmail ",
+                  "href": "https://mail.google.com/mail/&ogbl"
+                },
+                "text": "Gmail",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AAAH",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "aria-label": "Search for Images ",
+                  "href": "https://www.google.com/imghp?hl=en&ogbl"
+                },
+                "text": "Images",
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AAAI",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "aria-label": "Google apps",
+                  "href": "https://www.google.com/intl/en/about/products"
+                },
+                "children": [
+                  {
+                    "id": "AAAJ",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "svg",
+                    "attributes": {
+                      "alt": "Nine dots arranged in a 3x3 grid, representing a 'grid' or 'apps' icon."
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"a\"][1]/*[name()=\"svg\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AAAM",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "aria-label": "Sign in",
+                  "href": "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e"
+                },
+                "children": [
+                  {
+                    "id": "AAAN",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "text": "Sign in",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][3]/*[name()=\"a\"][1]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][3]/*[name()=\"a\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]"
+          },
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "children": [
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "svg",
+                "attributes": {
+                  "alt": "The Google logo, consisting of the word 'Google' spelled out in its characteristic multicolored letters. Each letter is a distinct path element, colored red, yellow, blue, green, and red again, with the first 'G' being blue."
+                },
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]"
+          },
+          {
+            "id": "AAAW",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "div",
+            "children": [
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "children": [
+                      {
+                        "id": "AAAZ",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "children": [
+                          {
+                            "id": "AAAa",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "button",
+                            "attributes": {
+                              "aria-label": "Upload files or images",
+                              "type": "button"
+                            },
+                            "children": [
+                              {
+                                "id": "AAAb",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "span",
+                                "children": [
+                                  {
+                                    "id": "AAAc",
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "svg",
+                                    "attributes": {
+                                      "aria-hidden": "true",
+                                      "focusable": "false",
+                                      "viewBox": "0 -960 960 960",
+                                      "xmlns": "http://www.w3.org/2000/svg",
+                                      "unique_id": "AAAc"
+                                    },
+                                    "purgeable": false,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                    "isDropped": true
+                                  }
+                                ],
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                      },
+                      {
+                        "id": "AAAe",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "children": [
+                          {
+                            "id": "AAAf",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "textarea",
+                            "attributes": {
+                              "title": "Search",
+                              "value": "",
+                              "aria-label": "Search",
+                              "placeholder": "",
+                              "maxlength": "2048",
+                              "name": "q"
+                            },
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"textarea\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]"
+                      },
+                      {
+                        "interactable": false,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "children": [
+                          {
+                            "interactable": false,
+                            "hoverOnly": false,
+                            "tagName": "div",
+                            "children": [
+                              {
+                                "id": "AAAi",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "attributes": {
+                                  "aria-label": "Search by voice"
+                                },
+                                "children": [
+                                  {
+                                    "id": "AAAj",
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "svg",
+                                    "attributes": {
+                                      "class": "goxjub",
+                                      "aria-hidden": "true",
+                                      "focusable": "false",
+                                      "viewBox": "0 -960 960 960",
+                                      "xmlns": "http://www.w3.org/2000/svg",
+                                      "unique_id": "AAAj"
+                                    },
+                                    "purgeable": false,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]",
+                                    "isDropped": true
+                                  }
+                                ],
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+                              },
+                              {
+                                "id": "AAAl",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "attributes": {
+                                  "aria-label": "Search by image"
+                                },
+                                "children": [
+                                  {
+                                    "id": "AAAm",
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "svg",
+                                    "attributes": {
+                                      "class": "Gdd5U",
+                                      "aria-hidden": "true",
+                                      "focusable": "false",
+                                      "viewBox": "0 -960 960 960",
+                                      "xmlns": "http://www.w3.org/2000/svg",
+                                      "unique_id": "AAAm"
+                                    },
+                                    "purgeable": false,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"svg\"][1]",
+                                    "isDropped": true
+                                  }
+                                ],
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][2]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]"
+                          },
+                          {
+                            "id": "AAAo",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "button",
+                            "attributes": {
+                              "type": "button"
+                            },
+                            "children": [
+                              {
+                                "id": "AAAp",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][3]"
+                              },
+                              {
+                                "id": "AAAq",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "children": [
+                                  {
+                                    "id": "AAAr",
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "span",
+                                    "children": [
+                                      {
+                                        "id": "AAAs",
+                                        "interactable": true,
+                                        "hoverOnly": false,
+                                        "tagName": "svg",
+                                        "attributes": {
+                                          "focusable": "false",
+                                          "aria-hidden": "true",
+                                          "xmlns": "http://www.w3.org/2000/svg",
+                                          "enable-background": "new 0 0 24 24",
+                                          "height": "24",
+                                          "viewBox": "0 0 24 24",
+                                          "width": "24",
+                                          "unique_id": "AAAs"
+                                        },
+                                        "purgeable": false,
+                                        "isSelectable": false,
+                                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][4]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                        "isDropped": true
+                                      }
+                                    ],
+                                    "purgeable": false,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][4]/*[name()=\"span\"][1]"
+                                  },
+                                  {
+                                    "id": "AAAz",
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "span",
+                                    "text": "AI Mode",
+                                    "purgeable": false,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][4]/*[name()=\"span\"][2]"
+                                  }
+                                ],
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][4]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+              },
+              {
+                "id": "AAA0",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "input",
+                "attributes": {
+                  "value": "Google Search",
+                  "aria-label": "Google Search",
+                  "name": "btnK",
+                  "type": "submit"
+                },
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"center\"][1]/*[name()=\"input\"][1]"
+              },
+              {
+                "id": "AAA1",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "input",
+                "attributes": {
+                  "value": "I'm Feeling Lucky",
+                  "aria-label": "I'm Feeling Lucky",
+                  "name": "btnI",
+                  "type": "submit"
+                },
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"center\"][1]/*[name()=\"input\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          },
+          {
+            "id": "AAA2",
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "div",
+            "children": [
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "id": "AAA4",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+                    },
+                    "text": "Advertising",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+                  },
+                  {
+                    "id": "AAA5",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+                    },
+                    "text": "Business",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][2]"
+                  },
+                  {
+                    "id": "AAA6",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://google.com/search/howsearchworks/?fg=1"
+                    },
+                    "text": "How Search works",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][3]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+              },
+              {
+                "id": "AAA7",
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "href": "https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer"
+                },
+                "children": [
+                  {
+                    "id": "AAA8",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "img",
+                    "attributes": {
+                      "alt": ""
+                    },
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"a\"][1]/*[name()=\"img\"][1]"
+                  },
+                  {
+                    "id": "AAA9",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "text": "Applying AI towards science and the environment",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"a\"][1]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"a\"][1]"
+              },
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "id": "AABB",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://policies.google.com/privacy?hl=en&fg=1"
+                    },
+                    "text": "Privacy",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"a\"][1]"
+                  },
+                  {
+                    "id": "AABC",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "href": "https://policies.google.com/terms?hl=en&fg=1"
+                    },
+                    "text": "Terms",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"a\"][2]"
+                  },
+                  {
+                    "id": "AABD",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "children": [
+                      {
+                        "id": "AABE",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "g-popup",
+                        "children": [
+                          {
+                            "id": "AABF",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "div",
+                            "children": [
+                              {
+                                "id": "AABG",
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "text": "Settings",
+                                "purgeable": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"g-popup\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"g-popup\"][1]/*[name()=\"div\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"g-popup\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]"
+      },
+      {
+        "id": "AABH",
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "div",
+        "children": [
+          {
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "children": [
+              {
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "children": [
+                  {
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "text": "Choose Chrome, the browser built by Google",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"span\"][1]"
+                  },
+                  {
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "text": "Try a fast, secure browser with automatic updates",
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"span\"][2]"
+                  },
+                  {
+                    "id": "AABM",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "children": [
+                      {
+                        "id": "AABN",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "children": [
+                          {
+                            "id": "AABO",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "span",
+                            "text": "Don't use Chrome",
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][1]/*[name()=\"div\"][1]"
+                  },
+                  {
+                    "id": "AABP",
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "children": [
+                      {
+                        "id": "AABQ",
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "children": [
+                          {
+                            "id": "AABR",
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "span",
+                            "text": "Get Chrome",
+                            "purgeable": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][2]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]"
+  }
+]

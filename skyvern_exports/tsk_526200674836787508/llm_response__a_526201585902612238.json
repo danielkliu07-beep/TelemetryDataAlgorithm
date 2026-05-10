@@ -1,0 +1,52 @@
+{
+  "id": "_yn9acS8LZCgmPUPy9KiqQ4",
+  "created": 1778199039,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is currently on the main news page. The goal is to add a personalized news topic 'Healthcare Advances in 2024'. I need to find the management page for personalized news to locate the input field.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"1. Click on the 'Go To Personalized News' button to navigate to the page where personalized news topics can be managed.\\n2. Locate the input field for adding personalized news topics on the new page.\\n3. Type 'Healthcare Advances in 2024' into the input field.\\n4. Click the button to add or save the topic.\\n5. Verify if the topic is in the list and complete the goal.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"To add personalized news topics, I need to navigate to the 'Your Personalized News' section, which is likely accessible through the 'Go To Personalized News' button.\",\n            \"user_detail_query\": \"What is the intention behind clicking 'Go To Personalized News'?\",\n            \"user_detail_answer\": \"I want to go to the personalized news management page to add a new topic.\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAIg\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"This button is the clear navigational path to manage personalized news as requested by the user goal.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19iPLBR0P2f/osnjp7b5ZMeWFMNjwoFTdPlPrgf87yWTuhltHBrv2lJwVAIWGiudxQyfCNH6bxI5jIlGQOVsoEXbDcSRQCXeikREGW71bc5aP/F5sJ+Z8nvtyG7g2p3GNNr/Pv8JgEhKa5l+Aqp2tO09MCUdsm3xV7YrPdmP9GGuSBarDXI69E2p8hLYwRxeCGOVRD1RCtldlw4MHecWeO3dnYzLe6BqFDhbg4WO0NjlZdU+MpFrIgMzGFgvfFi6HUmPY/08ryrDNbebcIOOrHxLexufFqJM/Khzr95bMYbIECqYC45UV3HeYd3+zO9txDuxcQ/YyKoD+FUy5WMdymxam7XKssVl4fBBeanoipJczA4TE/kpueAi7bqWB59S+jryrkNvQ/E5t6OHSiRmAjfSol6EdVPJsICiiSqJr6w5fcRnzYvnv9b3IrTk0ntfRvWLYBIb3G21Lyw6TKD4O33w5r467+wlGyz5Df47QH6gi2Wh4KbOkf2+VmwPkjZXb0Lkpy2OA0cwv13nzgmaW9d6PnsKxSPTdtbr+BgqmIrqLm82GN33weBrV/ghdZ8lEtr9OUG6WTshxXE4J9ransAqP0+1lS3x/qfh+kmKWyCRn+bC2d/7Pyeswy5Zgaoao+YHRuMTCnfymLKk5/9Ae1ii4JlkLwqnLm/a4mH4cghgqLopQOyGHTYNAAQX6q2FCehbynz+fLNldIbWgQUwxlE9pOkZzDuQsz7Tdh13gTr3FA9aPvq0LRkDRazSnpv+Zsmb1h5qnSVSox60qkQ3Foq5nt4KNZdCM2zqNCRxEEHRQ59g4p5mEsAAVw9VIzYdlT4qE9jSNWsSQWnfjPgTb9bdyEXduVlc//EzrdwmOJqioWLfJTLxLRTDVRAEubOZ4IG3A=="
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 571,
+    "prompt_tokens": 10731,
+    "total_tokens": 11302,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 164,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 407,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 6010,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

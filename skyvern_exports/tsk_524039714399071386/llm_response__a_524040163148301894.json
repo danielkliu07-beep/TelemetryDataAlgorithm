@@ -1,0 +1,52 @@
+{
+  "id": "NHz1aZOEDLnitfAPqKq0uQo",
+  "created": 1777695796,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user has navigated to the Membership page where pricing plans are displayed. The 'Spotify Premium Individual' plan is visible. The next step is to initiate the purchase process by clicking 'Buy now' for this specific plan.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will click the 'Buy now' button specifically for the 'Spotify Premium Individual' plan to initiate the purchase process as requested in the user goal.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"The user wants to initiate the purchase for the 'Spotify Premium Individual' plan. The button with ID 'AABz' is the 'Buy now' button associated with that specific plan card.\",\n            \"user_detail_query\": \"Which plan should I purchase?\",\n            \"user_detail_answer\": \"Spotify Premium Individual\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AABz\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"option\": null,\n            \"click_context\": {\n                \"thought\": \"The goal specifically asks to select the 'Premium Individual' plan and proceed. Clicking the 'Buy now' button under the 'Spotify Premium Individual' header is the single logical action to initiate this purchase flow.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a1+boVsrTqoX3l/mq7EC/4lA2KHTJOvHiyEnrvshL1u2b28FeNWI54ZSIz2TtzpkYr+25xjyJY55+2KiSo3wLn7/sgNuQxHDLrc959ySi8jsFDD0Yaxgl8LiqYNN+DVBMno8n69cXJp11t7pWurlvfkYcRwRZHz+jj2/jLGV/Z54bGYtlCi/0CxLI8QjBQGRrXtm+8YBpepKKtyaxoVlX8p115o4qasKX+nY+xSk06Psbn+kMT8L1pJD/5/FR8l5FeBKe6b+9R11rSEgNLhQocUvKC1yHd3QlAjmERF8QqJ6McLIUatw1ku9jimYF+ZMXVBeufZIT7xDGtliOhdHiS0vlqyhhUwueZkcsCq7QTv0ZKlh11ozN2lDs0s6TmThcxHbflIvkEHlfoEtvmrYr3xMXZNQE8rR+l0PL9YpdF6sJwtkF1B0yLRrvovbA/nBYH3sCsYEgtyVSp0AbziwTCqyUJJJ5FpCGkzOE6sCveZrjzZEtGBtKnR7OasjZWbAv4G2P8g8BYtEGI06cM+aBvRw5NyvRCSKqL3x4rEvgMSlaTPXLobKBnEpbI5qKKHZToObS2givPwJDUMITDGZabNYxR3dI4ulLDzHJJluhpooPJoMKi7lbVwaMOfBCX9EaDJ6Nt5PbciK4FtG928UtuxHHVBqCh1As5A+y/N+ImFASCceDUjRoUipFag4JKhyTO3He9i8BqFCu5hZ3r6fxF3urnfbFarlLPU+VJBFnAXb1WoorNjCvrnk34G4NOV+3H97"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 494,
+    "prompt_tokens": 6187,
+    "total_tokens": 6681,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 137,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 357,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1466,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "GSr9adbtL8PJhcIP_oiG-A0",
+  "created": 1778199065,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The current page is titled 'Personalized News'. It displays a message saying 'You have not added any articles to your personalized news yet.' There is a 'Go Back' button and a 'Search News' input field in the header. No other input fields or buttons for adding topics are visible.\",\n  \"thoughts\": \"The user's goal is to add 'Healthcare Advances in 2024' to their personalized news. Currently, the page indicates that no topics have been added. Furthermore, the specific input field for adding a personalized news topic is not visible on this page, and the text 'Healthcare Advances in 2024' has not been entered or submitted. Therefore, the goal has not been achieved.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 581,
+    "prompt_tokens": 2755,
+    "total_tokens": 3336,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 405,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 176,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 555,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

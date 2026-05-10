@@ -1,0 +1,52 @@
+{
+  "id": "PYb1afnHA8HphcIPu-ea4Qg",
+  "created": 1777698364,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page is a news site titled 'NewsSite'. It features a 'Latest News' section with various articles, including one titled 'Healthcare Advances in 2024'. At the top right, there is a search bar (id: AAAL) currently containing the text 'Healthcare Advances in 2024'. Towards the bottom, there is a section titled 'Your Personalized News' with a button labeled 'Go To Personalized News' (id: AAJE), and a 'News Alerts' section with a button 'Set Up News Alerts' (id: AAJJ).\",\n  \"thoughts\": \"The user's goal is to add 'Healthcare Advances in 2024' as a personalized news topic. Currently, this text has been typed into the 'Search News Articles' input field at the top of the page. This field appears to be for searching existing articles rather than adding personalized topics. Furthermore, no button to 'add' or 'save' a topic has been clicked, and there is no indication that the topic has been successfully added to a personalized list. The user likely needs to navigate to the 'Personalized News' section via the 'Go To Personalized News' button to find the correct input field for adding topics.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "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"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 996,
+    "prompt_tokens": 7436,
+    "total_tokens": 8432,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 714,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 282,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 5236,
+      "image_tokens": 2200,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

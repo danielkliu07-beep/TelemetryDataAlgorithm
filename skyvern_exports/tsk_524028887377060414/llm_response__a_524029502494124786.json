@@ -1,0 +1,52 @@
+{
+  "id": "fXL1aff3D63ltfAPrOXC-As",
+  "created": 1777693309,
+  "model": "gemini-3-flash-preview",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "{\n    \"user_goal_stage\": \"The user is at the start of the Wordle game with an empty board. The 'How To Play' modal has been closed.\",\n    \"user_goal_achieved\": false,\n    \"action_plan\": \"I will start playing the Wordle game by entering a common starting word, 'CRANE'. I will do this by clicking the corresponding letters on the virtual keyboard and then clicking 'enter'.\",\n    \"actions\": [\n        {\n            \"reasoning\": \"I'll start by entering a common starting word like 'CRANE'. First letter is 'C'.\",\n            \"user_detail_query\": \"What is the first letter of the guess word?\",\n            \"user_detail_answer\": \"c\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACV\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"This is a virtual keyboard where I need to click buttons to input characters. Clicking 'C' is part of the sequence to input the word 'CRANE'.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"The second letter of the word 'CRANE' is 'R'.\",\n            \"user_detail_query\": \"What is the second letter of the guess word?\",\n            \"user_detail_answer\": \"r\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAB8\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"Clicking 'R' as the second letter in the sequence for the word 'CRANE'.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"The third letter of the word 'CRANE' is 'A'.\",\n            \"user_detail_query\": \"What is the third letter of the guess word?\",\n            \"user_detail_answer\": \"a\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACH\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"Clicking 'A' as the third letter in the sequence for the word 'CRANE'.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"The fourth letter of the word 'CRANE' is 'N'.\",\n            \"user_detail_query\": \"What is the fourth letter of the guess word?\",\n            \"user_detail_answer\": \"n\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACY\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"Clicking 'N' as the fourth letter in the sequence for the word 'CRANE'.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"The fifth letter of the word 'CRANE' is 'E'.\",\n            \"user_detail_query\": \"What is the fifth letter of the guess word?\",\n            \"user_detail_answer\": \"e\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AAB7\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"Clicking 'E' as the fifth letter in the sequence for the word 'CRANE'.\",\n                \"single_option_click\": false\n            },\n            \"context\": null\n        },\n        {\n            \"reasoning\": \"Submit the guess word 'CRANE' by clicking 'enter'.\",\n            \"user_detail_query\": \"How should I submit the word?\",\n            \"user_detail_answer\": \"Click enter\",\n            \"confidence_float\": 1.0,\n            \"action_type\": \"CLICK\",\n            \"id\": \"AACS\",\n            \"captcha_type\": null,\n            \"text\": null,\n            \"key\": null,\n            \"direction\": null,\n            \"file_url\": null,\n            \"download\": false,\n            \"click_context\": {\n                \"thought\": \"The user goal is to guess words. After inputting letters, I must click 'enter' to submit the guess.\",\n                \"single_option_click\": true\n            },\n            \"context\": null\n        }\n    ]\n}",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": {
+          "thought_signatures": [
+            "AY89a19ndMtnF7Kcnk4soLo7xGL19VucbDPnL9So/sZu6QvtBH2DnsZjKkvTfzxqiIsrfl4zBOVTcM7vJxaWr206iuzMKOkOnOjY2xm/nvtEvXJPMbfe7aqZQLCk7jm0LCs5jc1mzk2NvyC+JL0t6ctoMeXx3aeta+He1zFKZiPc6orZVeKDftazKFn5L+T/shUoTrGOVOZ3/Jdbo+cDd5L1IwDMmKfJP0ZXpHb0FA1g4rexlguHQ60rQiN8naZksF/EqUDAPzUQXworCQtiLK/pqmnDi3W3qNpGCjLUZAxPwsJHIwWhSQ9bM9R4lKJ7khbgYLkKabiTEJa57t2PeB7TbjduIwKQLKdRLUV/hig8CFxQFJ+R9LOCwiccXMjfRIwrQLp0b/H5OBj3dK1J0VKNEOqRuGPCwLiQWvnBbsAgbvCF4RUeFu6C2UzAiG3aAiembgQmsB799siJBNExWL9xB7ifkrrOeXzBa6sqAL3JS3CZj0uFsF+mVlsqNtng8ys3DpcofrPThr+Xq8FYPbo7lOh3g0iIDXgit8xN/YiNNKyp7n1fyejYZgF/kqT6UE2W5n3ynMO+7Al5y9fin5jLdWaMIo6gRCIxDJ7FUr5hTgcD8N6D/7Cl8HuR9zFy2kA1bU5yCGeQJdyuhmWR61Q2x6QPMcgzNiZfgPuNZ/w3+l6JPP8PTPNYWOIrPnw4N56xSy6UEDIRbvqD1laIbu5HrkEUvXq7u/GEsJRfEzPdv7Gc9eL1kukeqNQJSFuRpVQcihJr5Rq1VkawOElU7X3Ya2uxyh7bARDExDuUOwXJSwecHimxp1Hu0732icWx1/8Ey+P/l6DQbyt7G5gVmeVatAAw45sAnVqeW/7n9XXN8vKfoCcOo8UfxOM4FH0Czf/X+t/unB4LKmbL1sVYR300xq+VKrja5LI84wiifD3ejiLuJMb9kNyn8JdiaA4y0xMWqJz9MdRXW/PNmoaiTSs/rvgXCxqJS4olatxbnnhzM9WcQYVmXcOV9qM9s1Bwwz7ixos8IiVY1zzdwUOA4Ud8FPxF8nOTw5+W26Ouht9DvVNtmuJw54ibMxJvt+Df5m5ss5FwVTRw/9ILpyMdykTJ4VvTx5KkdOLriGbhzhfu+uHWm1tFFIW3w05+t0Jx9WyQZafiXe0/9cycb+VXR7zi9aWfzE2MPW+yhhTlTYda/t0M4zC1YtF8DAq7kj9RNerNXPF07fmQfeMDPgBbqLoTtlHwCeoUvTqkm7jBSCKIuE/jNHpuG7aYXBnWMu51h208ygUB+dZYHO6zymz7LMkzuIdXRqgpLuD7yrfAH5OOscSl/DkrpSF8nDytLDmVa90EfiyFVwKA7i826FDmRu76olU1xoaQEEgpgHy2fJvwH4Kpf2lRBIpfrLLZTVMpkHEjBzOU7Syv5DrmpixAXL3JQlT6t24RhzNdmdVV46dvTknfCrgh9UTeEkw6upFaltMThnOf7CkRetL4tjn1m90RL0RXif0nffB0NfH8qhMG7UiInnEfcnfCl4Nb09K5gmx7/cMPi8/CKPZKcqWSJBpEr7wy/vvOc8ONVkcjONLzHEvuftYQPqgn+fD51fIWDlSXhkjK+lFhS6+5THiQjInJCYoi/cr1QOJuDAaHJ9VChoXZCCZOKIk5GrHHUArPStWw3DBGh9cwsB56nvraJdkEpxzmdCzIrbORdN3keSwU2toykEV1SgR8hxOgQa1R82L0SFdzoCXGAkp0wN1OEVsQ7XWhDtCidTYmmBJAtPv3OjzG2PmLLBluBHHxRT/puYRQWH9rRljfq6lF54GMk1Yhi7ngLthv2O56Yk0e3x8mgOB0Qe7Z6mDl0sJRcVdZs2R8aSHlcAzwF5E2Pj8Cb0oCN3bQUDu9Bq4z"
+          ]
+        }
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 1686,
+    "prompt_tokens": 5031,
+    "total_tokens": 6717,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 415,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 1271,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 2521,
+      "text_tokens": 1410,
+      "image_tokens": 1100,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": 2521
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

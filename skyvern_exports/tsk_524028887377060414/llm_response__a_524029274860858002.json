@@ -1,0 +1,48 @@
+{
+  "id": "VnL1adzIH63ltfAPrOXC-As",
+  "created": 1777693270,
+  "model": "gemini-2.5-flash",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "```json\n{\n  \"page_info\": \"The page displays a 'How To Play' modal or section, providing instructions on how to play Wordle, including examples of letter coloring. It also shows a virtual keyboard for inputting guesses and various footer links. There is a 'Close' button for the 'How To Play' section. No game board for Wordle or game outcome (win/loss message) is visible.\",\n  \"thoughts\": \"The user's goal is to complete the daily Wordle game until a final result (win or loss) is displayed. The current page shows the 'How To Play' instructions. This indicates that the game has not yet begun or finished. The presence of the 'How To Play' guide means the user is likely still in the onboarding or pre-game phase, and not viewing a game outcome.\",\n  \"user_goal_achieved\": false\n}\n```",
+        "role": "assistant",
+        "tool_calls": null,
+        "function_call": null,
+        "images": [],
+        "thinking_blocks": [],
+        "provider_specific_fields": null
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 302,
+    "prompt_tokens": 2457,
+    "total_tokens": 2759,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 111,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 191,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "text_tokens": 2457,
+      "image_tokens": null,
+      "video_tokens": null
+    },
+    "cache_read_input_tokens": null
+  },
+  "vertex_ai_grounding_metadata": [],
+  "vertex_ai_url_context_metadata": [],
+  "vertex_ai_safety_results": [],
+  "vertex_ai_citation_metadata": []
+}

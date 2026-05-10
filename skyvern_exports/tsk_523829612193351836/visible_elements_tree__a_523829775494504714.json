@@ -1,0 +1,1455 @@
+[
+  {
+    "id": "AAAB",
+    "frame": "main.frame",
+    "frame_index": 0,
+    "interactable": true,
+    "hoverOnly": false,
+    "tagName": "body",
+    "attributes": {
+      "jsmodel": "hspDDf ",
+      "jsaction": "xjhTIf:.CLIENT;O2vyse:.CLIENT;IVKTfe:.CLIENT;Ez7VMc:.CLIENT;R6Slyc:.CLIENT;ydZCDf:.CLIENT",
+      "unique_id": "AAAB"
+    },
+    "beforePseudoText": null,
+    "text": "",
+    "afterPseudoText": null,
+    "children": [
+      {
+        "id": "AAAC",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": false,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "jsmodel": "",
+          "class": "L3eUgb",
+          "data-hveid": "1",
+          "unique_id": "AAAC"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AAAD",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "class": "o3j99 n1xJcf Ne6nSd",
+              "role": "navigation",
+              "unique_id": "AAAD"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAAE",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "class": "MV3Tnb",
+                  "href": "https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header",
+                  "ping": "/url?sa=t&rct=j&source=webhp&url=https://about.google/%3Ffg%3D1%26utm_source%3Dgoogle-US%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQkNQCCAI&opi=89978449",
+                  "unique_id": "AAAE"
+                },
+                "beforePseudoText": null,
+                "text": "About",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AAAF",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "class": "MV3Tnb",
+                  "href": "https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US",
+                  "ping": "/url?sa=t&rct=j&source=webhp&url=https://store.google.com/US%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQpMwCCAM&opi=89978449",
+                  "unique_id": "AAAF"
+                },
+                "beforePseudoText": null,
+                "text": "Store",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"a\"][2]"
+              },
+              {
+                "id": "AAAG",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "class": "gb_4",
+                  "aria-label": "Gmail ",
+                  "data-pid": "23",
+                  "href": "https://mail.google.com/mail/&ogbl",
+                  "target": "_top",
+                  "unique_id": "AAAG"
+                },
+                "beforePseudoText": null,
+                "text": "Gmail",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AAAH",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "class": "gb_4",
+                  "aria-label": "Search for Images ",
+                  "data-pid": "2",
+                  "href": "https://www.google.com/imghp?hl=en&ogbl",
+                  "target": "_top",
+                  "unique_id": "AAAH"
+                },
+                "beforePseudoText": null,
+                "text": "Images",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AAAI",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "class": "gb_C",
+                  "aria-label": "Google apps",
+                  "href": "https://www.google.com/intl/en/about/products",
+                  "aria-expanded": "false",
+                  "role": "button",
+                  "tabindex": "0",
+                  "unique_id": "AAAI"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAAJ",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "svg",
+                    "attributes": {
+                      "alt": "Nine dots arranged in a 3x3 grid, representing a 'grid' or 'apps' icon."
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "purgeable": false,
+                    "keepAllAttr": true,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"a\"][1]/*[name()=\"svg\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AAAM",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "class": "gb_A",
+                  "aria-label": "Sign in",
+                  "href": "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e",
+                  "target": "_top",
+                  "unique_id": "AAAM"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAAN",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "attributes": {
+                      "class": "gb_0",
+                      "unique_id": "AAAN"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Sign in",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][3]/*[name()=\"a\"][1]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"header\"][1]/*[name()=\"div\"][3]/*[name()=\"a\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][2]"
+          },
+          {
+            "id": "AAAO",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "class": "o3j99 LLD4me yr19Zb LS8OJ",
+              "id": "LS8OJ",
+              "unique_id": "AAAO"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAAP",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "svg",
+                "attributes": {
+                  "alt": "The Google logo, consisting of the word 'Google' spelled out in its characteristic multicolored letters. Each letter is a distinct path element, colored red, yellow, blue, green, and red again, with the first 'G' being blue."
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "purgeable": false,
+                "keepAllAttr": true,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][3]"
+          },
+          {
+            "id": "AAAW",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "jscontroller": "cnjECf",
+              "jsmodel": "kjkykd EPRt9d LM7wx Qlyryb EtCx8b Ip3Erc L97mud  CoyuFb wWMhg        YHnUBc",
+              "class": "A8SBwf",
+              "data-alt": "false",
+              "data-biboe": "false",
+              "data-blu": "https://lens.google.com",
+              "data-expids": "",
+              "data-hp": "true",
+              "jsdata": "LVplcb;_;",
+              "jsaction": "lX6RWd:w3Wsmc;aaFXSd:k0wtTd;ocDSvd:duwfG;XmGRxb:mVw6nb;R6Slyc:F3goue;FU8dpd:VH3XBb;DkpM0b:d3sQLd;IQOavd:dFyQEf;XzZZPe:jI3wzf;Aghsf:AVsnlb;iHd9U:Q7Cnrc;f5hEHe:G0jgYd;vmxUb:j3bJnb;XBqW7:ihYaWc;UkQk6c:VSb4De;nTzfpf:YPRawb;CudXPd:iu9yrc;R2c5O:LuRugf;qiCkJd:ANdidc;Q3vWPd:FtWxqb;NOg9L:HLgh3;zLdLw:eaGBS;H9muVd:J4e6lb;S8pxKe:u3rcXd;hBEIVb:nUZ9le;acb7qb:H8sTz;by9jW:LGmyb;rcuQ6b:npT2md;rPTCb:.CLIENT",
+              "unique_id": "AAAW"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAAX",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "jsname": "RNNXgb",
+                  "class": "RNNXgb",
+                  "data-ved": "0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQ3tUDCAQ",
+                  "unique_id": "AAAX"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAAY",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "attributes": {
+                      "class": "SDkEP",
+                      "unique_id": "AAAY"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [
+                      {
+                        "id": "AAAZ",
+                        "frame": "main.frame",
+                        "frame_index": 0,
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "attributes": {
+                          "class": "A7sPV tX61Ub",
+                          "jscontroller": "VtMfj",
+                          "jsname": "aAJgZ",
+                          "jsdata": "I8wsob;_;3rz0ae-pO9-1ptQPh8ONgQc2",
+                          "jsaction": "TsIFpc:aGAD7e;FU8dpd:VH3XBb;by9jW:bfvkpd;blur:dOOLne;keydown:nB4eBb",
+                          "unique_id": "AAAZ"
+                        },
+                        "beforePseudoText": null,
+                        "text": "",
+                        "afterPseudoText": null,
+                        "children": [
+                          {
+                            "id": "AAAa",
+                            "frame": "main.frame",
+                            "frame_index": 0,
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "button",
+                            "attributes": {
+                              "jsname": "ko0Zye",
+                              "class": "UbbAWe",
+                              "aria-label": "Upload files or images",
+                              "aria-haspopup": "menu",
+                              "tabindex": "0",
+                              "type": "button",
+                              "jsaction": "AO4mJ;blur:dOOLne;keydown:YR8sId;mouseenter:QgVLnf",
+                              "data-ved": "0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQ0J0RCAU",
+                              "unique_id": "AAAa"
+                            },
+                            "beforePseudoText": null,
+                            "text": "",
+                            "afterPseudoText": null,
+                            "children": [
+                              {
+                                "id": "AAAb",
+                                "frame": "main.frame",
+                                "frame_index": 0,
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "span",
+                                "attributes": {
+                                  "class": "wPSZBe",
+                                  "unique_id": "AAAb"
+                                },
+                                "beforePseudoText": null,
+                                "text": "",
+                                "afterPseudoText": null,
+                                "children": [
+                                  {
+                                    "id": "AAAc",
+                                    "frame": "main.frame",
+                                    "frame_index": 0,
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "svg",
+                                    "attributes": {
+                                      "aria-hidden": "true",
+                                      "focusable": "false",
+                                      "viewBox": "0 -960 960 960",
+                                      "xmlns": "http://www.w3.org/2000/svg",
+                                      "unique_id": "AAAc"
+                                    },
+                                    "beforePseudoText": null,
+                                    "text": "",
+                                    "afterPseudoText": null,
+                                    "purgeable": false,
+                                    "keepAllAttr": true,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                    "isDropped": true
+                                  }
+                                ],
+                                "purgeable": false,
+                                "keepAllAttr": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]/*[name()=\"span\"][1]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "keepAllAttr": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"button\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "keepAllAttr": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                      },
+                      {
+                        "id": "AAAe",
+                        "frame": "main.frame",
+                        "frame_index": 0,
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "attributes": {
+                          "jscontroller": "vZr2rb",
+                          "jsname": "gLFyf",
+                          "class": "a4bIc",
+                          "data-hpmde": "false",
+                          "data-mnr": "20",
+                          "jsaction": "KjsqPd;input:Lg5SV;blur:fpfTEe;paste:V64iSc;mousedown:LhvU2e",
+                          "unique_id": "AAAe"
+                        },
+                        "beforePseudoText": null,
+                        "text": "",
+                        "afterPseudoText": null,
+                        "children": [
+                          {
+                            "id": "AAAf",
+                            "frame": "main.frame",
+                            "frame_index": 0,
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "textarea",
+                            "attributes": {
+                              "jsname": "yZiJbe",
+                              "class": "gLFyf",
+                              "aria-controls": "Alh6id",
+                              "aria-owns": "Alh6id",
+                              "autofocus": "",
+                              "title": "Search",
+                              "value": "",
+                              "aria-label": "Search",
+                              "placeholder": "",
+                              "aria-autocomplete": "both",
+                              "aria-expanded": "false",
+                              "aria-haspopup": "false",
+                              "autocapitalize": "off",
+                              "autocomplete": "off",
+                              "autocorrect": "off",
+                              "id": "APjFqb",
+                              "maxlength": "2048",
+                              "name": "q",
+                              "role": "combobox",
+                              "rows": "1",
+                              "spellcheck": "false",
+                              "data-ved": "0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQ39UDCAs",
+                              "unique_id": "AAAf"
+                            },
+                            "beforePseudoText": null,
+                            "text": "",
+                            "afterPseudoText": null,
+                            "children": [],
+                            "purgeable": false,
+                            "keepAllAttr": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"textarea\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "keepAllAttr": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]"
+                      },
+                      {
+                        "id": "AAAg",
+                        "frame": "main.frame",
+                        "frame_index": 0,
+                        "interactable": false,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "attributes": {
+                          "class": "fM33ce dRYYxd",
+                          "unique_id": "AAAg"
+                        },
+                        "beforePseudoText": null,
+                        "text": "",
+                        "afterPseudoText": null,
+                        "children": [
+                          {
+                            "id": "AAAh",
+                            "frame": "main.frame",
+                            "frame_index": 0,
+                            "interactable": false,
+                            "hoverOnly": false,
+                            "tagName": "div",
+                            "attributes": {
+                              "jsname": "UdfVXc",
+                              "class": "WC2Die",
+                              "unique_id": "AAAh"
+                            },
+                            "beforePseudoText": null,
+                            "text": "",
+                            "afterPseudoText": null,
+                            "children": [
+                              {
+                                "id": "AAAi",
+                                "frame": "main.frame",
+                                "frame_index": 0,
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "attributes": {
+                                  "jscontroller": "unV4T",
+                                  "jsname": "F7uqIe",
+                                  "class": "XDyW0e",
+                                  "data-hp": "1",
+                                  "aria-label": "Search by voice",
+                                  "role": "button",
+                                  "tabindex": "0",
+                                  "jsaction": "h5M12e;rcuQ6b:npT2md;KHxBOb:EANhx;hATt5e:AkD3se;CQJmec:efDZmf",
+                                  "data-ved": "0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQvs8DCA0",
+                                  "unique_id": "AAAi"
+                                },
+                                "beforePseudoText": null,
+                                "text": "",
+                                "afterPseudoText": null,
+                                "children": [
+                                  {
+                                    "id": "AAAj",
+                                    "frame": "main.frame",
+                                    "frame_index": 0,
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "svg",
+                                    "attributes": {
+                                      "class": "goxjub",
+                                      "aria-hidden": "true",
+                                      "focusable": "false",
+                                      "viewBox": "0 -960 960 960",
+                                      "xmlns": "http://www.w3.org/2000/svg",
+                                      "unique_id": "AAAj"
+                                    },
+                                    "beforePseudoText": null,
+                                    "text": "",
+                                    "afterPseudoText": null,
+                                    "purgeable": false,
+                                    "keepAllAttr": true,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"svg\"][1]",
+                                    "isDropped": true
+                                  }
+                                ],
+                                "purgeable": false,
+                                "keepAllAttr": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][1]"
+                              },
+                              {
+                                "id": "AAAl",
+                                "frame": "main.frame",
+                                "frame_index": 0,
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "attributes": {
+                                  "jscontroller": "lpsUAf",
+                                  "jsname": "R5mgy",
+                                  "class": "nDcEnd",
+                                  "data-is-images-mode": "false",
+                                  "aria-label": "Search by image",
+                                  "role": "button",
+                                  "tabindex": "0",
+                                  "jsaction": "rcuQ6b:npT2md;h5M12e;AMruCe:Zpug7c",
+                                  "data-ved": "0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQhqEICA4",
+                                  "unique_id": "AAAl"
+                                },
+                                "beforePseudoText": null,
+                                "text": "",
+                                "afterPseudoText": null,
+                                "children": [
+                                  {
+                                    "id": "AAAm",
+                                    "frame": "main.frame",
+                                    "frame_index": 0,
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "svg",
+                                    "attributes": {
+                                      "class": "Gdd5U",
+                                      "aria-hidden": "true",
+                                      "focusable": "false",
+                                      "viewBox": "0 -960 960 960",
+                                      "xmlns": "http://www.w3.org/2000/svg",
+                                      "unique_id": "AAAm"
+                                    },
+                                    "beforePseudoText": null,
+                                    "text": "",
+                                    "afterPseudoText": null,
+                                    "purgeable": false,
+                                    "keepAllAttr": true,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][2]/*[name()=\"svg\"][1]",
+                                    "isDropped": true
+                                  }
+                                ],
+                                "purgeable": false,
+                                "keepAllAttr": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]/*[name()=\"div\"][2]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "keepAllAttr": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"div\"][2]"
+                          },
+                          {
+                            "id": "AAAo",
+                            "frame": "main.frame",
+                            "frame_index": 0,
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "button",
+                            "attributes": {
+                              "jsname": "B6rgad",
+                              "tabindex": "0",
+                              "jscontroller": "jNZDL",
+                              "jscallback": "sxvUDc:cnjECf:dIu9Pe;rOPotc:cnjECf:oWAROc",
+                              "class": "plR5qb Y5MKCd",
+                              "role": "link",
+                              "jsaction": "click:bujKIf;mouseenter:vG60uf;mouseleave:NS5Xl;C7YCKd:wezfDd;",
+                              "type": "button",
+                              "data-ved": "0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQteYPCA8",
+                              "unique_id": "AAAo"
+                            },
+                            "beforePseudoText": null,
+                            "text": "",
+                            "afterPseudoText": null,
+                            "children": [
+                              {
+                                "id": "AAAp",
+                                "frame": "main.frame",
+                                "frame_index": 0,
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "attributes": {
+                                  "class": "bvUkz",
+                                  "unique_id": "AAAp"
+                                },
+                                "beforePseudoText": null,
+                                "text": "",
+                                "afterPseudoText": null,
+                                "children": [],
+                                "purgeable": false,
+                                "keepAllAttr": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][3]"
+                              },
+                              {
+                                "id": "AAAq",
+                                "frame": "main.frame",
+                                "frame_index": 0,
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "attributes": {
+                                  "class": "u4Uk3c",
+                                  "unique_id": "AAAq"
+                                },
+                                "beforePseudoText": null,
+                                "text": "",
+                                "afterPseudoText": null,
+                                "children": [
+                                  {
+                                    "id": "AAAr",
+                                    "frame": "main.frame",
+                                    "frame_index": 0,
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "span",
+                                    "attributes": {
+                                      "class": "PD3zdc L0nkUd z1asCe",
+                                      "style": "height:20px;line-height:20px;width:20px",
+                                      "unique_id": "AAAr"
+                                    },
+                                    "beforePseudoText": null,
+                                    "text": "",
+                                    "afterPseudoText": null,
+                                    "children": [
+                                      {
+                                        "id": "AAAs",
+                                        "frame": "main.frame",
+                                        "frame_index": 0,
+                                        "interactable": true,
+                                        "hoverOnly": false,
+                                        "tagName": "svg",
+                                        "attributes": {
+                                          "focusable": "false",
+                                          "aria-hidden": "true",
+                                          "xmlns": "http://www.w3.org/2000/svg",
+                                          "enable-background": "new 0 0 24 24",
+                                          "height": "24",
+                                          "viewBox": "0 0 24 24",
+                                          "width": "24",
+                                          "unique_id": "AAAs"
+                                        },
+                                        "beforePseudoText": null,
+                                        "text": "",
+                                        "afterPseudoText": null,
+                                        "purgeable": false,
+                                        "keepAllAttr": true,
+                                        "isSelectable": false,
+                                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][4]/*[name()=\"span\"][1]/*[name()=\"svg\"][1]",
+                                        "isDropped": true
+                                      }
+                                    ],
+                                    "purgeable": false,
+                                    "keepAllAttr": false,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][4]/*[name()=\"span\"][1]"
+                                  },
+                                  {
+                                    "id": "AAAz",
+                                    "frame": "main.frame",
+                                    "frame_index": 0,
+                                    "interactable": true,
+                                    "hoverOnly": false,
+                                    "tagName": "span",
+                                    "attributes": {
+                                      "class": "lTxWLe",
+                                      "unique_id": "AAAz"
+                                    },
+                                    "beforePseudoText": null,
+                                    "text": "AI Mode",
+                                    "afterPseudoText": null,
+                                    "children": [],
+                                    "purgeable": false,
+                                    "keepAllAttr": false,
+                                    "isSelectable": false,
+                                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][4]/*[name()=\"span\"][2]"
+                                  }
+                                ],
+                                "purgeable": false,
+                                "keepAllAttr": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]/*[name()=\"div\"][4]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "keepAllAttr": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]/*[name()=\"button\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "keepAllAttr": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][4]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+              },
+              {
+                "id": "AAA0",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "input",
+                "attributes": {
+                  "class": "gNO89b",
+                  "value": "Google Search",
+                  "aria-label": "Google Search",
+                  "name": "btnK",
+                  "role": "button",
+                  "tabindex": "0",
+                  "type": "submit",
+                  "data-ved": "0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQ4dUDCBk",
+                  "unique_id": "AAA0"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"center\"][1]/*[name()=\"input\"][1]"
+              },
+              {
+                "id": "AAA1",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "input",
+                "attributes": {
+                  "id": "gbqfbb",
+                  "value": "I'm Feeling Lucky",
+                  "aria-label": "I'm Feeling Lucky",
+                  "name": "btnI",
+                  "role": "button",
+                  "tabindex": "0",
+                  "type": "submit",
+                  "data-ved": "0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQnRsIGg",
+                  "unique_id": "AAA1"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"center\"][1]/*[name()=\"input\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][4]/*[name()=\"form\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          },
+          {
+            "id": "AAA2",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": true,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "jscontroller": "NzU6V",
+              "class": "KxwPGc SSwjIe",
+              "data-sfe": "true",
+              "data-sfsw": "1200",
+              "jsaction": "rcuQ6b:npT2md",
+              "unique_id": "AAA2"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AAA3",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "class": "KxwPGc AghGtd",
+                  "unique_id": "AAA3"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAA4",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "class": "pHiOh",
+                      "href": "https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+                      "ping": "/url?sa=t&rct=j&source=webhp&url=https://www.google.com/intl/en_us/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQkdQCCB8&opi=89978449",
+                      "unique_id": "AAA4"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Advertising",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][1]"
+                  },
+                  {
+                    "id": "AAA5",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "class": "pHiOh",
+                      "href": "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1",
+                      "ping": "/url?sa=t&rct=j&source=webhp&url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQktQCCCA&opi=89978449",
+                      "unique_id": "AAA5"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Business",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][2]"
+                  },
+                  {
+                    "id": "AAA6",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "class": "pHiOh",
+                      "href": "https://google.com/search/howsearchworks/?fg=1",
+                      "unique_id": "AAA6"
+                    },
+                    "beforePseudoText": null,
+                    "text": "How Search works",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"a\"][3]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+              },
+              {
+                "id": "AAA7",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": true,
+                "hoverOnly": false,
+                "tagName": "a",
+                "attributes": {
+                  "class": "pHiOh",
+                  "href": "https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer",
+                  "ping": "/url?sa=t&rct=j&source=webhp&url=https://ai.google/societal-impact/%3Futm_source%3Dgooglehpfooter%26utm_medium%3Dhousepromos%26utm_campaign%3Dbottom-footer&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQiM8HCCE&opi=89978449",
+                  "unique_id": "AAA7"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AAA8",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "img",
+                    "attributes": {
+                      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC",
+                      "class": "Pb9hCb",
+                      "alt": "",
+                      "data-csiid": "3rz0ae-pO9-1ptQPh8ONgQc_11",
+                      "data-atf": "1",
+                      "unique_id": "AAA8"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"a\"][1]/*[name()=\"img\"][1]"
+                  },
+                  {
+                    "id": "AAA9",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "attributes": {
+                      "class": "ktLKi",
+                      "unique_id": "AAA9"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Applying AI towards science and the environment",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"a\"][1]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"a\"][1]"
+              },
+              {
+                "id": "AABA",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "class": "KxwPGc iTjxkf",
+                  "unique_id": "AABA"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AABB",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "class": "pHiOh",
+                      "href": "https://policies.google.com/privacy?hl=en&fg=1",
+                      "ping": "/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/privacy%3Fhl%3Den%26fg%3D1&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQ8awCCCI&opi=89978449",
+                      "unique_id": "AABB"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Privacy",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"a\"][1]"
+                  },
+                  {
+                    "id": "AABC",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "a",
+                    "attributes": {
+                      "class": "pHiOh",
+                      "href": "https://policies.google.com/terms?hl=en&fg=1",
+                      "ping": "/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/terms%3Fhl%3Den%26fg%3D1&ved=0ahUKEwjvkMW3qpiUAxXfmokEHYdhI3AQ8qwCCCM&opi=89978449",
+                      "unique_id": "AABC"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Terms",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"a\"][2]"
+                  },
+                  {
+                    "id": "AABD",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "attributes": {
+                      "jscontroller": "nabPbb",
+                      "data-ffp": "false",
+                      "jsaction": "KyPa0e:Y0y4c;wjOG7e:gDkf4c;",
+                      "unique_id": "AABD"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [
+                      {
+                        "id": "AABE",
+                        "frame": "main.frame",
+                        "frame_index": 0,
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "g-popup",
+                        "attributes": {
+                          "jsname": "V68bde",
+                          "jscontroller": "DPreE",
+                          "jsaction": "A05xBd:IYtByb;EOZ57e:WFrRFb;",
+                          "jsdata": "mVjAjf;_;3rz0ae-pO9-1ptQPh8ONgQc4",
+                          "unique_id": "AABE"
+                        },
+                        "beforePseudoText": null,
+                        "text": "",
+                        "afterPseudoText": null,
+                        "children": [
+                          {
+                            "id": "AABF",
+                            "frame": "main.frame",
+                            "frame_index": 0,
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "div",
+                            "attributes": {
+                              "jsname": "oYxtQd",
+                              "class": "CcNe6e",
+                              "aria-expanded": "false",
+                              "aria-haspopup": "true",
+                              "role": "button",
+                              "tabindex": "0",
+                              "jsaction": "WFrRFb;keydown:uYT2Vb",
+                              "unique_id": "AABF"
+                            },
+                            "beforePseudoText": null,
+                            "text": "",
+                            "afterPseudoText": null,
+                            "children": [
+                              {
+                                "id": "AABG",
+                                "frame": "main.frame",
+                                "frame_index": 0,
+                                "interactable": true,
+                                "hoverOnly": false,
+                                "tagName": "div",
+                                "attributes": {
+                                  "jsname": "LgbsSe",
+                                  "class": "ayzqOc pHiOh",
+                                  "aria-controls": "_3rz0ae-pO9-1ptQPh8ONgQc_9",
+                                  "aria-haspopup": "true",
+                                  "unique_id": "AABG"
+                                },
+                                "beforePseudoText": null,
+                                "text": "Settings",
+                                "afterPseudoText": null,
+                                "children": [],
+                                "purgeable": false,
+                                "keepAllAttr": false,
+                                "isSelectable": false,
+                                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"g-popup\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                              }
+                            ],
+                            "purgeable": false,
+                            "keepAllAttr": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"g-popup\"][1]/*[name()=\"div\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "keepAllAttr": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]/*[name()=\"g-popup\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]/*[name()=\"span\"][1]/*[name()=\"span\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][3]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][7]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][2]"
+      },
+      {
+        "id": "AABH",
+        "frame": "main.frame",
+        "frame_index": 0,
+        "interactable": true,
+        "hoverOnly": false,
+        "tagName": "div",
+        "attributes": {
+          "jscontroller": "HCSvae",
+          "class": "TvJSPe",
+          "data-enable-resize-logging": "false",
+          "jsaction": "rcuQ6b:npT2md;loREK:uRTk8e",
+          "data-hveid": "CAIQAQ",
+          "data-ved": "2ahUKEwic09K4qpiUAxW7lIkEHSkqHwAQ2usOegQIAhAB",
+          "unique_id": "AABH"
+        },
+        "beforePseudoText": null,
+        "text": "",
+        "afterPseudoText": null,
+        "children": [
+          {
+            "id": "AABI",
+            "frame": "main.frame",
+            "frame_index": 0,
+            "interactable": false,
+            "hoverOnly": false,
+            "tagName": "div",
+            "attributes": {
+              "class": "XPuBac",
+              "data-ved": "2ahUKEwic09K4qpiUAxW7lIkEHSkqHwAQ0qkPegQIAhAC",
+              "unique_id": "AABI"
+            },
+            "beforePseudoText": null,
+            "text": "",
+            "afterPseudoText": null,
+            "children": [
+              {
+                "id": "AABJ",
+                "frame": "main.frame",
+                "frame_index": 0,
+                "interactable": false,
+                "hoverOnly": false,
+                "tagName": "div",
+                "attributes": {
+                  "class": "I4LbKf",
+                  "unique_id": "AABJ"
+                },
+                "beforePseudoText": null,
+                "text": "",
+                "afterPseudoText": null,
+                "children": [
+                  {
+                    "id": "AABK",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "attributes": {
+                      "class": "wIbe6e",
+                      "id": "promo_label_id",
+                      "unique_id": "AABK"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Choose Chrome, the browser built by Google",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"span\"][1]"
+                  },
+                  {
+                    "id": "AABL",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": false,
+                    "hoverOnly": false,
+                    "tagName": "span",
+                    "attributes": {
+                      "class": "lUGokd",
+                      "id": "promo_desc_id",
+                      "unique_id": "AABL"
+                    },
+                    "beforePseudoText": null,
+                    "text": "Try a fast, secure browser with automatic updates",
+                    "afterPseudoText": null,
+                    "children": [],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"span\"][2]"
+                  },
+                  {
+                    "id": "AABM",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "attributes": {
+                      "jscontroller": "Jlf2lc",
+                      "class": "cvSVBe btku5b NQYJvc FR7ZSc sjVJQd",
+                      "jsdata": "fXexJ;_;4bz0adzeEbupptQPqdR83",
+                      "jsaction": "UEmoBd",
+                      "role": "button",
+                      "tabindex": "0",
+                      "data-ved": "2ahUKEwic09K4qpiUAxW7lIkEHSkqHwAQ0akPegQIAhAE",
+                      "unique_id": "AABM"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [
+                      {
+                        "id": "AABN",
+                        "frame": "main.frame",
+                        "frame_index": 0,
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "attributes": {
+                          "class": "niO4u VDgVie SlP8xc",
+                          "unique_id": "AABN"
+                        },
+                        "beforePseudoText": null,
+                        "text": "",
+                        "afterPseudoText": null,
+                        "children": [
+                          {
+                            "id": "AABO",
+                            "frame": "main.frame",
+                            "frame_index": 0,
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "span",
+                            "attributes": {
+                              "class": "YrSbJc",
+                              "unique_id": "AABO"
+                            },
+                            "beforePseudoText": null,
+                            "text": "Don't use Chrome",
+                            "afterPseudoText": null,
+                            "children": [],
+                            "purgeable": false,
+                            "keepAllAttr": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "keepAllAttr": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][1]/*[name()=\"div\"][1]"
+                  },
+                  {
+                    "id": "AABP",
+                    "frame": "main.frame",
+                    "frame_index": 0,
+                    "interactable": true,
+                    "hoverOnly": false,
+                    "tagName": "div",
+                    "attributes": {
+                      "jscontroller": "Jlf2lc",
+                      "class": "cvSVBe btku5b NQYJvc expUPd sjVJQd",
+                      "jsdata": "fXexJ;_;4bz0adzeEbupptQPqdR84",
+                      "jsaction": "UEmoBd",
+                      "role": "button",
+                      "tabindex": "0",
+                      "data-ved": "2ahUKEwic09K4qpiUAxW7lIkEHSkqHwAQ0KkPegQIAhAG",
+                      "unique_id": "AABP"
+                    },
+                    "beforePseudoText": null,
+                    "text": "",
+                    "afterPseudoText": null,
+                    "children": [
+                      {
+                        "id": "AABQ",
+                        "frame": "main.frame",
+                        "frame_index": 0,
+                        "interactable": true,
+                        "hoverOnly": false,
+                        "tagName": "div",
+                        "attributes": {
+                          "class": "niO4u VDgVie SlP8xc",
+                          "unique_id": "AABQ"
+                        },
+                        "beforePseudoText": null,
+                        "text": "",
+                        "afterPseudoText": null,
+                        "children": [
+                          {
+                            "id": "AABR",
+                            "frame": "main.frame",
+                            "frame_index": 0,
+                            "interactable": true,
+                            "hoverOnly": false,
+                            "tagName": "span",
+                            "attributes": {
+                              "class": "YrSbJc",
+                              "unique_id": "AABR"
+                            },
+                            "beforePseudoText": null,
+                            "text": "Get Chrome",
+                            "afterPseudoText": null,
+                            "children": [],
+                            "purgeable": false,
+                            "keepAllAttr": false,
+                            "isSelectable": false,
+                            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"span\"][1]"
+                          }
+                        ],
+                        "purgeable": false,
+                        "keepAllAttr": false,
+                        "isSelectable": false,
+                        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+                      }
+                    ],
+                    "purgeable": false,
+                    "keepAllAttr": false,
+                    "isSelectable": false,
+                    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"promo-button-text\"][2]/*[name()=\"div\"][1]"
+                  }
+                ],
+                "purgeable": false,
+                "keepAllAttr": false,
+                "isSelectable": false,
+                "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][2]"
+              }
+            ],
+            "purgeable": false,
+            "keepAllAttr": false,
+            "isSelectable": false,
+            "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+          }
+        ],
+        "purgeable": false,
+        "keepAllAttr": false,
+        "isSelectable": false,
+        "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]/*[name()=\"div\"][9]/*[name()=\"div\"][1]/*[name()=\"div\"][2]/*[name()=\"div\"][1]/*[name()=\"div\"][1]"
+      }
+    ],
+    "purgeable": false,
+    "keepAllAttr": false,
+    "isSelectable": false,
+    "xpath": "/*[name()=\"html\"][1]/*[name()=\"body\"][1]"
+  }
+]

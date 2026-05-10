@@ -1,0 +1,31 @@
+Your are here to help the user determine if the user has completed their goal on the web. Use the content of the elements parsed from the page, the screenshots of the page, the user goal and user details to determine whether the user goal has been completed or not.
+
+Make sure to ONLY return the JSON object in this format with no additional text before or after it:
+```json
+{
+  "page_info": str, // Think step by step. Describe all the useful information in the page related to the user goal.
+  "thoughts": str, // Think step by step. What information makes you believe whether user goal has completed or not. Use information you see on the site to explain.
+  "user_goal_achieved": bool // True if the user goal has been completed, false otherwise.
+}
+```
+
+User Goal:
+```
+Navigate to the medical records section on the page and identify the 2nd latest medical record. COMPLETE when the agent has successfully identified the 2nd latest medical record on the page.
+```
+
+User Details:
+```
+None
+```
+
+
+Elements on the page:
+```
+<div aria-label="Health Clone Main Layout"><a href="/health" id="AABG"><span id="AAAQ">Health Site</span></a><li aria-label="Navigate to Home" id="AAAR"><span aria-label="home" id="AAAS"><svg id="AAAT"></svg></span><span id="AAAV"><a href="/health" id="AAAW">Home</a></span></li><li aria-label="Navigate to Medical Records" id="AAAX"><span aria-label="file-text" id="AAAY"><svg id="AAAZ"></svg></span><span id="AAAb"><a href="/health/medical-records" id="AAAc">Medical Records</a></span></li><li aria-label="Navigate to Appointments" id="AAAd"><span aria-label="calendar" id="AAAe"><svg id="AAAf"></svg></span><span id="AAAh"><a href="/health/appointments" id="AAAi">Appointments</a></span></li><li aria-label="Navigate to Messages" id="AAAj"><span aria-label="message" id="AAAk"><svg id="AAAl"></svg></span><span id="AAAn"><a href="/health/messages" id="AAAo">Messages</a></span></li><li aria-label="Navigate to Lab Results" id="AAAp"><span aria-label="download" id="AAAq"><svg id="AAAr"></svg></span><span id="AAAt"><a href="/health/lab-results" id="AAAu">Lab Results</a></span></li><span aria-label="user" id="AAAv"><svg id="AAAw"></svg></span><span id="AAAy"><a href="/health/dashboard" id="AAAz">My Profile</a></span><span aria-label="logout" id="AAA0"><svg id="AAA1"></svg></span><span id="AAA3"><a href="/health/logout" id="AAA4">Logout</a></span><div id="AAA5"></div><h2 id="AAA6">Welcome to the Health Site</h2><div><h3 id="AAA8">Access Your Health Records Securely</h3><h3 id="AAA9">Book Appointments with Ease</h3><h3 id="AABA">Connect with Healthcare Professionals</h3></div><div id="AABB">Our Mission</div><p id="AABC">We aim to provide citizens with secure and convenient access to their health information and government health services. Our platform ensures that you stay connected with your healthcare providers, manage your appointments, and access your medical records seamlessly.</p><footer>Government Health Site ©2023 - All Rights Reserved</footer></div><label for="scratchpad" id="AABE">Scratchpad</label><textarea placeholder="Scratchpad" aria-label="Scratchpad" value id="AABF"></textarea>
+```
+
+Current datetime, ISO format:
+```
+2026-05-02T04:13:25.750299
+```
